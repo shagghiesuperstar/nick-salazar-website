@@ -1,0 +1,8 @@
+name = "nicksalazar-mail"
+main = "src/mail-worker.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
+
+[[send_email]]
+name = "EMAIL"
+destination_address = "houtxsurvey@outlook.com"

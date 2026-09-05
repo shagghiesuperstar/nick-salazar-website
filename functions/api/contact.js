@@ -40,7 +40,7 @@ export async function onRequestPost(context) {
     replyLine ? "Reply-to: " + replyLine : "",
     "",
     brief,
-  ].filter((l, i, a) => l !== "" || i === a.length - 1 || a[i + 1] === "").join("\r\n");
+  ].filter(Boolean).join("\r\n");
 
   try {
     await env.EMAIL.send(new EmailMessage(FROM, TO, raw));
@@ -55,8 +55,4 @@ export async function onRequestPost(context) {
     status: 200,
     headers: { "content-type": "application/json; charset=utf-8" },
   });
-}
-
-export async function onRequestGet() {
-  return bad(405, "POST only");
 }

@@ -304,7 +304,7 @@
         var reply = contactEl ? (contactEl.value || "").trim() : "";
         sendBtn.disabled = true;
         say("Sending…");
-        fetch("/api/contact", {
+        fetch("https://nicksalazar-mail.shagghie2.workers.dev/", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify({ brief: text, name: name, reply_to: reply })
