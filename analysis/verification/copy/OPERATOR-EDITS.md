@@ -10,4 +10,6 @@ Recorded by the team lead on 2026-09-04 23:2x. Provenance: **supplied directly b
 | 361–366 | Contact section retitled "Contact"; lede "Email Nick at that address. Or describe the assignment below… Nothing is submitted from this page." | operator copy; still honest (no form submission) |
 | (removed) | `<!-- PRE-PUBLICATION DEPENDENCY: contact destination … -->` | dependency satisfied by the operator |
 
-Static audit rule updated accordingly (`tests/static_audit.py`: only this one address may appear; no `tel:`; passes).
+| 7, 42, 96 | "A decade surveying cargo" (was "About ten years surveying") | operator wording of the supplied fact `10 years surveying` (INFO L3); not a rarity/comparative claim; check-copy soft term "decade" now expected here |
+
+Static audit rule updated accordingly (years regex accepts "a decade surveying") (`tests/static_audit.py`: only this one address may appear; no `tel:`; passes).

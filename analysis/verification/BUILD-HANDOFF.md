@@ -56,4 +56,4 @@ FAIL (explicit, not fabricated): **contrast worst-pixel** — 64 of 514 samples;
 6. The orchestrator's 8123 server is wedged; the 8817 servers are not this team's and were left running.
 7. `saveData` path is code-reviewed only (not simulated in headless Chromium).
 
-LAST STATUS LINE (23:31): email link made single-line at 320/375/414 by a size-only rule (lead-verified: 1 line box each, right edge 217/249/272 px, operator's link/text/colour unchanged); caption backplate verified; static audit 40/40 on the final files; operator token values untouched. Both operator edits are preserved in the final commit. Do not publish.
+LAST STATUS LINE (23:31): email link made single-line at 320/375/414 by a size-only rule (lead-verified: 1 line box each, right edge 217/249/272 px, operator's link/text/colour unchanged); caption backplate verified; static audit 40/40 on the final files after accepting the operator's third wording change ("A decade surveying cargo" for the supplied "10 years surveying", lines 7/42/96 — `copy/OPERATOR-EDITS.md`); operator token values untouched. Both operator edits are preserved in the final commit. Do not publish.

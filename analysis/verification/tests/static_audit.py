@@ -58,7 +58,7 @@ banned = r'\b(rare|rarest|unusual|commanded|command(ing)? (of )?vessels?|guarant
 bl=lines_matching(html, banned)
 add('COPY: banned / unsupported-claim words absent (rare, command history, guarantees, Houston, testimonials, %, +N, clichés)', not bl, bl or ['none'])
 add('COPY: complete service list incl. towing survey', all(k in html.lower() for k in ['break bulk','heavy lift','steel pipe','stock throughput','cargo claim','csc container','draft survey','towing','loading','stowage','railcar','truck','jack and slide','airfreight','packing','crate']), [k for k in ['break bulk','heavy lift','steel pipe','stock throughput','cargo claim','csc container','draft survey','towing','loading','stowage','railcar','truck','jack and slide','airfreight','packing','crate'] if k not in html.lower()] or ['all 16 terms present'])
-add('COPY: credentials present (Second Mate Unlimited, 1600-Ton Master, ~10 years)', all(k in html for k in ['Second Mate Unlimited','1600-Ton Master']) and re.search(r'10 years|ten years', html, re.I) is not None, lines_matching(html, r'Second Mate Unlimited|1600-Ton Master|10 years')[:4])
+add('COPY: credentials present (Second Mate Unlimited, 1600-Ton Master, ~10 years)', all(k in html for k in ['Second Mate Unlimited','1600-Ton Master']) and re.search(r'10 years|ten years|a decade surveying', html, re.I) is not None, lines_matching(html, r'Second Mate Unlimited|1600-Ton Master|10 years|ten years|decade surveying')[:5])
 # CSS checks
 allcss = css + '\n' + tok
 def strip_comments(s): return re.sub(r'/\*.*?\*/', '', s, flags=re.S)

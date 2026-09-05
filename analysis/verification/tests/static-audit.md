@@ -1,6 +1,6 @@
-# Static audit — 2026-09-04T23:30:59.559795-05:00
+# Static audit — 2026-09-04T23:31:33.667536-05:00
 
-Result: 1 FAIL · 0 WARN · 39 PASS (of 40)
+Result: 0 FAIL · 0 WARN · 40 PASS (of 40)
 
 ## [PASS] file sizes (bytes) index/styles/tokens/app
     index.html=28982 styles.css=35861 tokens.css=10041 app.js=13113 (advisory caps: app≤~10KB, styles≤60KB)
@@ -60,9 +60,10 @@ Result: 1 FAIL · 0 WARN · 39 PASS (of 40)
 ## [PASS] COPY: complete service list incl. towing survey
     all 16 terms present
 
-## [FAIL] COPY: credentials present (Second Mate Unlimited, 1600-Ton Master, ~10 years)
+## [PASS] COPY: credentials present (Second Mate Unlimited, 1600-Ton Master, ~10 years)
     L7: <meta name="description" content="Nick Salazar, independent marine surveyor and cargo consultant. Second Mate Unlimited and 1600-Ton Master.
     L39: <p class="hero__creds" data-reveal><span class="hero__cred">Second Mate Unlimited</span> <span class="hero__sep" aria-hidden="true">·</span>
+    L42: <p class="hero__lede" data-reveal>A decade surveying cargo. When something is lifted, stowed, moved or claimed, someone has to see it and wr
     L80: <dt class="facts__term">Second Mate Unlimited</dt>
     L87: <dt class="facts__term">1600-Ton Master</dt>
 

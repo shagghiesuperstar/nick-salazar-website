@@ -1,6 +1,6 @@
-# SHA256 manifest — generated 2026-09-05T04:30:59Z on branch feat/t_27ed7897 (git HEAD a4c252b)
+# SHA256 manifest — generated 2026-09-05T04:31:45Z on branch feat/t_27ed7897 (git HEAD b6056e3)
 # verify: cd /Users/scottscheferman/nick-salazar-website && shasum -a 256 -c analysis/verification/HASHES.sha256
-d659ebfe60e6b9bcd9f6ef5cdf1d6ca9acb8f16b058c551b1315b04cfdfc6eb4  analysis/verification/BUILD-HANDOFF.md
+99817711db161ee844ec6160fe540ddd92c7a8fad194c4424c37689b70fedea2  analysis/verification/BUILD-HANDOFF.md
 76d92d3e18d4034328f72167d8872864d142bb9a8f0dc763d0bcb56e7acb2be5  analysis/verification/browser/RESULTS.md
 015363fce4ea4376d46d679c02ee260f0ba070cc8c6c07b1aecd6ad17b4cc04a  analysis/verification/browser/autoplay-denied.png
 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945  analysis/verification/browser/console-errors.json
@@ -145,7 +145,7 @@ d7c949721dd65fc4f5912e20f405f8c245bad52557602856299dd3b1fbf7838f  analysis/verif
 5a1f7b4f31ef725400294f2ffb1cc843f8833ad036130b989307f3af87b0fca6  analysis/verification/browser/w768/section-footer.png
 b639a80c006aba0ff2ac7bd1dfd52aab4ce6f408730875ca58c1c204bdcdfa1c  analysis/verification/browser/w768/section-services.png
 38550764ee3e4b183b60e2daf57de4d674cd7b3cdbe949cf7de7ad8cf5ee77b3  analysis/verification/browser/w768/section-work.png
-272466c20f062abeba9657120338dfe353da7fa8873ff7ae1514b1b848c1a05a  analysis/verification/copy/OPERATOR-EDITS.md
+1ecfd881b180c55527e5fb694ba2f161b2505bb4c4e3731f5dcd256aebd3eed4  analysis/verification/copy/OPERATOR-EDITS.md
 a07fe180be41df83a7a15fc6b56cb0bb116b5cffd82d2d34937ce3e55216e710  analysis/verification/copy/TEAMMATE-REPORT.md
 f918e4a7a05ff6a7cc3fdbc498abdd7b85d620e83830d8ca7f0dfb7c4188d698  analysis/verification/copy/check-copy.py
 a5dac5d58ee678b66341b724ab2302690499c7ea7c0a1b82090056ea50beb7bf  analysis/verification/copy/copy-audit.md
@@ -361,8 +361,8 @@ df3ac3dfbee83f3a3e1a781b3acdc72e1bbda4ff83dd94c789365d9d1768ab4b  analysis/verif
 365e5b8b558058e142cd2a2b49d23bf1d475a07d23e7c0eb34694296223d13fb  analysis/verification/tests/run_all.sh
 720cc1d07b540a4833d3934767655ca6238902cf7e9854ae9f833dcbe2ba8274  analysis/verification/tests/serve.sh
 52087420db3a7bf03f90bff8b19f8c536091a6d1b7b9b94a70de0eb9fd59d3fd  analysis/verification/tests/server-8124.pid
-c4e8cd7c79e3df50500cec797bfa3c966fe52e96459494f8e7549d55573dbd1a  analysis/verification/tests/static-audit.md
-6c4d9d972f9bdc289a6b47dc42e2c4aee42b9c18a7d3446c8aa12a7a8d92ef0a  analysis/verification/tests/static_audit.py
+38112d71ced7a12a8df303e2452abe465b6c4b362a810660b2f1be69356136b4  analysis/verification/tests/static-audit.md
+294d19ab2afb025e7e77b1f6797cad896f761ae64641a4f9a797a79190ae74ac  analysis/verification/tests/static_audit.py
 108d4412a015d08bb7dc83a91e6324302cefddad4329e2d3b7ef396aec303522  site/.hallmark/log.json
 b349628467f0233528c26dc895fbd67b7f1b923a5313ea33034c5aeb6e2bec88  site/DISPATCH-PROOF.json
 8032938d4306f45372ba1e8a8d03b99c2416d19875228a6fdd29e6134eedd374  site/README.md
