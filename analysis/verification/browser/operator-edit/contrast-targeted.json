@@ -1,0 +1,1220 @@
+[
+  {
+    "label": "w320 hero .hero__name",
+    "size": 72,
+    "thr": 3,
+    "worst": 1.82,
+    "mean": 4.95
+  },
+  {
+    "label": "w320 hero .hero__creds",
+    "size": 14.4,
+    "thr": 4.5,
+    "worst": 5.08,
+    "mean": 8.88
+  },
+  {
+    "label": "w320 hero .hero__role",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 5.04,
+    "mean": 9.1
+  },
+  {
+    "label": "w320 hero .hero__lede",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 3.96,
+    "mean": 6.45
+  },
+  {
+    "label": "w320 plate-coils p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 6.4,
+    "mean": 14.35
+  },
+  {
+    "label": "w320 plate-coils p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 7.43,
+    "mean": 14.81
+  },
+  {
+    "label": "w320 plate-coils p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.71,
+    "mean": 6.34
+  },
+  {
+    "label": "w320 plate-coils p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 7.72,
+    "mean": 16.02
+  },
+  {
+    "label": "w320 plate-coils p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.31,
+    "mean": 16.37
+  },
+  {
+    "label": "w320 plate-coils p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.07,
+    "mean": 6.42
+  },
+  {
+    "label": "w320 plate-coils p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 8.79,
+    "mean": 17.07
+  },
+  {
+    "label": "w320 plate-coils p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.86,
+    "mean": 17.41
+  },
+  {
+    "label": "w320 plate-coils p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.11,
+    "mean": 6.57
+  },
+  {
+    "label": "w320 plate-crane p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 11.94,
+    "mean": 14.92
+  },
+  {
+    "label": "w320 plate-crane p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 6.17,
+    "mean": 14.4
+  },
+  {
+    "label": "w320 plate-crane p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.72,
+    "mean": 6.68
+  },
+  {
+    "label": "w320 plate-crane p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 13.06,
+    "mean": 16.39
+  },
+  {
+    "label": "w320 plate-crane p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 7.43,
+    "mean": 15.92
+  },
+  {
+    "label": "w320 plate-crane p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.8,
+    "mean": 6.84
+  },
+  {
+    "label": "w320 plate-crane p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 12.8,
+    "mean": 17.32
+  },
+  {
+    "label": "w320 plate-crane p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.12,
+    "mean": 16.8
+  },
+  {
+    "label": "w320 plate-crane p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.69,
+    "mean": 6.94
+  },
+  {
+    "label": "w320 plate-drums p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 5.7,
+    "mean": 15.13
+  },
+  {
+    "label": "w320 plate-drums p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 6.26,
+    "mean": 11.63
+  },
+  {
+    "label": "w320 plate-drums p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.53,
+    "mean": 4.88
+  },
+  {
+    "label": "w320 plate-drums p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 6.36,
+    "mean": 16.49
+  },
+  {
+    "label": "w320 plate-drums p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 7.46,
+    "mean": 12.63
+  },
+  {
+    "label": "w320 plate-drums p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.77,
+    "mean": 3.74
+  },
+  {
+    "label": "w320 plate-drums p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 6.55,
+    "mean": 17.26
+  },
+  {
+    "label": "w320 plate-drums p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.09,
+    "mean": 12.49
+  },
+  {
+    "label": "w320 plate-drums p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.95,
+    "mean": 4.71
+  },
+  {
+    "label": "w320 plate-containers p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 5.53,
+    "mean": 9.79
+  },
+  {
+    "label": "w320 plate-containers p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 6.46,
+    "mean": 16.15
+  },
+  {
+    "label": "w320 plate-containers p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 4.28,
+    "mean": 4.82
+  },
+  {
+    "label": "w320 plate-containers p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 5.98,
+    "mean": 11.15
+  },
+  {
+    "label": "w320 plate-containers p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.11,
+    "mean": 17.5
+  },
+  {
+    "label": "w320 plate-containers p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 4.35,
+    "mean": 4.98
+  },
+  {
+    "label": "w320 plate-containers p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 6.56,
+    "mean": 12.17
+  },
+  {
+    "label": "w320 plate-containers p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.51,
+    "mean": 18.27
+  },
+  {
+    "label": "w320 plate-containers p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 4.2,
+    "mean": 5.06
+  },
+  {
+    "label": "w320 plate-warehouse p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 6.37,
+    "mean": 16.59
+  },
+  {
+    "label": "w320 plate-warehouse p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 6.54,
+    "mean": 13.94
+  },
+  {
+    "label": "w320 plate-warehouse p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.33,
+    "mean": 6.37
+  },
+  {
+    "label": "w320 plate-warehouse p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 7.91,
+    "mean": 18.06
+  },
+  {
+    "label": "w320 plate-warehouse p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 7.64,
+    "mean": 15.46
+  },
+  {
+    "label": "w320 plate-warehouse p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.5,
+    "mean": 6.4
+  },
+  {
+    "label": "w320 plate-warehouse p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 8.48,
+    "mean": 19.03
+  },
+  {
+    "label": "w320 plate-warehouse p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.5,
+    "mean": 16.39
+  },
+  {
+    "label": "w320 plate-warehouse p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.85,
+    "mean": 6.41
+  },
+  {
+    "label": "w320 plate-yard p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 6.34,
+    "mean": 9.38
+  },
+  {
+    "label": "w320 plate-yard p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 6.22,
+    "mean": 11.18
+  },
+  {
+    "label": "w320 plate-yard p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.48,
+    "mean": 5.35
+  },
+  {
+    "label": "w320 plate-yard p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 7.41,
+    "mean": 10.57
+  },
+  {
+    "label": "w320 plate-yard p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 7.45,
+    "mean": 12.53
+  },
+  {
+    "label": "w320 plate-yard p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.77,
+    "mean": 5.71
+  },
+  {
+    "label": "w320 plate-yard p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 7.66,
+    "mean": 11.25
+  },
+  {
+    "label": "w320 plate-yard p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.18,
+    "mean": 13.32
+  },
+  {
+    "label": "w320 plate-yard p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.9,
+    "mean": 6.01
+  },
+  {
+    "label": "w375 hero .hero__name",
+    "size": 72,
+    "thr": 3,
+    "worst": 1.83,
+    "mean": 4.46
+  },
+  {
+    "label": "w375 hero .hero__creds",
+    "size": 14.4,
+    "thr": 4.5,
+    "worst": 4.13,
+    "mean": 9.82
+  },
+  {
+    "label": "w375 hero .hero__role",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 5.27,
+    "mean": 9.72
+  },
+  {
+    "label": "w375 hero .hero__lede",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 4.02,
+    "mean": 6.58
+  },
+  {
+    "label": "w375 plate-coils p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 8.05,
+    "mean": 14.31
+  },
+  {
+    "label": "w375 plate-coils p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 7.99,
+    "mean": 15.17
+  },
+  {
+    "label": "w375 plate-coils p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.67,
+    "mean": 6.5
+  },
+  {
+    "label": "w375 plate-coils p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 8.56,
+    "mean": 15.78
+  },
+  {
+    "label": "w375 plate-coils p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.96,
+    "mean": 16.69
+  },
+  {
+    "label": "w375 plate-coils p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.17,
+    "mean": 6.6
+  },
+  {
+    "label": "w375 plate-coils p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 9.69,
+    "mean": 16.67
+  },
+  {
+    "label": "w375 plate-coils p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 10.02,
+    "mean": 17.64
+  },
+  {
+    "label": "w375 plate-coils p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.22,
+    "mean": 6.63
+  },
+  {
+    "label": "w375 plate-crane p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 7.14,
+    "mean": 14.38
+  },
+  {
+    "label": "w375 plate-crane p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 6.37,
+    "mean": 14.52
+  },
+  {
+    "label": "w375 plate-crane p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.96,
+    "mean": 6.68
+  },
+  {
+    "label": "w375 plate-crane p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 8.45,
+    "mean": 15.82
+  },
+  {
+    "label": "w375 plate-crane p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 7.35,
+    "mean": 16.04
+  },
+  {
+    "label": "w375 plate-crane p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.69,
+    "mean": 6.83
+  },
+  {
+    "label": "w375 plate-crane p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 8.09,
+    "mean": 16.69
+  },
+  {
+    "label": "w375 plate-crane p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.45,
+    "mean": 17.05
+  },
+  {
+    "label": "w375 plate-crane p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.63,
+    "mean": 6.98
+  },
+  {
+    "label": "w375 plate-drums p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 6.24,
+    "mean": 13.92
+  },
+  {
+    "label": "w375 plate-drums p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 6.24,
+    "mean": 11.82
+  },
+  {
+    "label": "w375 plate-drums p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.49,
+    "mean": 4.87
+  },
+  {
+    "label": "w375 plate-drums p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 6.9,
+    "mean": 15.2
+  },
+  {
+    "label": "w375 plate-drums p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 7.35,
+    "mean": 12.68
+  },
+  {
+    "label": "w375 plate-drums p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.76,
+    "mean": 3.8
+  },
+  {
+    "label": "w375 plate-drums p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 7.27,
+    "mean": 15.87
+  },
+  {
+    "label": "w375 plate-drums p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.18,
+    "mean": 12.63
+  },
+  {
+    "label": "w375 plate-drums p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.91,
+    "mean": 4.58
+  },
+  {
+    "label": "w375 plate-containers p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 8.04,
+    "mean": 12.47
+  },
+  {
+    "label": "w375 plate-containers p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 7.28,
+    "mean": 15.94
+  },
+  {
+    "label": "w375 plate-containers p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.92,
+    "mean": 4.76
+  },
+  {
+    "label": "w375 plate-containers p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 8.99,
+    "mean": 14.26
+  },
+  {
+    "label": "w375 plate-containers p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.09,
+    "mean": 17.38
+  },
+  {
+    "label": "w375 plate-containers p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 4.14,
+    "mean": 4.96
+  },
+  {
+    "label": "w375 plate-containers p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 9.29,
+    "mean": 15.45
+  },
+  {
+    "label": "w375 plate-containers p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.63,
+    "mean": 18.36
+  },
+  {
+    "label": "w375 plate-containers p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 4.04,
+    "mean": 5.05
+  },
+  {
+    "label": "w375 plate-warehouse p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 6.17,
+    "mean": 15.92
+  },
+  {
+    "label": "w375 plate-warehouse p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 6.33,
+    "mean": 14.22
+  },
+  {
+    "label": "w375 plate-warehouse p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.29,
+    "mean": 6.24
+  },
+  {
+    "label": "w375 plate-warehouse p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 7.43,
+    "mean": 17.19
+  },
+  {
+    "label": "w375 plate-warehouse p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 7.33,
+    "mean": 15.8
+  },
+  {
+    "label": "w375 plate-warehouse p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.5,
+    "mean": 6.22
+  },
+  {
+    "label": "w375 plate-warehouse p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 8.09,
+    "mean": 17.78
+  },
+  {
+    "label": "w375 plate-warehouse p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.44,
+    "mean": 16.98
+  },
+  {
+    "label": "w375 plate-warehouse p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.65,
+    "mean": 6.23
+  },
+  {
+    "label": "w375 plate-yard p12 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 6.18,
+    "mean": 10.05
+  },
+  {
+    "label": "w375 plate-yard p12 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 6.26,
+    "mean": 11.83
+  },
+  {
+    "label": "w375 plate-yard p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.45,
+    "mean": 5.25
+  },
+  {
+    "label": "w375 plate-yard p50 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 7.35,
+    "mean": 11.31
+  },
+  {
+    "label": "w375 plate-yard p50 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 7.44,
+    "mean": 13.16
+  },
+  {
+    "label": "w375 plate-yard p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.73,
+    "mean": 5.55
+  },
+  {
+    "label": "w375 plate-yard p85 .plate__pair",
+    "size": 48,
+    "thr": 3,
+    "worst": 8.09,
+    "mean": 12.07
+  },
+  {
+    "label": "w375 plate-yard p85 .plate__story",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 8.3,
+    "mean": 14.2
+  },
+  {
+    "label": "w375 plate-yard p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.87,
+    "mean": 5.81
+  },
+  {
+    "label": "w1440 hero .hero__name",
+    "size": 198,
+    "thr": 3,
+    "worst": 1.01,
+    "mean": 3.36
+  },
+  {
+    "label": "w1440 hero .hero__creds",
+    "size": 22,
+    "thr": 4.5,
+    "worst": 1.77,
+    "mean": 7.16
+  },
+  {
+    "label": "w1440 hero .hero__role",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 3.83,
+    "mean": 9.06
+  },
+  {
+    "label": "w1440 hero .hero__lede",
+    "size": 16,
+    "thr": 4.5,
+    "worst": 2.64,
+    "mean": 6.33
+  },
+  {
+    "label": "w1440 plate-coils p12 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 5.06,
+    "mean": 13.62
+  },
+  {
+    "label": "w1440 plate-coils p12 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 6.78,
+    "mean": 16.12
+  },
+  {
+    "label": "w1440 plate-coils p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.95,
+    "mean": 6.76
+  },
+  {
+    "label": "w1440 plate-coils p50 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 6.16,
+    "mean": 15.08
+  },
+  {
+    "label": "w1440 plate-coils p50 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 7.51,
+    "mean": 17.54
+  },
+  {
+    "label": "w1440 plate-coils p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.21,
+    "mean": 6.8
+  },
+  {
+    "label": "w1440 plate-coils p85 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 6.7,
+    "mean": 15.96
+  },
+  {
+    "label": "w1440 plate-coils p85 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 8.4,
+    "mean": 18.19
+  },
+  {
+    "label": "w1440 plate-coils p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.22,
+    "mean": 6.83
+  },
+  {
+    "label": "w1440 plate-crane p12 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 4.51,
+    "mean": 12.66
+  },
+  {
+    "label": "w1440 plate-crane p12 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 5.75,
+    "mean": 13.61
+  },
+  {
+    "label": "w1440 plate-crane p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 1.24,
+    "mean": 3.91
+  },
+  {
+    "label": "w1440 plate-crane p50 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 5.84,
+    "mean": 14.33
+  },
+  {
+    "label": "w1440 plate-crane p50 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 6.85,
+    "mean": 15.01
+  },
+  {
+    "label": "w1440 plate-crane p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 1.52,
+    "mean": 3.81
+  },
+  {
+    "label": "w1440 plate-crane p85 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 5.96,
+    "mean": 15.24
+  },
+  {
+    "label": "w1440 plate-crane p85 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 7.46,
+    "mean": 15.85
+  },
+  {
+    "label": "w1440 plate-crane p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 1.63,
+    "mean": 3.63
+  },
+  {
+    "label": "w1440 plate-drums p12 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 5.21,
+    "mean": 12.42
+  },
+  {
+    "label": "w1440 plate-drums p12 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 4.69,
+    "mean": 10.97
+  },
+  {
+    "label": "w1440 plate-drums p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 1.15,
+    "mean": 5.36
+  },
+  {
+    "label": "w1440 plate-drums p50 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 6.17,
+    "mean": 13.91
+  },
+  {
+    "label": "w1440 plate-drums p50 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 5.54,
+    "mean": 12.44
+  },
+  {
+    "label": "w1440 plate-drums p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 1.38,
+    "mean": 4.92
+  },
+  {
+    "label": "w1440 plate-drums p85 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 6.9,
+    "mean": 14.85
+  },
+  {
+    "label": "w1440 plate-drums p85 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 6.18,
+    "mean": 13.54
+  },
+  {
+    "label": "w1440 plate-drums p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 1.43,
+    "mean": 2.52
+  },
+  {
+    "label": "w1440 plate-containers p12 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 5.96,
+    "mean": 14.74
+  },
+  {
+    "label": "w1440 plate-containers p12 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 9.12,
+    "mean": 12.56
+  },
+  {
+    "label": "w1440 plate-containers p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.53,
+    "mean": 3.7
+  },
+  {
+    "label": "w1440 plate-containers p50 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 6.64,
+    "mean": 16.11
+  },
+  {
+    "label": "w1440 plate-containers p50 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 9.76,
+    "mean": 14.06
+  },
+  {
+    "label": "w1440 plate-containers p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.9,
+    "mean": 4.04
+  },
+  {
+    "label": "w1440 plate-containers p85 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 6.33,
+    "mean": 17.09
+  },
+  {
+    "label": "w1440 plate-containers p85 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 10.87,
+    "mean": 15.04
+  },
+  {
+    "label": "w1440 plate-containers p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 2.77,
+    "mean": 4.17
+  },
+  {
+    "label": "w1440 plate-warehouse p12 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 5.13,
+    "mean": 14.32
+  },
+  {
+    "label": "w1440 plate-warehouse p12 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 4.91,
+    "mean": 13.23
+  },
+  {
+    "label": "w1440 plate-warehouse p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.25,
+    "mean": 5.26
+  },
+  {
+    "label": "w1440 plate-warehouse p50 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 6.42,
+    "mean": 15.83
+  },
+  {
+    "label": "w1440 plate-warehouse p50 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 5.93,
+    "mean": 14.57
+  },
+  {
+    "label": "w1440 plate-warehouse p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.3,
+    "mean": 5.52
+  },
+  {
+    "label": "w1440 plate-warehouse p85 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 7.38,
+    "mean": 16.79
+  },
+  {
+    "label": "w1440 plate-warehouse p85 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 6.69,
+    "mean": 15.43
+  },
+  {
+    "label": "w1440 plate-warehouse p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.56,
+    "mean": 5.67
+  },
+  {
+    "label": "w1440 plate-yard p12 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 4.11,
+    "mean": 13.24
+  },
+  {
+    "label": "w1440 plate-yard p12 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 4.76,
+    "mean": 16.61
+  },
+  {
+    "label": "w1440 plate-yard p12 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 1.61,
+    "mean": 5.48
+  },
+  {
+    "label": "w1440 plate-yard p50 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 5.01,
+    "mean": 14.47
+  },
+  {
+    "label": "w1440 plate-yard p50 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 11.01,
+    "mean": 18.07
+  },
+  {
+    "label": "w1440 plate-yard p50 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 3.86,
+    "mean": 5.77
+  },
+  {
+    "label": "w1440 plate-yard p85 .plate__pair",
+    "size": 128,
+    "thr": 3,
+    "worst": 5.64,
+    "mean": 15.38
+  },
+  {
+    "label": "w1440 plate-yard p85 .plate__story",
+    "size": 18,
+    "thr": 4.5,
+    "worst": 12.74,
+    "mean": 19.08
+  },
+  {
+    "label": "w1440 plate-yard p85 .plate__meta",
+    "size": 14,
+    "thr": 4.5,
+    "worst": 4.46,
+    "mean": 6.01
+  }
+]

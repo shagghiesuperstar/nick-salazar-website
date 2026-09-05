@@ -40,6 +40,10 @@ Pre-emit critique: P5 H5 E4 S5 R4 V4 (Execution 4: contrast at the shader's firs
 2. **Hero name over bright sky at 320.** `--hero-shade-min` 0.22 → 0.32 (hero keyframe + fallback) and the stacked backplate now reaches `--color-veil-strong` at 16% of the copy column. Re-measured on the rendered 320/375 hero (`self-check/probe-hero-name-contrast-after-fix.json`, `m320-hero-final.png`, `m375-hero-final.png`): sampling every background pixel inside the name's box while excluding a 3 px anti-aliasing halo around the glyphs, the brightest background pixel is 0.011 luminance → **5.63:1** against the orange (p99 5.7:1). Note: without the halo exclusion the "worst pixel" reads 2.87:1, which is the anti-aliased glyph edge, not the sky; the lead's 2.76:1 figure is consistent with that edge effect.
 3. Stamp fields on `styles.css` line 1 filled with the lead's measured values (`contrast: measured 514 samples, mean pass (min 4.74:1)`, `mobile: pass (34, 49, 50–57) at 320/375/414/768/1440`).
 
+4. **Caption-only legibility fix after the operator's shade edit** (operator token values untouched). New token `--color-caption-plate: oklch(10% 0.010 40 / 0.6)`; `.plate__meta` now `color: var(--color-ink)`, `padding: var(--space-2xs) var(--space-xs)`, `background: var(--color-caption-plate)`, `justify-self: start`, 1 px text-shadow. The caption now steps in at 50 % of the plate timeline (`plate-meta` keyframe 49.9 % → 50 %; `--progress` fallback clamp with the same step) instead of fading 45–60 %, so there is no half-opacity intermediate state. Re-measured (`self-check/probe-caption-contrast-after-fix.json`, screenshots in `self-check/caption-fix/`): 1440 drums p50 mean 15.8:1 / worst 10.0:1, drums p85 15.0 / 10.3, crane p52 13.6 / 10.6; 320×740 drums p50 15.4 / 13.7, drums p85 15.2 / 13.9, crane p52 17.4 / 13.7; crane p12 at both widths: caption not rendered (opacity 0 by design). Note: at 320×568 the drums caption sits below the fold at p50, so 320 was measured at 320×740.
+
+5. **Operator's mailto links (gate 49).** `.contact__mail` font-size → `clamp(1.125rem, 6vw, var(--text-2xl))` + `white-space: nowrap; overflow-wrap: normal`; `.foot__mail` → `white-space: nowrap; overflow-wrap: normal`. Link href, text and colour untouched. Verified one line box per link at 320/375/414 with no horizontal overflow (`self-check/probe-mail-link-lines.txt`).
+
 ## Unresolved / for others
 
 - Contrast through the shader transition: measured by the lead (514 samples, min 4.74:1) — closed; the two intermediate-state defects it surfaced are fixed above.
@@ -68,3 +72,7 @@ Pre-emit critique: P5 H5 E4 S5 R4 V4 (Execution 4: contrast at the shader's firs
 | 23:4x | → team-lead | Pill fix already in place; verified pill 213px with 53/73/81px gutters at 320/360/375, Menu fully rendered, 0 sky words, yellow creds, zero console errors. |
 | 23:5x | ← team-lead | Final measurement (514 samples, min 4.74:1): two intermediate-state fixes (story/caption overlap at progress ≈0.12 on phones; hero name 2.76:1 worst pixel at 320) + fill stamp fields, then stop. |
 | 23:5x | → team-lead | One-line confirmation: both fixes applied and re-measured; stamp fields filled. |
+| 00:0x | ← team-lead | Operator lightened shade/veil tokens (keep as-is); captions now fail on mean; apply a caption-only fix and re-measure drums p50/p85 + crane p12 at 320 and 1440. |
+| 00:1x | → team-lead | Caption fix applied (new token, ink text, local backplate, step-in at 50 %); numbers reported. |
+| 00:2x | ← team-lead | Caption fix verified; last item: operator's mail link wraps at 320–414 (gate 49). |
+| 00:2x | → team-lead | Both mail links single-line at 320/375/414, verified; nothing pending. |

@@ -1,0 +1,61 @@
+[PASS] w320: page loaded (86 ms), docH=19025, plates=7, videos=7, scroll-timeline=true :: {"scrollW":320,"clientW":320,"bodyScrollW":320,"docH":19025,"h1fs":72,"top3":[{"tag":"H1","cls":"hero__name in","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"H2","cls":"plate__pair","fs":48},{"tag":"SPAN","cls":"plate__word","fs":48},{"tag":"SPA
+[PASS] w320: no horizontal overflow at top :: {"scrollW":320,"clientW":320,"bodyScrollW":320}
+[PASS] w320: Nick's name (h1) is the largest type :: {"h1":72,"largestOther":{"tag":"H2","cls":"plate__pair","fs":48}}
+[FAIL] w320: no clickable text wraps to 2+ lines (gate 49) :: [{"text":"Houtxsurvey@outlook.com","lines":2,"h":83.59375,"vis":true}]
+[PASS] w320: no horizontal overflow at any plate progress :: []
+[PASS] w320: page is finite (reachable end) and no overflow at end :: {"s":320,"c":320,"finite":true}
+[PASS] w375: page loaded (50 ms), docH=18614, plates=7, videos=7, scroll-timeline=true :: {"scrollW":375,"clientW":375,"bodyScrollW":375,"docH":18614,"h1fs":72,"top3":[{"tag":"H1","cls":"hero__name in","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"H2","cls":"plate__pair","fs":48},{"tag":"SPAN","cls":"plate__word","fs":48},{"tag":"SPA
+[PASS] w375: no horizontal overflow at top :: {"scrollW":375,"clientW":375,"bodyScrollW":375}
+[PASS] w375: Nick's name (h1) is the largest type :: {"h1":72,"largestOther":{"tag":"H2","cls":"plate__pair","fs":48}}
+[FAIL] w375: no clickable text wraps to 2+ lines (gate 49) :: [{"text":"Houtxsurvey@outlook.com","lines":2,"h":83.59375,"vis":true}]
+[PASS] w375: no horizontal overflow at any plate progress :: []
+[PASS] w375: page is finite (reachable end) and no overflow at end :: {"s":375,"c":375,"finite":true}
+[PASS] w414: page loaded (67 ms), docH=18342, plates=7, videos=7, scroll-timeline=true :: {"scrollW":414,"clientW":414,"bodyScrollW":414,"docH":18342,"h1fs":72,"top3":[{"tag":"H1","cls":"hero__name in","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"H2","cls":"plate__pair","fs":48},{"tag":"SPAN","cls":"plate__word","fs":48},{"tag":"SPA
+[PASS] w414: no horizontal overflow at top :: {"scrollW":414,"clientW":414,"bodyScrollW":414}
+[PASS] w414: Nick's name (h1) is the largest type :: {"h1":72,"largestOther":{"tag":"H2","cls":"plate__pair","fs":48}}
+[FAIL] w414: no clickable text wraps to 2+ lines (gate 49) :: [{"text":"Houtxsurvey@outlook.com","lines":2,"h":83.59375,"vis":true}]
+[PASS] w414: no horizontal overflow at any plate progress :: []
+[PASS] w414: page is finite (reachable end) and no overflow at end :: {"s":414,"c":414,"finite":true}
+[PASS] w768: page loaded (84 ms), docH=19734, plates=7, videos=7, scroll-timeline=true :: {"scrollW":768,"clientW":768,"bodyScrollW":768,"docH":19734,"h1fs":115.2,"top3":[{"tag":"H1","cls":"hero__name in","fs":115.2},{"tag":"SPAN","cls":"hero__line","fs":115.2},{"tag":"SPAN","cls":"hero__line","fs":115.2},{"tag":"H2","cls":"plate__pair","fs":69.12},{"tag":"SPAN","cls":"plate__word","fs":
+[PASS] w768: no horizontal overflow at top :: {"scrollW":768,"clientW":768,"bodyScrollW":768}
+[PASS] w768: Nick's name (h1) is the largest type :: {"h1":115.2,"largestOther":{"tag":"H2","cls":"plate__pair","fs":69.12}}
+[PASS] w768: no clickable text wraps to 2+ lines (gate 49) :: []
+[PASS] w768: no horizontal overflow at any plate progress :: []
+[PASS] w768: page is finite (reachable end) and no overflow at end :: {"s":768,"c":768,"finite":true}
+[PASS] w1440: page loaded (62 ms), docH=17953, plates=7, videos=7, scroll-timeline=true :: {"scrollW":1440,"clientW":1440,"bodyScrollW":1440,"docH":17953,"h1fs":198,"top3":[{"tag":"H1","cls":"hero__name in","fs":198},{"tag":"SPAN","cls":"hero__line","fs":198},{"tag":"SPAN","cls":"hero__line","fs":198},{"tag":"H2","cls":"plate__pair","fs":128},{"tag":"SPAN","cls":"plate__word","fs":128},{"
+[PASS] w1440: no horizontal overflow at top :: {"scrollW":1440,"clientW":1440,"bodyScrollW":1440}
+[PASS] w1440: Nick's name (h1) is the largest type :: {"h1":198,"largestOther":{"tag":"H2","cls":"plate__pair","fs":128}}
+[PASS] w1440: no clickable text wraps to 2+ lines (gate 49) :: []
+[PASS] w1440: no horizontal overflow at any plate progress :: []
+[PASS] w1440: page is finite (reachable end) and no overflow at end :: {"s":1440,"c":1440,"finite":true}
+[FAIL] contrast through transitions: 481 samples; worst-pixel failures=109; mean failures=11 :: {"worstPixelFails":[{"l":"w320 hero-top .hero__name \"Nick Salazar\"","worst":1.85,"mean":4.97,"thr":3},{"l":"w320 hero-top h1 \"Nick Salazar\"","worst":1.85,"mean":4.95,"thr":3},{"l":"w320 plate1 p12 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"","worst":2.51,"mean
+[PASS] keyboard: Tab reaches 23 focusable elements; all show a visible ring :: {"noRing":[],"first":[{"tag":"A","text":"Skip to content","outline":"solid 2px oklch(0.78 0.14 60)","boxShadow":"none","inView":true,"ring":true},{"tag":"A","text":"Nick Salazar","outline":"solid 2px oklch(0.78 0.14 60)","boxShadow":"none","inView":true,"ring":true},{"tag":"A","text":"Credentials","
+[PASS] keyboard: skip link is first tab stop and becomes visible :: {"text":"Skip to content","href":"#main","visible":true}
+[PASS] nav: 4 pill links navigate to in-page targets :: [{"href":"#credentials","before":0,"y":2710,"hash":"#credentials","targetTop":80},{"href":"#work","before":2710,"y":8179,"hash":"#work","targetTop":79.734375},{"href":"#services","before":8179,"y":5065,"hash":"#services","targetTop":80.078125},{"href":"#contact","before":5065,"y":15391,"hash":"#cont
+[PASS] nav: keyboard Enter activates a nav link :: {"y":0,"hash":"#top"}
+[PASS] contact: live brief assembles from fields :: ASSIGNMENT BRIEF — Nick Salazar, marine surveyor
+Prepared locally on 2026-09-05
+
+SURVEY TYPE: Break bulk
+CARGO DESCRIPTION: Test cargo: 40 steel coils, 18 t each
+PORT OR FACILITY: Test facility
+TIMING: Next week
+EVIDENCE YOU NEED: Condition photos and a signed report
+YOUR NAME: Test Adjuster
+ORGANISATION: Test Syndicate
+HOW TO REACH YOU: test@example.invalid
+
+This brief was written on the visitor'
+[PASS] contact: Copy brief writes clipboard and shows non-sending status :: {"clip":"ASSIGNMENT BRIEF — Nick Salazar, marine surveyor\nPrepared locally on 2026-09-05\n\nSURVEY TYPE: Break bulk\nCARGO DESCRIPTI","status":"Copied. Nothing was sent."}
+[PASS] contact: Download .txt produces a local file containing the brief :: {"file":"/Users/scottscheferman/nick-salazar-website/analysis/verification/browser/downloaded-assignment-brief.txt","bytes":441,"filename":"assignment-brief.txt"}
+[PASS] contact: page states nothing is sent; no network request made by the utility :: {"note":"Nothing is sent from this page. Copy or download the brief and email it to Houtxsurvey@outlook.com.","externalRequests":[]}
+[PASS] reduced-motion: videos never play, no long animations, pointer light off :: {"matches":true,"videos":[{"paused":true,"src":true,"poster":true},{"paused":true,"src":false,"poster":true},{"paused":true,"src":false,"poster":true},{"paused":true,"src":false,"poster":true},{"paused":true,"src":false,"poster":true},{"paused":true,"src":false,"poster":true},{"paused":true,"src":fa
+[PASS] autoplay denied: page stays legible, posters shown, no uncaught errors :: {"errs":[],"videos":[{"paused":true,"poster":true,"cls":"plate plate--hero"},{"paused":false,"poster":true,"cls":"plate"},{"paused":true,"poster":true,"cls":"plate"},{"paused":true,"poster":true,"cls":"plate"},{"paused":true,"poster":true,"cls":"plate"},{"paused":true,"poster":true,"cls":"plate"},{"
+[PASS] slow network (400 kbps, 150 ms): DOMContentLoaded 7387 ms; h1 visible; transferred 272 KB; mp4 requests so far: 0 :: {"dcl":7387,"vidReq":[]}
+[PASS] offscreen pause: no offscreen video is playing after scrolling to plate 3 :: {"before":[{"paused":false,"ns":1,"hasSrc":true,"rs":4},{"paused":true,"ns":3,"hasSrc":false,"rs":0},{"paused":true,"ns":3,"hasSrc":false,"rs":0},{"paused":true,"ns":3,"hasSrc":false,"rs":0},{"paused":true,"ns":3,"hasSrc":false,"rs":0},{"paused":true,"ns":3,"hasSrc":false,"rs":0},{"paused":true,"ns"
+[PASS] lazy loading: the last two videos are not loaded before they are near view :: {"last2":[{"paused":true,"inView":false,"hasSrc":false,"rs":0},{"paused":true,"inView":false,"hasSrc":false,"rs":0}]}
+[PASS] fallback: with CSS.supports(animation-timeline) forced false (native support=false), JS fallback drives --progress / shade / media across scroll :: {"progVals":[{"progress":"0.4000","cls":"plate plate--hero","shadeOpacity":"0.14","mediaTransform":"matrix(1, 0, 0, 1, 0, 0)"},{"progress":"0.5600","cls":"plate plate--hero","shadeOpacity":"0.246667","mediaTransform":"matrix(1, 0, 0, 1, 0, -32.256)"},{"progress":"0.7200","cls":"plate plate--hero","s
+[PASS] scroll capture recorded (webm; converted to mp4 by the runner) :: {"path":"/Users/scottscheferman/nick-salazar-website/analysis/verification/browser/video-raw/page@71ce309460bc5e721a2ec5e6037ef1a1.webm"}
+[PASS] console: 0 error/warning entries across all runs :: []
+
+DONE -> /Users/scottscheferman/nick-salazar-website/analysis/verification/browser/RESULTS.md

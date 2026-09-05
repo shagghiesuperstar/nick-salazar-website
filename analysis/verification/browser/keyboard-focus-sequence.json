@@ -64,6 +64,14 @@
     "ring": true
   },
   {
+    "tag": "A",
+    "text": "Houtxsurvey@outlook.com",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
     "tag": "SELECT",
     "text": "Choose a survey type\n    ",
     "outline": "solid 2px oklch(0.78 0.14 60)",
@@ -154,6 +162,22 @@
   {
     "tag": "BUTTON",
     "text": "Download .txt",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "A",
+    "text": "Houtxsurvey@outlook.com",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "A",
+    "text": "Houtxsurvey@outlook.com",
     "outline": "solid 2px oklch(0.78 0.14 60)",
     "boxShadow": "none",
     "inView": false,

@@ -1,0 +1,3 @@
+result: "{\"w\":320,\"docW\":320,\"contact\":{\"lineBoxes\":1,\"fs\":\"19.2px\",\"left\":38,\"right\":217,\"text\":\"Houtxsurvey@outlook.com\"},\"foot\":{\"lineBoxes\":1,\"fs\":\"14px\",\"left\":38,\"right\":210,\"text\":\"Houtxsurvey@outlook.com\"}}"
+result: "{\"w\":375,\"docW\":375,\"contact\":{\"lineBoxes\":1,\"fs\":\"22.5px\",\"left\":40,\"right\":249,\"text\":\"Houtxsurvey@outlook.com\"},\"foot\":{\"lineBoxes\":1,\"fs\":\"14px\",\"left\":40,\"right\":211,\"text\":\"Houtxsurvey@outlook.com\"}}"
+result: "{\"w\":414,\"docW\":414,\"contact\":{\"lineBoxes\":1,\"fs\":\"24.84px\",\"left\":40,\"right\":272,\"text\":\"Houtxsurvey@outlook.com\"},\"foot\":{\"lineBoxes\":1,\"fs\":\"14px\",\"left\":202,\"right\":374,\"text\":\"Houtxsurvey@outlook.com\"}}"

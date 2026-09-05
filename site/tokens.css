@@ -79,10 +79,11 @@
   --color-rule:        oklch(96% 0.006 80 / 0.12);  /* hairline 1px white/0.12 (studied DNA) */
   --color-rule-2:      oklch(96% 0.006 80 / 0.22);  /* input borders */
   --color-rule-3:      oklch(96% 0.006 80 / 0.40);  /* outline buttons */
-  --color-veil:        oklch(10% 0.010 40 / 0.55);  /* plate copy backplate (guaranteed worst-frame contrast) */
-  --color-veil-strong: oklch(10% 0.010 40 / 0.86);
+  --color-veil:        oklch(10% 0.010 40 / 0.32);  /* plate copy backplate — lightened so footage stays visible */
+  --color-veil-strong: oklch(10% 0.010 40 / 0.52);
   --color-shade:       oklch(8% 0.010 40);          /* shade layer colour (opacity ramps) */
   --color-nav-surface: oklch(14% 0.009 40 / 0.78);
+  --color-caption-plate: oklch(10% 0.010 40 / 0.6);   /* local backplate under .plate__meta only (lead's re-measurement after the lighter shade: 14px captions fell to 2.5–3.9:1); operator shade/veil values untouched */
   --color-light:       oklch(98% 0.010 70);          /* pointer light source colour (screen blend) */
 
   /* ---------- Colour · photo-derived accents (media-preparation pixel measurement, analysis/verification/media/palette-confirmation.md) ---------- */
@@ -101,8 +102,8 @@
   --gradient-silver: linear-gradient(135deg, oklch(88% 0.006 70), oklch(62% 0.008 60));
   --gradient-silver-rule: linear-gradient(90deg, oklch(88% 0.006 70), oklch(62% 0.008 60 / 0));
   /* Shade layer = vertical darkening + soft radial vignette (two two-stop gradients) */
-  --gradient-shade-vertical: linear-gradient(180deg, oklch(8% 0.010 40 / 0.35), oklch(8% 0.010 40 / 0.95));
-  --gradient-shade-vignette: radial-gradient(ellipse at 50% 45%, oklch(8% 0.010 40 / 0) 40%, oklch(8% 0.010 40 / 0.8) 100%);
+  --gradient-shade-vertical: linear-gradient(180deg, oklch(8% 0.010 40 / 0.12), oklch(8% 0.010 40 / 0.48));
+  --gradient-shade-vignette: radial-gradient(ellipse at 50% 45%, oklch(8% 0.010 40 / 0) 45%, oklch(8% 0.010 40 / 0.38) 100%);
   --gradient-backplate: linear-gradient(90deg, var(--color-veil-strong), var(--color-veil) 70%, oklch(10% 0.010 40 / 0));
   --gradient-backplate-stack: linear-gradient(180deg, oklch(10% 0.010 40 / 0), var(--color-veil-strong) 16%, var(--color-veil-strong) 100%);  /* narrow widths: strong veil from just above the first line of copy */
 
@@ -171,14 +172,14 @@
   /* Plate geometry and layer rates (differential motion) */
   --plate-height: 160dvh;
   --plate-height-hero: 150dvh;
-  --shade-min: 0.15;         /* shade opacity when the plate first enters */
-  --shade-max: 0.72;         /* shade opacity when the plate is held */
-  --shade-static: 0.55;      /* fixed shade when motion is off */
+  --shade-min: 0.06;         /* shade opacity when the plate first enters — lowered 2026-09-04: videos were too dark on phone */
+  --shade-max: 0.38;         /* shade opacity when the plate is held — was 0.72, crushed the footage */
+  --shade-static: 0.22;      /* fixed shade when motion is off */
   --rate-media: -12%;        /* far layer: slow */
   --rate-shade: -4%;
   --rate-copy: 14%;          /* near layer: faster, opposite direction */
   --story-entry: 48%;        /* story layer entry travel; reduced below 60rem so it never crosses the pinned caption */
-  --hero-shade-min: 0.32;    /* hero shade at load (raised from 0.22: lead measured 2.76:1 worst pixel for the name over bright sky at 320px) */
+  --hero-shade-min: 0.14;    /* hero shade at load — was 0.32; operator: videos too dark on phone */
   --rate-copy-scale: 1.03;
   --light-opacity: 0.12;
   --light-size: 44rem;

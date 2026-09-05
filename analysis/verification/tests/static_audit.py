@@ -50,8 +50,10 @@ add('HTML: videos: no autoplay attr, all muted+playsinline, all have poster', no
 add('HTML: video count >= 6 plates', len(p.videos)>=7, [f'videos={len(p.videos)}, sections with class plate={len(re.findall(r"class=\"[^\"]*\bplate\b", html))}'])
 ext=lines_matching(html, r'(src|href)="https?://')
 add('HTML: no external http(s) resource references', not ext, ext or ['none'])
-add('HTML: pre-publication contact dependency comment present', 'PRE-PUBLICATION DEPENDENCY' in html, lines_matching(html, r'PRE-PUBLICATION')[:2] or ['missing'])
-add('HTML: no invented contact (mailto:/tel:/@ addresses)', not re.search(r'mailto:|tel:|[\w.+-]+@[\w-]+\.\w+', html), lines_matching(html, r'mailto:|tel:|[\w.+-]+@[\w-]+\.\w+')[:5] or ['none'])
+add('HTML: contact destination present (operator wired the address; the pre-publication dependency comment was removed by the operator)', 'mailto:' in html, lines_matching(html, r'mailto:')[:3] or ['missing'])
+OPERATOR_CONTACT = 'Houtxsurvey@outlook.com'   # supplied directly by the operator on 2026-09-04 23:2x (not from the source files); the only permitted address
+addrs = set(re.findall(r'[\w.+-]+@[\w-]+\.\w+', html)); tels = lines_matching(html, r'tel:')
+add('HTML: no invented contact — only the operator-supplied address appears, no tel:', addrs <= {OPERATOR_CONTACT} and not tels, [f'addresses found: {sorted(addrs)}', f'operator-supplied: {OPERATOR_CONTACT}', f'mailto occurrences: {len(re.findall(r"mailto:", html))}'] + tels)
 banned = r'\b(rare|rarest|unusual|commanded|command(ing)? (of )?vessels?|guarantee[sd]?|settle(d|ment)s? (in|for)|Houston|testimonial|trusted by|clients include|\d+\+ (surveys|clients|jobs)|\d+ ?%|Lorem|Jane Doe|John Smith|seamless|unleash|empower|elevate|supercharge|next-generation)\b'
 bl=lines_matching(html, banned)
 add('COPY: banned / unsupported-claim words absent (rare, command history, guarantees, Houston, testimonials, %, +N, clichés)', not bl, bl or ['none'])

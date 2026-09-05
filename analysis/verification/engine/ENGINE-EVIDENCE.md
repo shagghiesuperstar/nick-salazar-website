@@ -1,7 +1,7 @@
-# Engine evidence — Agent Teams runtime (captured 20260904T232029-0500)
+# Engine evidence — Agent Teams runtime (captured 20260904T233059-0500)
 
 - Team: `session-17191e92` · lead session `17191e92-ccb6-4682-8aa7-e34d8338f8e3` · lead agentId `team-lead@session-17191e92`
-- Team config source: `~/.claude/teams/session-17191e92/config.json` (copied to `captures/20260904T232029-0500/teams/config.json`)
+- Team config source: `~/.claude/teams/session-17191e92/config.json` (copied to `captures/20260904T233059-0500/teams/config.json`)
 - Teammate transcripts: `~/.claude/projects/-Users-scottscheferman-nick-salazar-website/17191e92-ccb6-4682-8aa7-e34d8338f8e3/subagents/agent-a<name>-<hash>.jsonl` (+ `.meta.json`, copied)
 
 ## Members (from live team config)
@@ -22,10 +22,10 @@
 ## Transcript field counts (model / effort as recorded by the runtime)
 | transcript | bytes | model fields | effort fields | SendMessage calls |
 |---|---|---|---|---|
-| team-lead | 11864044 | {'claude-fable-5-1': 338} | {'high': 260} | 5 |
+| team-lead | 12957943 | {'claude-fable-5-1': 399} | {'high': 308} | 7 |
 | agent-amedia-preparation-6969d2aa4a0b7b98.jsonl | 13620430 | {'claude-fable-5-1': 76} | {'high': 76} | 7 |
 | agent-anarrative-content-801b2588baae4ea4.jsonl | 13328806 | {'claude-fable-5-1': 115} | {'high': 115} | 14 |
-| agent-avisual-motion-4a61127fb519c50f.jsonl | 18831360 | {'claude-fable-5-1': 162} | {'high': 162} | 10 |
+| agent-avisual-motion-4a61127fb519c50f.jsonl | 19110498 | {'claude-fable-5-1': 185} | {'high': 185} | 13 |
 
 ## Direct messages (SendMessage tool calls, sender → recipient)
 | ts | from | to | summary | first line |
@@ -35,6 +35,8 @@
 | 2026-09-05T03:57:14.385Z | team-lead | visual-motion | First render reviewed: 3 fixes (accent, services wrap, credential nowrap) | First render at http://127.0.0.1:8123/ reviewed by team-lead (screenshots: analysis/verification/browser/first-render/). Good: name largest, orange, Big Shoulders loaded, no console errors, no overflow at 1440/375, shade |
 | 2026-09-05T04:06:38.654Z | team-lead | visual-motion | 320px nav pill clips at right edge; fix needed | Lead browser run (analysis/verification/browser/w320/00-hero.png): at 320px the nav pill is wider than the viewport — wordmark + "Build a brief" + "Menu" run off the right edge and the Menu button is cut to "Me". The doc |
 | 2026-09-05T04:17:45.833Z | team-lead | visual-motion | Final measurement: 2 legibility fixes + stamp fields; do not wait for me | Final lead measurement (analysis/verification/browser/RESULTS.md, contrast-samples.json: 514 samples; mean contrast passes everywhere, min 4.74:1). Two real intermediate-state defects to fix in styles.css/tokens.css now, |
+| 2026-09-05T04:26:24.091Z | team-lead | visual-motion | Caption-only legibility fix after operator's shade edit (do not touch operator tokens) | The operator edited tokens.css directly (keep exactly as-is, do not revert): --shade-min 0.06, --shade-max 0.38, --shade-static 0.22, --hero-shade-min 0.14, --color-veil 0.32, --color-veil-strong 0.52, lighter shade grad |
+| 2026-09-05T04:29:58.348Z | team-lead | visual-motion | Caption fix verified; one more: email link wraps at 320–414 (gate 49) | Caption fix verified by lead re-measurement: plate captions now 10–14:1 mean (worst 3.3–10.7:1) at 320 and 1440 — thank you. One last item from the full suite on the operator-edited files (browser/RESULTS.md): the operat |
 | 2026-09-05T03:44:48.439Z | media-preparation | narrative-content | Asset table with literal descriptions and roles | Media asset table for copy grounding (from media-preparation). Full literal descriptions: /Users/scottscheferman/nick-salazar-website/analysis/verification/media/content-descriptions.md; provenance: .../reconciliation.md |
 | 2026-09-05T03:45:03.447Z | media-preparation | visual-motion | Palette measurements, video specs, no audio | Palette confirmation from real shipped pixels + video specs (from media-preparation). Details: /Users/scottscheferman/nick-salazar-website/analysis/verification/media/palette-confirmation.md and palette.json (script extr |
 | 2026-09-05T03:46:04.758Z | media-preparation | team-lead | Media deliverables complete, source verified untouched | media-preparation is done: all 8 deliverables written, source folder verified untouched (before/after SHA256 identical, 23 files). |
@@ -66,6 +68,9 @@
 | 2026-09-05T04:07:56.437Z | visual-motion | media-preparation | Palette decisions recorded in tokens.css | visual-motion: thanks — decisions, now in site/tokens.css with your file cited in the comment: orange kept at baseline #F26B1C oklch(68.4% 0.185 45) (you said either is defensible; it is the name and reads cleaner on dar |
 | 2026-09-05T04:08:20.472Z | visual-motion | team-lead | Three fixes applied and verified; changed selectors listed | visual-motion: your three fixes are applied and re-verified (evidence: analysis/verification/hallmark/self-check/probe-services-wrap.txt, probe-creds-nowrap.txt, d1440-11-services-fixed.png, d1440-12-hero-yellow-creds.pn |
 | 2026-09-05T04:09:34.142Z | visual-motion | team-lead | 320px pill fixed and verified at 320/360/375; all three earlier items closed | visual-motion: the 320px pill defect is fixed and verified (your w320 capture predates the fix). Changed selectors in styles.css: `.nav .nav__cta { display: none }` with `@media (min-width: 26rem) { .nav .nav__cta { disp |
+| 2026-09-05T04:20:42.365Z | visual-motion | team-lead | Both legibility fixes applied, re-measured; stamp filled; stopping | visual-motion: done — (1) story entry travel 48%→16% below 60rem plus the plate caption now fades in only from 45–60% of the timeline (keyframe + --progress fallback), re-checked at 320/375/414: caption opacity 0 at prog |
+| 2026-09-05T04:29:48.523Z | visual-motion | team-lead | Caption-only fix applied; caption contrast now 10–17:1 at 320/1440 | visual-motion: caption-only fix done, operator tokens untouched — new token --color-caption-plate oklch(10% 0.010 40 / 0.6); .plate__meta now color ink, padding 2xs/xs, that backplate, 1px text-shadow, and it steps in at |
+| 2026-09-05T04:30:45.988Z | visual-motion | team-lead | Mail links single-line at 320/375/414; verified | visual-motion: done — `.contact__mail { font-size: clamp(1.125rem, 6vw, var(--text-2xl)); white-space: nowrap; overflow-wrap: normal }` and `.foot__mail { white-space: nowrap; overflow-wrap: normal }` (link, text, colour |
 
 ## Inbox files (recipient side, live mailbox)
 - `media-preparation.json`: 0 message(s): 

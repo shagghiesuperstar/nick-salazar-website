@@ -1,12 +1,12 @@
-# HTTP check 2026-09-04T23:10:12.948527-05:00 against http://127.0.0.1:8124/
+# HTTP check 2026-09-04T23:24:09.244362-05:00 against http://127.0.0.1:8124/
 
 ## Raw response head for /
 HTTP/1.0 200 OK
 Server: SimpleHTTP/0.6 Python/3.13.9
-Date: Sat, 05 Sep 2026 04:10:12 GMT
+Date: Sat, 05 Sep 2026 04:24:09 GMT
 Content-type: text/html
-Content-Length: 28827
-Last-Modified: Sat, 05 Sep 2026 04:08:25 GMT
+Content-Length: 28990
+Last-Modified: Sat, 05 Sep 2026 04:23:11 GMT
 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -365,12 +365,14 @@ Last-Modified: Sat, 05 Sep 2026 04:08:25 GMT
       </div>
     </section>
 
-    <!-- 12. Contact: assignment brief -->
-    <!-- PRE-PUBLICATION DEPENDENCY: contact destination (phone/email) not supplied; wire before publishing -->
+    <!-- 12. Contact -->
     <section class="section brief" id="contact">
       <div class="section__inner">
-        <h2 class="section__title">Build an assignment brief</h2>
-        <p class="section__lede" data-reveal>There is no form to submit here. Describe the assignment and this page assembles a plain-text brief you can copy or download, then send through whatever channel you already use.</p>
+        <h2 class="section__title">Contact</h2>
+        <p class="contact__mail-wrap" data-reveal>
+          <a class="contact__mail" href="mailto:Houtxsurvey@outlook.com">Houtxsurvey@outlook.com</a>
+        </p>
+        <p class="section__lede" data-reveal>Email Nick at that address. Or describe the assignment below — this page assembles a plain-text brief you can copy or download and send there. Nothing is submitted from this page.</p>
         <form class="brief__form" id="brief-form" novalidate>
           <div class="field">
             <label class="field__label" for="bf-service">Survey type</label>
@@ -442,7 +444,7 @@ Last-Modified: Sat, 05 Sep 2026 04:08:25 GMT
             <button type="button" class="btn btn--outline" id="brief-download">Download .txt</button>
           </div>
           <p class="brief__status" id="brief-status" role="status" aria-live="polite"></p>
-          <p class="brief__note">Nothing is sent from this page. Copy or download the brief and send it through your own channel.</p>
+          <p class="brief__note">Nothing is sent from this page. Copy or download the brief and email it to <a href="mailto:Houtxsurvey@outlook.com">Houtxsurvey@outlook.com</a>.</p>
         </form>
       </div>
     </section>
@@ -453,6 +455,7 @@ Last-Modified: Sat, 05 Sep 2026 04:08:25 GMT
     <p class="foot__line">Watch the cargo. Write it down. Stand behind it.</p>
     <div class="foot__meta">
       <span class="foot__mark">Nick Salazar</span>
+      <a class="foot__mail" href="mailto:Houtxsurvey@outlook.com">Houtxsurvey@outlook.com</a>
       <span class="foot__muted">Credentials as supplied by Nick Salazar. Video plates are AI-generated illustrations based on photographs from Nick’s files; gallery photographs are the originals.</span>
       <span class="foot__muted">© 2026 Nick Salazar</span>
     </div>
@@ -486,8 +489,8 @@ Last-Modified: Sat, 05 Sep 2026 04:08:25 GMT
 200	  2176192	video/mp4	source	assets/videos/05-containers.mp4
 200	  2280226	video/mp4	source	assets/videos/06-warehouse.mp4
 200	  6591641	video/mp4	source	assets/videos/07-yard.mp4
-200	    33645	text/css	link	styles.css
-200	     9423	text/css	css:styles.css	tokens.css
+200	    35365	text/css	link	styles.css
+200	     9820	text/css	css:styles.css	tokens.css
 
 non-200: 0
 external (non-loopback) references: 0

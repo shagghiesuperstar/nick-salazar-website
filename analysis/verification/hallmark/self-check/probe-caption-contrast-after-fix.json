@@ -1,0 +1,81 @@
+{
+ "note": ".plate__meta after caption-only fix: ink text on --color-caption-plate (0.6 alpha) with 1px text-shadow; caption steps in at 50% of the plate timeline (opacity 0 before, 1 after) so no half-faded intermediate state exists. Text = median luminance of pixels > 0.45; background = pixels outside a 2px halo around any pixel > 0.25, inside the caption box (clipped to viewport). 320 measured at 320x740 (at 320x568 the drums caption sits below the fold at p50). Operator tokens untouched.",
+ "results": {
+  "d1440-crane-p12": {
+   "progress": 0.12,
+   "caption_opacity": "0",
+   "note": "caption not rendered at this progress (steps in at 50%); nothing to read, nothing to measure"
+  },
+  "d1440-crane-p52": {
+   "progress": 0.52,
+   "caption_opacity": "1",
+   "text_median_lum": 0.842,
+   "bg_mean_lum": 0.0154,
+   "bg_brightest_lum": 0.0345,
+   "mean_ratio": 13.63,
+   "worst_ratio": 10.55,
+   "n_text": 2667,
+   "n_bg": 21044
+  },
+  "d1440-drums-p50": {
+   "progress": 0.5,
+   "caption_opacity": "1",
+   "text_median_lum": 0.85,
+   "bg_mean_lum": 0.0071,
+   "bg_brightest_lum": 0.0397,
+   "mean_ratio": 15.77,
+   "worst_ratio": 10.03,
+   "n_text": 2468,
+   "n_bg": 12671
+  },
+  "d1440-drums-p85": {
+   "progress": 0.85,
+   "caption_opacity": "1",
+   "text_median_lum": 0.85,
+   "bg_mean_lum": 0.0101,
+   "bg_brightest_lum": 0.0371,
+   "mean_ratio": 14.97,
+   "worst_ratio": 10.33,
+   "n_text": 2481,
+   "n_bg": 12673
+  },
+  "m320-crane-p12": {
+   "progress": 0.12,
+   "caption_opacity": "0",
+   "note": "caption not rendered at this progress (steps in at 50%); nothing to read, nothing to measure"
+  },
+  "m320-crane-p52": {
+   "progress": 0.52,
+   "caption_opacity": "1",
+   "text_median_lum": 0.858,
+   "bg_mean_lum": 0.0022,
+   "bg_brightest_lum": 0.0161,
+   "mean_ratio": 17.41,
+   "worst_ratio": 13.73,
+   "n_text": 10228,
+   "n_bg": 79266
+  },
+  "m320-drums-p50": {
+   "progress": 0.5,
+   "caption_opacity": "1",
+   "text_median_lum": 0.858,
+   "bg_mean_lum": 0.009,
+   "bg_brightest_lum": 0.0163,
+   "mean_ratio": 15.39,
+   "worst_ratio": 13.7,
+   "n_text": 9652,
+   "n_bg": 80899
+  },
+  "m320-drums-p85": {
+   "progress": 0.85,
+   "caption_opacity": "1",
+   "text_median_lum": 0.858,
+   "bg_mean_lum": 0.0098,
+   "bg_brightest_lum": 0.0155,
+   "mean_ratio": 15.19,
+   "worst_ratio": 13.86,
+   "n_text": 9818,
+   "n_bg": 92147
+  }
+ }
+}

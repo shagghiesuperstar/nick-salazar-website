@@ -19,7 +19,7 @@ Verified during the build on the lead's loopback server at **http://127.0.0.1:81
 
 | path | purpose |
 |---|---|
-| `index.html` | the whole page: floating pill nav → hero (name + credentials over video) → 6 further video plates with word pairs and story blocks → credentials → services (complete supplied list) → gallery of Nick's photos → why-independent → assignment-brief utility → footer |
+| `index.html` | the whole page: floating pill nav → hero (name + credentials over video) → 6 further video plates with word pairs and story blocks → credentials → services (complete supplied list) → gallery of Nick's photos → why-independent → contact (email + assignment-brief utility) → footer |
 | `styles.css`, `tokens.css` | Hallmark studied-DNA build (stamp on line 1 of styles.css); every colour/font is a token in `tokens.css` |
 | `app.js` | video play/pause in view, lazy source attach, scroll-progress fallback for browsers without CSS scroll-driven animations, reveal stagger, hero pointer light (off for reduced-motion / touch), nav current-section, assignment-brief copy/download. No network calls. |
 | `fonts/` | self-hosted Big Shoulders Display + Geist (SIL OFL 1.1, see `fonts/LICENSES.md`); no runtime requests leave the origin (the favicon is an inline `data:` URI) |
@@ -29,7 +29,7 @@ Also present: `.hallmark/log.json` (Hallmark project memory) and `DISPATCH-PROOF
 
 ## Before publishing (dependencies recorded, not resolved here)
 
-1. **Contact destination.** No phone, email, or address was supplied, so none was invented. The Contact section is an honest local utility: it assembles a plain-text assignment brief the reader copies or downloads and sends through their own channel; it states that nothing is sent. Wire a real destination (or add the real phone/email) at the `<!-- PRE-PUBLICATION DEPENDENCY -->` comment in `index.html`.
+1. **Contact destination — wired by the operator on 2026-09-04.** The Contact section and footer link to `Houtxsurvey@outlook.com` (supplied directly by the operator, not from the two source files; confirm it with Nick before publishing). The assignment-brief utility still assembles a plain-text brief for copy/download and states that nothing is submitted from the page.
 2. **Remove `<meta name="robots" content="noindex">`** in `index.html` when the site goes live.
 3. **Credentials are client-supplied and unverified** (the page says so). Confirm with Nick before removing the note.
 4. **Video plates are AI-generated illustrative footage** and are captioned as such; gallery photographs are from Nick's files. Do not re-caption plates as documentary.

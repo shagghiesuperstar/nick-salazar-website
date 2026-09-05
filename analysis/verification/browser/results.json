@@ -1,15 +1,15 @@
 {
   "base": "http://127.0.0.1:8124/",
-  "ranAt": "2026-09-05T04:16:22.177Z",
+  "ranAt": "2026-09-05T04:28:37.620Z",
   "results": [
     {
-      "name": "w320: page loaded (82 ms), docH=18865, plates=7, videos=7, scroll-timeline=true",
+      "name": "w320: page loaded (86 ms), docH=19025, plates=7, videos=7, scroll-timeline=true",
       "status": "PASS",
       "detail": {
         "scrollW": 320,
         "clientW": 320,
         "bodyScrollW": 320,
-        "docH": 18865,
+        "docH": 19025,
         "h1fs": 72,
         "top3": [
           {
@@ -71,8 +71,15 @@
     },
     {
       "name": "w320: no clickable text wraps to 2+ lines (gate 49)",
-      "status": "PASS",
-      "detail": []
+      "status": "FAIL",
+      "detail": [
+        {
+          "text": "Houtxsurvey@outlook.com",
+          "lines": 2,
+          "h": 83.59375,
+          "vis": true
+        }
+      ]
     },
     {
       "name": "w320: no horizontal overflow at any plate progress",
@@ -89,13 +96,13 @@
       }
     },
     {
-      "name": "w375: page loaded (49 ms), docH=18454, plates=7, videos=7, scroll-timeline=true",
+      "name": "w375: page loaded (50 ms), docH=18614, plates=7, videos=7, scroll-timeline=true",
       "status": "PASS",
       "detail": {
         "scrollW": 375,
         "clientW": 375,
         "bodyScrollW": 375,
-        "docH": 18454,
+        "docH": 18614,
         "h1fs": 72,
         "top3": [
           {
@@ -157,8 +164,15 @@
     },
     {
       "name": "w375: no clickable text wraps to 2+ lines (gate 49)",
-      "status": "PASS",
-      "detail": []
+      "status": "FAIL",
+      "detail": [
+        {
+          "text": "Houtxsurvey@outlook.com",
+          "lines": 2,
+          "h": 83.59375,
+          "vis": true
+        }
+      ]
     },
     {
       "name": "w375: no horizontal overflow at any plate progress",
@@ -175,13 +189,13 @@
       }
     },
     {
-      "name": "w414: page loaded (70 ms), docH=18216, plates=7, videos=7, scroll-timeline=true",
+      "name": "w414: page loaded (67 ms), docH=18342, plates=7, videos=7, scroll-timeline=true",
       "status": "PASS",
       "detail": {
         "scrollW": 414,
         "clientW": 414,
         "bodyScrollW": 414,
-        "docH": 18216,
+        "docH": 18342,
         "h1fs": 72,
         "top3": [
           {
@@ -243,8 +257,15 @@
     },
     {
       "name": "w414: no clickable text wraps to 2+ lines (gate 49)",
-      "status": "PASS",
-      "detail": []
+      "status": "FAIL",
+      "detail": [
+        {
+          "text": "Houtxsurvey@outlook.com",
+          "lines": 2,
+          "h": 83.59375,
+          "vis": true
+        }
+      ]
     },
     {
       "name": "w414: no horizontal overflow at any plate progress",
@@ -261,13 +282,13 @@
       }
     },
     {
-      "name": "w768: page loaded (62 ms), docH=19656, plates=7, videos=7, scroll-timeline=true",
+      "name": "w768: page loaded (84 ms), docH=19734, plates=7, videos=7, scroll-timeline=true",
       "status": "PASS",
       "detail": {
         "scrollW": 768,
         "clientW": 768,
         "bodyScrollW": 768,
-        "docH": 19656,
+        "docH": 19734,
         "h1fs": 115.2,
         "top3": [
           {
@@ -347,13 +368,13 @@
       }
     },
     {
-      "name": "w1440: page loaded (56 ms), docH=17826, plates=7, videos=7, scroll-timeline=true",
+      "name": "w1440: page loaded (62 ms), docH=17953, plates=7, videos=7, scroll-timeline=true",
       "status": "PASS",
       "detail": {
         "scrollW": 1440,
         "clientW": 1440,
         "bodyScrollW": 1440,
-        "docH": 17826,
+        "docH": 17953,
         "h1fs": 198,
         "top3": [
           {
@@ -433,88 +454,144 @@
       }
     },
     {
-      "name": "contrast through transitions: 510 samples; worst-pixel failures=64; mean failures=0",
+      "name": "contrast through transitions: 481 samples; worst-pixel failures=109; mean failures=11",
       "status": "FAIL",
       "detail": {
         "worstPixelFails": [
           {
             "l": "w320 hero-top .hero__name \"Nick Salazar\"",
-            "worst": 2.76,
-            "mean": 5.4,
+            "worst": 1.85,
+            "mean": 4.97,
             "thr": 3
           },
           {
             "l": "w320 hero-top h1 \"Nick Salazar\"",
-            "worst": 2.76,
-            "mean": 5.39,
+            "worst": 1.85,
+            "mean": 4.95,
             "thr": 3
           },
           {
-            "l": "w320 plate2 p12 .plate:nth-of-type(2) .plate__story \"Steel does not forgive a vague report. C\"",
-            "worst": 2.48,
-            "mean": 16.73,
+            "l": "w320 plate1 p12 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
+            "worst": 2.51,
+            "mean": 5.54,
             "thr": 4.5
           },
           {
-            "l": "w320 plate2 p12 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
-            "worst": 1.01,
-            "mean": 6.68,
+            "l": "w320 plate1 p50 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
+            "worst": 2.79,
+            "mean": 6.06,
             "thr": 4.5
           },
           {
-            "l": "w320 plate3 p12 #plate-crane .plate__story \"A heavy lift is planned on paper and pro\"",
-            "worst": 2.48,
-            "mean": 16.56,
+            "l": "w320 plate1 p85 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
+            "worst": 3.21,
+            "mean": 5.9,
             "thr": 4.5
           },
           {
-            "l": "w320 plate3 p12 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
-            "worst": 1.02,
-            "mean": 6.92,
+            "l": "w320 plate2 p50 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
+            "worst": 3.02,
+            "mean": 6.41,
             "thr": 4.5
           },
           {
-            "l": "w320 plate4 p12 #plate-drums .plate__story \"Inside a container the cargo has nowhere\"",
-            "worst": 2.48,
-            "mean": 15.73,
+            "l": "w320 plate2 p85 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
+            "worst": 3.29,
+            "mean": 6.57,
             "thr": 4.5
           },
           {
-            "l": "w320 plate4 p12 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
-            "worst": 1.03,
-            "mean": 6.61,
+            "l": "w320 plate3 p50 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
+            "worst": 3.8,
+            "mean": 6.84,
             "thr": 4.5
           },
           {
-            "l": "w320 plate5 p12 #plate-containers .plate__story \"Break bulk cargo travels exposed: flat r\"",
-            "worst": 2.48,
-            "mean": 17.01,
+            "l": "w320 plate3 p85 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
+            "worst": 3.69,
+            "mean": 6.94,
             "thr": 4.5
           },
           {
-            "l": "w320 plate5 p12 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
-            "worst": 1,
-            "mean": 6.58,
+            "l": "w320 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
+            "worst": 2.78,
+            "mean": 3.75,
             "thr": 4.5
           },
           {
-            "l": "w320 plate6 p12 #plate-warehouse .plate__story \"Packing problems show up long after the \"",
-            "worst": 2.48,
-            "mean": 16.42,
+            "l": "w320 plate4 p85 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
+            "worst": 2.94,
+            "mean": 4.68,
             "thr": 4.5
           },
           {
-            "l": "w320 plate6 p12 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
-            "worst": 1.04,
-            "mean": 6.91,
+            "l": "w320 plate5 p50 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
+            "worst": 4.35,
+            "mean": 4.98,
             "thr": 4.5
           }
         ],
-        "meanFails": []
+        "meanFails": [
+          {
+            "l": "w320 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
+            "mean": 3.75,
+            "thr": 4.5
+          },
+          {
+            "l": "w375 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
+            "mean": 3.82,
+            "thr": 4.5
+          },
+          {
+            "l": "w414 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
+            "mean": 3.96,
+            "thr": 4.5
+          },
+          {
+            "l": "w414 plate4 p85 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
+            "mean": 4.48,
+            "thr": 4.5
+          },
+          {
+            "l": "w768 plate1 p85 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
+            "mean": 4.05,
+            "thr": 4.5
+          },
+          {
+            "l": "w768 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
+            "mean": 4.02,
+            "thr": 4.5
+          },
+          {
+            "l": "w1440 plate3 p50 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
+            "mean": 3.81,
+            "thr": 4.5
+          },
+          {
+            "l": "w1440 plate3 p85 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
+            "mean": 3.64,
+            "thr": 4.5
+          },
+          {
+            "l": "w1440 plate4 p85 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
+            "mean": 2.37,
+            "thr": 4.5
+          },
+          {
+            "l": "w1440 plate5 p50 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
+            "mean": 4.03,
+            "thr": 4.5
+          },
+          {
+            "l": "w1440 plate5 p85 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
+            "mean": 4.16,
+            "thr": 4.5
+          }
+        ]
       }
     },
     {
-      "name": "keyboard: Tab reaches 20 focusable elements; all show a visible ring",
+      "name": "keyboard: Tab reaches 23 focusable elements; all show a visible ring",
       "status": "PASS",
       "detail": {
         "noRing": [],
@@ -647,7 +724,7 @@
       "name": "contact: page states nothing is sent; no network request made by the utility",
       "status": "PASS",
       "detail": {
-        "note": "Nothing is sent from this page. Copy or download the brief and send it through your own channel.",
+        "note": "Nothing is sent from this page. Copy or download the brief and email it to Houtxsurvey@outlook.com.",
         "externalRequests": []
       }
     },
@@ -742,10 +819,10 @@
       }
     },
     {
-      "name": "slow network (400 kbps, 150 ms): DOMContentLoaded 7419 ms; h1 visible; transferred 269 KB; mp4 requests so far: 0",
+      "name": "slow network (400 kbps, 150 ms): DOMContentLoaded 7387 ms; h1 visible; transferred 272 KB; mp4 requests so far: 0",
       "status": "PASS",
       "detail": {
-        "dcl": 7419,
+        "dcl": 7387,
         "vidReq": []
       }
     },
@@ -872,19 +949,19 @@
           {
             "progress": "0.4000",
             "cls": "plate plate--hero",
-            "shadeOpacity": "0.22",
+            "shadeOpacity": "0.14",
             "mediaTransform": "matrix(1, 0, 0, 1, 0, 0)"
           },
           {
             "progress": "0.5600",
             "cls": "plate plate--hero",
-            "shadeOpacity": "0.442222",
+            "shadeOpacity": "0.246667",
             "mediaTransform": "matrix(1, 0, 0, 1, 0, -32.256)"
           },
           {
             "progress": "0.7200",
             "cls": "plate plate--hero",
-            "shadeOpacity": "0.664444",
+            "shadeOpacity": "0.353333",
             "mediaTransform": "matrix(1, 0, 0, 1, 0, -64.512)"
           }
         ],
@@ -895,7 +972,7 @@
       "name": "scroll capture recorded (webm; converted to mp4 by the runner)",
       "status": "PASS",
       "detail": {
-        "path": "/Users/scottscheferman/nick-salazar-website/analysis/verification/browser/video-raw/page@7aa8349674c9f5427fcca716c07d5371.webm"
+        "path": "/Users/scottscheferman/nick-salazar-website/analysis/verification/browser/video-raw/page@71ce309460bc5e721a2ec5e6037ef1a1.webm"
       }
     },
     {
