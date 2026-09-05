@@ -1,7 +1,6 @@
-# SHA256 manifest — generated 2026-09-05T04:20:51Z on branch feat/t_27ed7897 (git HEAD none)
+# SHA256 manifest — generated 2026-09-05T04:21:59Z on branch feat/t_27ed7897 (git HEAD daa3dfa)
 # verify: cd /Users/scottscheferman/nick-salazar-website && shasum -a 256 -c analysis/verification/HASHES.sha256
 51702900c8099986f76e02f59de8ed9170acab08414a4a4c2b20f6faa5a06931  analysis/verification/BUILD-HANDOFF.md
-ad3703844606d0a06d8de6168e87637e521602c884538561835f3fc81cba3b4a  analysis/verification/HASHES.sha256.tmp
 defca647296c5a7c47c87931b09032afaab4f06a9d7c8119f505730a2611a3e8  analysis/verification/browser/RESULTS.md
 18db3c868f62dd550383ae997d66d0f3f7524c57d9614df5ed2fe3a670efcf1c  analysis/verification/browser/autoplay-denied.png
 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945  analysis/verification/browser/console-errors.json
@@ -289,7 +288,7 @@ de6a36733b545aef1ac35fe1ba5ac6c31a516fc1ee6b6e40e16041dd9737f639  analysis/verif
 8c134cf0ae0e0a8ae84324846171c6c3600dcafed17f9982ea8798da3a84c2e9  analysis/verification/hallmark/zipline-study/probe-11-footer.txt
 5c56b04f50f4861723f9b87b239ef9c9f56c8d50588246f4fb62bb45511f4f01  analysis/verification/hallmark/zipline-study/probe-12-mobile.txt
 c4b6eb15deb3a9f761e9dc48136ff7ae024f7fff9af0dda24389ad6a54299195  analysis/verification/hallmark/zipline-study/probe-13-console.txt
-28a48e24417d4128a01e8f788d61a2b217015178d04d82986fe1b968b2fd5836  analysis/verification/make_hashes.sh
+08c5d58c8f6ef11e1214978bbca1e05d986e85701e76f31b739332375aa88fcc  analysis/verification/make_hashes.sh
 1355cc4c16f1eda84fcce993491c95a957192c7a0f3801d8f51d0131f780ab63  analysis/verification/media/TEAMMATE-REPORT.md
 29c9c9ee037fe80f091ea46f12c89ddb8452149ed6a3772458bf8305a49c0ab1  analysis/verification/media/build-manifest.py
 7b8b21bc3c2f86a86b02195c83163eb91eb82c3fc3bbcb398d3a38401f243e04  analysis/verification/media/content-descriptions.md
@@ -315,7 +314,6 @@ a21c913d1c9eb050e2b5b5806b42a38ad73099317944076f5c5eaeb667fb8b05  analysis/verif
 df3ac3dfbee83f3a3e1a781b3acdc72e1bbda4ff83dd94c789365d9d1768ab4b  analysis/verification/tests/run-20260904T225719.log
 365e5b8b558058e142cd2a2b49d23bf1d475a07d23e7c0eb34694296223d13fb  analysis/verification/tests/run_all.sh
 720cc1d07b540a4833d3934767655ca6238902cf7e9854ae9f833dcbe2ba8274  analysis/verification/tests/serve.sh
-8697bdc1571bd133bd4e99ea6ba4ee494e0f483a3a4603063fda43908dffeb43  analysis/verification/tests/server-8124.log
 52087420db3a7bf03f90bff8b19f8c536091a6d1b7b9b94a70de0eb9fd59d3fd  analysis/verification/tests/server-8124.pid
 ea026021780f4f13215a7c215f490ad95ad2c127361208fcdb1cb1f3d673aba2  analysis/verification/tests/static-audit.md
 4c0ca9f23a03e491aba5dc169d7caa8ed08351d32d9dfda3135e5daf0ea85008  analysis/verification/tests/static_audit.py
