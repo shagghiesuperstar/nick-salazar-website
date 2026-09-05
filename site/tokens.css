@@ -1,0 +1,206 @@
+/* Hallmark · tokens · theme: studied-DNA (source: https://www.zipline.com) · genre: atmospheric
+ * Every colour, font, space, size, easing, duration, rule, radius and z value the site uses lives here.
+ * styles.css references these by name only (slop gate 48). OKLCH throughout; alpha only on overlay tokens.
+ * Accent hexes are the photo/video-derived baseline from analysis/palette (signal-orange #F26B1C,
+ * signal-red #E5341E, signal-yellow #F2C81C, signal-sky #6FB4E2) converted to OKLCH; media-preparation's
+ * measured values replace them if they differ (hue preserved).
+ */
+
+/* ---------- Self-hosted fonts (site/fonts/, SIL OFL 1.1 — see site/fonts/LICENSES.md) ---------- */
+@font-face {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/big-shoulders-display-700-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("fonts/big-shoulders-display-800-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/big-shoulders-display-900-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Geist";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/geist-400-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Geist";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("fonts/geist-500-latin.woff2") format("woff2");
+}
+
+/* Metric-tuned fallbacks so the swap does not reflow the display words or the body measure. */
+@font-face {
+  font-family: "Big Shoulders Fallback";
+  src: local("Arial Narrow"), local("ArialNarrow"), local("Helvetica Neue Condensed Bold"), local("Impact"), local("Arial");
+  size-adjust: 88%;
+  ascent-override: 96%;
+  descent-override: 24%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Geist Fallback";
+  src: local("Helvetica Neue"), local("Helvetica"), local("Arial");
+  size-adjust: 100%;
+  ascent-override: 95%;
+  descent-override: 23%;
+  line-gap-override: 0%;
+}
+
+:root {
+  /* ---------- Colour · paper (dark, warm-tinted, never pure black) ---------- */
+  --color-paper:    oklch(12% 0.008 40);
+  --color-paper-2:  oklch(15% 0.009 40);
+  --color-paper-3:  oklch(19% 0.010 40);
+  --color-paper-4:  oklch(24% 0.010 40);
+
+  /* ---------- Colour · ink ---------- */
+  --color-ink:      oklch(95% 0.006 80);   /* default light ink (not pure white) */
+  --color-ink-max:  oklch(99% 0.003 80);   /* apex only: brightened copy over darkened video (user brief) */
+  --color-silver:   oklch(82% 0.006 60);   /* body text */
+  --color-muted:    oklch(68% 0.008 60);   /* captions, meta, placeholders — 7.0:1 on paper */
+  --color-neutral:  oklch(48% 0.008 50);   /* disabled ink, faint numerals */
+
+  /* ---------- Colour · rules and overlays (alpha is a modifier, not a palette) ---------- */
+  --color-rule:        oklch(96% 0.006 80 / 0.12);  /* hairline 1px white/0.12 (studied DNA) */
+  --color-rule-2:      oklch(96% 0.006 80 / 0.22);  /* input borders */
+  --color-rule-3:      oklch(96% 0.006 80 / 0.40);  /* outline buttons */
+  --color-veil:        oklch(10% 0.010 40 / 0.55);  /* plate copy backplate (guaranteed worst-frame contrast) */
+  --color-veil-strong: oklch(10% 0.010 40 / 0.86);
+  --color-shade:       oklch(8% 0.010 40);          /* shade layer colour (opacity ramps) */
+  --color-nav-surface: oklch(14% 0.009 40 / 0.78);
+  --color-light:       oklch(98% 0.010 70);          /* pointer light source colour (screen blend) */
+
+  /* ---------- Colour · photo-derived accents (media-preparation pixel measurement, analysis/verification/media/palette-confirmation.md) ---------- */
+  --color-signal-orange: oklch(68.4% 0.185 45);   /* #F26B1C — confirmed: crane unit #EC7D2F, straps #E27B29 (clips 03/04). Nick's name. */
+  --color-signal-red:    oklch(57.5% 0.205 28);   /* #D9282A — measured-on-footage value (coil faces #D22628, 9.3 % of clip 02); baseline #E5341E was lighter/oranger */
+  --color-signal-yellow: oklch(84.5% 0.168 93);   /* #F2C81C — confirmed within 0.01 of measured #F0C61D (clips 07/04/01). Credentials line. */
+  --color-signal-sky:    oklch(73.2% 0.094 253);  /* RETIRED, UNUSED: sky-blue is not in the footage (0 % in 5 of 7 clips; 1.7 % blue-film highlights #7DACE2 in clip 06 only). Kept so the token name stays documented; never applied. */
+  --color-accent:        var(--color-signal-orange);
+  --color-accent-2:      var(--color-signal-yellow);   /* credentials: yellow is in 4/7 plates at the highest coverage and sits 48° from orange in OKLCH hue */
+  --color-accent-ink:    oklch(14% 0.020 50);     /* ink on any accent-filled surface (≥ 4.5:1 on orange/yellow/sky) */
+  --color-focus:         oklch(78% 0.140 60);     /* 9.8:1 on paper, ≥ 3:1 on every surface incl. ink-filled buttons */
+  --color-error:         oklch(70% 0.170 30);
+  --color-success:       oklch(80% 0.120 150);
+
+  /* ---------- Liquid silver — surfaces and rules only, never text ---------- */
+  --gradient-silver: linear-gradient(135deg, oklch(88% 0.006 70), oklch(62% 0.008 60));
+  --gradient-silver-rule: linear-gradient(90deg, oklch(88% 0.006 70), oklch(62% 0.008 60 / 0));
+  /* Shade layer = vertical darkening + soft radial vignette (two two-stop gradients) */
+  --gradient-shade-vertical: linear-gradient(180deg, oklch(8% 0.010 40 / 0.35), oklch(8% 0.010 40 / 0.95));
+  --gradient-shade-vignette: radial-gradient(ellipse at 50% 45%, oklch(8% 0.010 40 / 0) 40%, oklch(8% 0.010 40 / 0.8) 100%);
+  --gradient-backplate: linear-gradient(90deg, var(--color-veil-strong), var(--color-veil) 70%, oklch(10% 0.010 40 / 0));
+  --gradient-backplate-stack: linear-gradient(180deg, oklch(10% 0.010 40 / 0), var(--color-veil-strong) 16%, var(--color-veil-strong) 100%);  /* narrow widths: strong veil from just above the first line of copy */
+
+  /* ---------- Type ---------- */
+  --font-display: "Big Shoulders Display", "Big Shoulders Fallback", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --font-body:    "Geist", "Geist Fallback", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --text-xs:   0.8rem;      /* 12.8px — meta only, never body */
+  --text-sm:   0.875rem;    /* 14px  — labels */
+  --text-base: 1rem;        /* 16px  */
+  --text-md:   1.125rem;    /* 18px  — lede */
+  --text-lg:   1.375rem;    /* 22px  */
+  --text-xl:   1.75rem;     /* 28px  */
+  --text-2xl:  2.25rem;     /* 36px  */
+  --text-3xl:  clamp(2rem, 4vw + 0.5rem, 3.25rem);       /* section titles */
+  --text-statement: clamp(2rem, 6vw, 4.5rem);            /* footer statement */
+  --text-pair: clamp(3rem, 9vw, 8rem);                   /* plate word pairs — strictly < name */
+  --text-name: clamp(4.5rem, min(15vw, 22dvh), 13.5rem);  /* hero name — largest type on the page; dvh term keeps name+creds+role+CTA inside a 1280×800 fold */
+  --text-creds: clamp(0.9rem, 0.6rem + 1.1vw, 1.375rem);
+
+  --lh-name: 1.0;      /* uppercase floor (gate 55); verified no cap collision at 320px */
+  --lh-pair: 1.02;
+  --lh-tight: 1.1;
+  --lh-body: 1.6;
+  --lh-ui: 1;
+
+  --tracking-display: -0.02em;
+  --tracking-name: -0.015em;
+  --tracking-label: 0.12em;
+
+  --measure: 62ch;
+  --measure-narrow: 44ch;
+
+  /* ---------- Space (4-pt scale) ---------- */
+  --space-3xs: 0.125rem;  /*   2px */
+  --space-2xs: 0.25rem;   /*   4px */
+  --space-xs:  0.5rem;    /*   8px */
+  --space-sm:  0.75rem;   /*  12px */
+  --space-md:  1rem;      /*  16px */
+  --space-lg:  1.5rem;    /*  24px */
+  --space-xl:  2.5rem;    /*  40px */
+  --space-2xl: 4rem;      /*  64px */
+  --space-3xl: 6rem;      /*  96px */
+  --space-4xl: 9rem;      /* 144px */
+  --space-5xl: 12rem;     /* 192px */
+
+  --page-gutter: clamp(1.25rem, 2rem + 2vw, 5.25rem);
+  --page-max: 90rem;
+  --nav-max: 45rem;                /* 720px — N5 pill ceiling */
+  --nav-height: 3rem;              /* 48px  */
+  --nav-offset: var(--space-md);
+  --banner-height: calc(var(--nav-height) + var(--nav-offset) * 2);  /* scroll-margin-top for anchors */
+  --control-height: 2.75rem;       /* 44px — inputs and buttons share it */
+
+  /* ---------- Motion ---------- */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:     cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long:  420ms;
+  --dur-reduced: 150ms;
+  --reveal-step: 60ms;
+  --reveal-cap: 480ms;
+
+  /* Plate geometry and layer rates (differential motion) */
+  --plate-height: 160dvh;
+  --plate-height-hero: 150dvh;
+  --shade-min: 0.15;         /* shade opacity when the plate first enters */
+  --shade-max: 0.72;         /* shade opacity when the plate is held */
+  --shade-static: 0.55;      /* fixed shade when motion is off */
+  --rate-media: -12%;        /* far layer: slow */
+  --rate-shade: -4%;
+  --rate-copy: 14%;          /* near layer: faster, opposite direction */
+  --story-entry: 48%;        /* story layer entry travel; reduced below 60rem so it never crosses the pinned caption */
+  --hero-shade-min: 0.32;    /* hero shade at load (raised from 0.22: lead measured 2.76:1 worst pixel for the name over bright sky at 320px) */
+  --rate-copy-scale: 1.03;
+  --light-opacity: 0.12;
+  --light-size: 44rem;
+
+  /* ---------- Rules and radii ---------- */
+  --rule-hair: 1px;
+  --rule-focus: 2px;
+  --radius-pill: 999px;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+
+  /* ---------- Z scale ---------- */
+  --z-base: 1;
+  --z-media: 1;
+  --z-shade: 2;
+  --z-light: 3;
+  --z-copy: 4;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-sticky-nav: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+}

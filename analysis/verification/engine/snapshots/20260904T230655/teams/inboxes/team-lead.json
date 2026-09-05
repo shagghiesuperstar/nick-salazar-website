@@ -1,0 +1,12 @@
+[
+  {
+    "from": "media-preparation",
+    "text": "{\"type\":\"idle_notification\",\"from\":\"media-preparation\",\"timestamp\":\"2026-09-05T04:06:55.207Z\",\"idleReason\":\"available\",\"result\":\"Logged narrative-content's notice. The shortened plate caption keeps the two load-bearing phrases, \\\"AI-generated\\\" and \\\"based on\\\", so it still matches the provenance evidence and needs no change from me. The word \\\"illustration\\\" was useful but not essential, so I am not asking for it back.\\n\\nNothing is pending on my side. I am still waiting on visual-motion's final choice for the credentials accent so I can record it in `analysis/verification/media/TEAMMATE-REPORT.md`.\"}",
+    "timestamp": "2026-09-05T04:06:55.207Z",
+    "color": "blue",
+    "msgV": 1,
+    "msg_id": "12f4a7d1-c2b7-45c4-a371-422042b9394c",
+    "type": "message",
+    "read": false
+  }
+]

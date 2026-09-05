@@ -1,0 +1,56 @@
+[PASS] w320: page loaded (66 ms), docH=18865, plates=7, videos=7, scroll-timeline=true :: {"scrollW":320,"clientW":320,"bodyScrollW":320,"docH":18865,"h1fs":72,"top3":[{"tag":"H1","cls":"hero__name in","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"H2","cls":"plate__pair","fs":48},{"tag":"SPAN","cls":"plate__word","fs":48},{"tag":"SPA
+[PASS] w320: no horizontal overflow at top :: {"scrollW":320,"clientW":320,"bodyScrollW":320}
+[PASS] w320: Nick's name (h1) is the largest type :: {"h1":72,"largestOther":{"tag":"H2","cls":"plate__pair","fs":48}}
+[PASS] w320: no clickable text wraps to 2+ lines (gate 49) :: []
+[PASS] w320: no horizontal overflow at any plate progress :: []
+[PASS] w320: page is finite (reachable end) and no overflow at end :: {"s":320,"c":320,"finite":true}
+[PASS] w375: page loaded (59 ms), docH=18454, plates=7, videos=7, scroll-timeline=true :: {"scrollW":375,"clientW":375,"bodyScrollW":375,"docH":18454,"h1fs":72,"top3":[{"tag":"H1","cls":"hero__name in","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"H2","cls":"plate__pair","fs":48},{"tag":"SPAN","cls":"plate__word","fs":48},{"tag":"SPA
+[PASS] w375: no horizontal overflow at top :: {"scrollW":375,"clientW":375,"bodyScrollW":375}
+[PASS] w375: Nick's name (h1) is the largest type :: {"h1":72,"largestOther":{"tag":"H2","cls":"plate__pair","fs":48}}
+[PASS] w375: no clickable text wraps to 2+ lines (gate 49) :: []
+[PASS] w375: no horizontal overflow at any plate progress :: []
+[PASS] w375: page is finite (reachable end) and no overflow at end :: {"s":375,"c":375,"finite":true}
+[PASS] w414: page loaded (85 ms), docH=18216, plates=7, videos=7, scroll-timeline=true :: {"scrollW":414,"clientW":414,"bodyScrollW":414,"docH":18216,"h1fs":72,"top3":[{"tag":"H1","cls":"hero__name in","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"H2","cls":"plate__pair","fs":48},{"tag":"SPAN","cls":"plate__word","fs":48},{"tag":"SPA
+[PASS] w414: no horizontal overflow at top :: {"scrollW":414,"clientW":414,"bodyScrollW":414}
+[PASS] w414: Nick's name (h1) is the largest type :: {"h1":72,"largestOther":{"tag":"H2","cls":"plate__pair","fs":48}}
+[PASS] w414: no clickable text wraps to 2+ lines (gate 49) :: []
+[PASS] w414: no horizontal overflow at any plate progress :: []
+[PASS] w414: page is finite (reachable end) and no overflow at end :: {"s":414,"c":414,"finite":true}
+[PASS] w768: page loaded (75 ms), docH=19656, plates=7, videos=7, scroll-timeline=true :: {"scrollW":768,"clientW":768,"bodyScrollW":768,"docH":19656,"h1fs":115.2,"top3":[{"tag":"H1","cls":"hero__name in","fs":115.2},{"tag":"SPAN","cls":"hero__line","fs":115.2},{"tag":"SPAN","cls":"hero__line","fs":115.2},{"tag":"H2","cls":"plate__pair","fs":69.12},{"tag":"SPAN","cls":"plate__word","fs":
+[PASS] w768: no horizontal overflow at top :: {"scrollW":768,"clientW":768,"bodyScrollW":768}
+[PASS] w768: Nick's name (h1) is the largest type :: {"h1":115.2,"largestOther":{"tag":"H2","cls":"plate__pair","fs":69.12}}
+[PASS] w768: no clickable text wraps to 2+ lines (gate 49) :: []
+[PASS] w768: no horizontal overflow at any plate progress :: []
+[PASS] w768: page is finite (reachable end) and no overflow at end :: {"s":768,"c":768,"finite":true}
+[PASS] w1440: page loaded (75 ms), docH=17826, plates=7, videos=7, scroll-timeline=true :: {"scrollW":1440,"clientW":1440,"bodyScrollW":1440,"docH":17826,"h1fs":198,"top3":[{"tag":"H1","cls":"hero__name in","fs":198},{"tag":"SPAN","cls":"hero__line","fs":198},{"tag":"SPAN","cls":"hero__line","fs":198},{"tag":"H2","cls":"plate__pair","fs":128},{"tag":"SPAN","cls":"plate__word","fs":128},{"
+[PASS] w1440: no horizontal overflow at top :: {"scrollW":1440,"clientW":1440,"bodyScrollW":1440}
+[PASS] w1440: Nick's name (h1) is the largest type :: {"h1":198,"largestOther":{"tag":"H2","cls":"plate__pair","fs":128}}
+[PASS] w1440: no clickable text wraps to 2+ lines (gate 49) :: []
+[PASS] w1440: no horizontal overflow at any plate progress :: []
+[PASS] w1440: page is finite (reachable end) and no overflow at end :: {"s":1440,"c":1440,"finite":true}
+[PASS] contrast through transitions: 0 samples; worst-pixel failures=0; mean failures=0 :: {"worstPixelFails":[],"meanFails":[]}
+[PASS] keyboard: Tab reaches 20 focusable elements; all show a visible ring :: {"noRing":[],"first":[{"tag":"A","text":"Skip to content","outline":"solid 2px oklch(0.78 0.14 60)","boxShadow":"none","inView":true,"ring":true},{"tag":"A","text":"Nick Salazar","outline":"solid 2px oklch(0.78 0.14 60)","boxShadow":"none","inView":true,"ring":true},{"tag":"A","text":"Credentials","
+[PASS] keyboard: skip link is first tab stop and becomes visible :: {"text":"Skip to content","href":"#main","visible":true}
+[FAIL] nav: 4 pill links navigate to in-page targets :: [{"href":"#credentials","before":0,"y":2710,"hash":"#credentials","targetTop":80},{"href":"#work","before":2710,"y":7337,"hash":"#work","targetTop":921.734375},{"href":"#services","before":7337,"y":5066,"hash":"#services","targetTop":79.078125},{"href":"#contact","before":5066,"y":14538,"hash":"#con
+[PASS] nav: keyboard Enter activates a nav link :: {"y":0,"hash":"#top"}
+[PASS] contact: live brief assembles from fields :: ASSIGNMENT BRIEF — Nick Salazar, marine surveyor
+Prepared locally on 2026-09-05
+
+SURVEY TYPE: Break bulk
+CARGO DESCRIPTION: Test cargo: 40 steel coils, 18 t each
+PORT OR FACILITY: Test facility
+TIMING: Next week
+EVIDENCE YOU NEED: Condition photos and a signed report
+YOUR NAME: Test Adjuster
+ORGANISATION: Test Syndicate
+HOW TO REACH YOU: test@example.invalid
+
+This brief was written on the visitor'
+[PASS] contact: Copy brief writes clipboard and shows non-sending status :: {"clip":"ASSIGNMENT BRIEF — Nick Salazar, marine surveyor\nPrepared locally on 2026-09-05\n\nSURVEY TYPE: Break bulk\nCARGO DESCRIPTI","status":"Copied. Nothing was sent."}
+[PASS] contact: Download .txt produces a local file containing the brief :: {"file":"/Users/scottscheferman/nick-salazar-website/analysis/verification/browser/downloaded-assignment-brief.txt","bytes":441,"filename":"assignment-brief.txt"}
+[PASS] contact: page states nothing is sent; no network request made by the utility :: {"note":"Nothing is sent from this page. Copy or download the brief and send it through your own channel.","externalRequests":[]}
+SUITE ERROR page.screenshot: Target page, context or browser has been closed
+    at /Users/scottscheferman/nick-salazar-website/analysis/verification/tests/browser_suite.mjs:139:93 {
+  log: []
+}
+[FAIL] SUITE ABORTED (partial results above) :: Error: page.screenshot: Target page, context or browser has been closed

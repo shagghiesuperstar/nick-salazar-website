@@ -1,0 +1,1 @@
+result: "{\"w\":320,\"h\":568,\"docW\":320,\"overflowers\":[\"DETAILS.nav__menu:354\",\"SUMMARY.nav__toggle:354\"],\"creds\":{\"y\":104,\"b\":150},\"name\":{\"y\":157,\"b\":303},\"cta\":{\"y\":585,\"b\":629},\"meta\":{\"y\":645,\"b\":712},\"frameH\":776,\"plateH\":852}"

@@ -1,0 +1,18 @@
+{
+  "name": "session-17191e92",
+  "createdAt": 1788579057235,
+  "leadAgentId": "team-lead@session-17191e92",
+  "leadSessionId": "17191e92-ccb6-4682-8aa7-e34d8338f8e3",
+  "members": [
+    {
+      "agentId": "team-lead@session-17191e92",
+      "name": "team-lead",
+      "agentType": "team-lead",
+      "joinedAt": 1788579057235,
+      "tmuxPaneId": "leader",
+      "cwd": "/Users/scottscheferman/nick-salazar-website",
+      "subscriptions": [],
+      "backendType": "in-process"
+    }
+  ]
+}

@@ -1,0 +1,585 @@
+[
+  {
+    "case": "reduced-motion",
+    "top": {
+      "htmlClass": "js",
+      "supportsScrollTimeline": true,
+      "reduce": true,
+      "shadeOpacity": "0.55",
+      "shadeAnim": "none",
+      "pairColor": "oklch(0.99 0.003 80)",
+      "pairTransform": "none",
+      "mediaTransform": "none",
+      "revealOpacity": "1",
+      "lightDisplay": "none",
+      "videos": [
+        {
+          "paused": true,
+          "hasSrc": true,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        }
+      ],
+      "docW": 1440,
+      "innerW": 1440,
+      "progressVars": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "mid": {
+      "htmlClass": "js",
+      "supportsScrollTimeline": true,
+      "reduce": true,
+      "shadeOpacity": "0.55",
+      "shadeAnim": "none",
+      "pairColor": "oklch(0.99 0.003 80)",
+      "pairTransform": "none",
+      "mediaTransform": "none",
+      "revealOpacity": "1",
+      "lightDisplay": "none",
+      "videos": [
+        {
+          "paused": true,
+          "hasSrc": true,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": true,
+          "poster": true
+        }
+      ],
+      "docW": 1440,
+      "innerW": 1440,
+      "progressVars": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "consoleErrs": []
+  },
+  {
+    "case": "js-off",
+    "top": {
+      "htmlClass": "no-js",
+      "supportsScrollTimeline": true,
+      "reduce": false,
+      "shadeOpacity": "0.22",
+      "shadeAnim": "hero-shade",
+      "pairColor": "oklab(0.82 0.003 0.00519615)",
+      "pairTransform": "matrix(0.97, 0, 0, 0.97, 0, 133.158)",
+      "mediaTransform": "matrix(1, 0, 0, 1, 0, 60.48)",
+      "revealOpacity": "1",
+      "lightDisplay": "block",
+      "videos": [
+        {
+          "paused": true,
+          "hasSrc": true,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        }
+      ],
+      "docW": 1440,
+      "innerW": 1440,
+      "progressVars": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "mid": {
+      "htmlClass": "no-js",
+      "supportsScrollTimeline": true,
+      "reduce": false,
+      "shadeOpacity": "0.72",
+      "shadeAnim": "hero-shade",
+      "pairColor": "oklab(0.99 0.000520944 0.00295442)",
+      "pairTransform": "matrix(1.03, 0, 0, 1.03, 0, -5.62356)",
+      "mediaTransform": "matrix(1, 0, 0, 1, 0, -47.6862)",
+      "revealOpacity": "1",
+      "lightDisplay": "block",
+      "videos": [
+        {
+          "paused": true,
+          "hasSrc": true,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        }
+      ],
+      "docW": 1440,
+      "innerW": 1440,
+      "progressVars": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "consoleErrs": []
+  },
+  {
+    "case": "no-scroll-timeline",
+    "top": {
+      "htmlClass": "js js-progress",
+      "supportsScrollTimeline": false,
+      "reduce": false,
+      "shadeOpacity": "0.553333",
+      "shadeAnim": "none",
+      "pairColor": "oklch(0.974545 0.00327273 78.1818)",
+      "pairTransform": "matrix(1.02455, 0, 0, 1.02455, 0, 12.1053)",
+      "mediaTransform": "matrix(1, 0, 0, 1, 0, 0)",
+      "revealOpacity": "1",
+      "lightDisplay": "block",
+      "videos": [
+        {
+          "paused": false,
+          "hasSrc": true,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        }
+      ],
+      "docW": 1440,
+      "innerW": 1440,
+      "progressVars": [
+        "0.4000",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "mid": {
+      "htmlClass": "js js-progress",
+      "supportsScrollTimeline": false,
+      "reduce": false,
+      "shadeOpacity": "0.72",
+      "shadeAnim": "none",
+      "pairColor": "oklch(0.99 0.003 80)",
+      "pairTransform": "matrix(1.03, 0, 0, 1.03, 0, -5.60908)",
+      "mediaTransform": "matrix(1, 0, 0, 1, 0, -11.6364)",
+      "revealOpacity": "1",
+      "lightDisplay": "block",
+      "videos": [
+        {
+          "paused": true,
+          "hasSrc": true,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": false,
+          "hasSrc": true,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        }
+      ],
+      "docW": 1440,
+      "innerW": 1440,
+      "progressVars": [
+        "1.0000",
+        "0.5962",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "consoleErrs": [],
+    "progressEntering": "0.5962",
+    "progressHeld": {
+      "progress": "0.5940",
+      "shade": "0.72",
+      "pair": "oklch(0.99 0.003 80)",
+      "media": "matrix(1, 0, 0, 1, 0, -11.3702)"
+    }
+  },
+  {
+    "case": "autoplay-denied",
+    "top": {
+      "htmlClass": "js",
+      "supportsScrollTimeline": true,
+      "reduce": false,
+      "shadeOpacity": "0.22",
+      "shadeAnim": "hero-shade",
+      "pairColor": "oklab(0.82 0.003 0.00519615)",
+      "pairTransform": "matrix(0.97, 0, 0, 0.97, 0, 133.158)",
+      "mediaTransform": "matrix(1, 0, 0, 1, 0, 60.48)",
+      "revealOpacity": "1",
+      "lightDisplay": "block",
+      "videos": [
+        {
+          "paused": false,
+          "hasSrc": true,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        }
+      ],
+      "docW": 1440,
+      "innerW": 1440,
+      "progressVars": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "mid": {
+      "htmlClass": "js",
+      "supportsScrollTimeline": true,
+      "reduce": false,
+      "shadeOpacity": "0.72",
+      "shadeAnim": "hero-shade",
+      "pairColor": "oklab(0.99 0.000520944 0.00295442)",
+      "pairTransform": "matrix(1.03, 0, 0, 1.03, 0, -5.62356)",
+      "mediaTransform": "matrix(1, 0, 0, 1, 0, -47.6862)",
+      "revealOpacity": "1",
+      "lightDisplay": "block",
+      "videos": [
+        {
+          "paused": true,
+          "hasSrc": true,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": false,
+          "hasSrc": true,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        },
+        {
+          "paused": true,
+          "hasSrc": false,
+          "isStatic": false,
+          "poster": true
+        }
+      ],
+      "docW": 1440,
+      "innerW": 1440,
+      "progressVars": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "consoleErrs": []
+  },
+  {
+    "case": "keyboard-and-brief",
+    "tabSequence": [
+      "A.skip:Skip to content|outline=solid oklch(0.78 0.14 60)",
+      "A.nav__mark:Nick Salazar|outline=solid oklch(0.78 0.14 60)",
+      "A.nav__link:Credentials|outline=solid oklch(0.78 0.14 60)",
+      "A.nav__link:Work|outline=solid oklch(0.78 0.14 60)",
+      "A.nav__link:Services|outline=solid oklch(0.78 0.14 60)",
+      "A.nav__link:Contact|outline=solid oklch(0.78 0.14 60)",
+      "A.nav__cta:Build a brief|outline=solid oklch(0.78 0.14 60)",
+      "A.btn:Build a brief|outline=solid oklch(0.78 0.14 60)"
+    ],
+    "briefOutputHead": [
+      "ASSIGNMENT BRIEF — Nick Salazar, marine surveyor",
+      "Prepared locally on 2026-09-05",
+      "",
+      "SURVEY TYPE: Steel pipe / plate / coils",
+      "CARGO DESCRIPTION: 12 steel coils, 18 t each"
+    ],
+    "status1": "Copied. Nothing was sent.",
+    "copyState": "success|Copied",
+    "download": "assignment-brief.txt",
+    "status2": "Downloaded assignment-brief.txt to this device. Nothing was sent."
+  }
+]

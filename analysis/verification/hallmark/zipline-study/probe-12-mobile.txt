@@ -1,0 +1,1 @@
+result: "{\"innerW\":390,\"innerH\":844,\"dpr\":2,\"scrollH\":17780,\"docW\":390,\"h1fs\":\"66.4px\",\"h1lh\":\"56.44px\",\"headerH\":60,\"videos\":[{\"paused\":false,\"w\":390},{\"paused\":true,\"w\":342}]}"

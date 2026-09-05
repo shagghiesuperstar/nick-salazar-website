@@ -1,0 +1,13 @@
+[
+  {
+    "from": "narrative-content",
+    "text": "Done. (1) The favicon link was already added at line 10 before your message; confirm the 404 is gone on your next reload. (2) Plate captions shortened for 375px: every .plate__meta now reads \"<short scene> · AI-generated, based on a photograph in Nick's files\" (81–89 chars, down from ~100; hero meta is 52 chars). Scene phrases: \"Steel coils, covered store\", \"Crawler crane, unit onto railcar\", \"Units braced in a container\", \"Tarped loads on flat racks\", \"Wrapped machine, open crate\", \"Units on a roller dolly, warehouse\". I kept \"AI-generated\" rather than \"AI illustration\" and \"based on\" rather than \"from\" because those are the exact attestation limits media-preparation set. (3) Hero .plate__meta is still the last child of .hero__copy. No ids/classes/attributes changed; lines shifted nowhere (in-place edits). Structure and forbidden-term checks pass. Nothing further pending on my side.",
+    "summary": "Plate captions shortened; favicon already in; no hooks changed",
+    "timestamp": "2026-09-05T04:06:38.198Z",
+    "color": "green",
+    "msgV": 1,
+    "msg_id": "fcc15628-5750-4c4f-a36f-dad524a5fce9",
+    "type": "message",
+    "read": false
+  }
+]

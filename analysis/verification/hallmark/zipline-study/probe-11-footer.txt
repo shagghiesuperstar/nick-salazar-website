@@ -1,0 +1,1 @@
+result: "{\"bg\":\"rgba(0, 0, 0, 0)\",\"color\":\"rgb(247, 244, 232)\",\"h\":1047.890625,\"biggest\":{\"fs\":150,\"t\":\"Zipline.Try it todayMoments matter.Try i\",\"ff\":\"fkScreamer, \\\"fkScreamer Fallback\\\"\"},\"links\":14}"

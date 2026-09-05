@@ -1,0 +1,49 @@
+[PASS] w320: page loaded (56 ms), docH=18865, plates=7, videos=7, scroll-timeline=true :: {"scrollW":320,"clientW":320,"bodyScrollW":320,"docH":18865,"h1fs":72,"top3":[{"tag":"H1","cls":"hero__name in","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"H2","cls":"plate__pair","fs":48},{"tag":"SPAN","cls":"plate__word","fs":48},{"tag":"SPA
+[PASS] w320: no horizontal overflow at top :: {"scrollW":320,"clientW":320,"bodyScrollW":320}
+[PASS] w320: Nick's name (h1) is the largest type :: {"h1":72,"largestOther":{"tag":"H2","cls":"plate__pair","fs":48}}
+[FAIL] w320: no clickable text wraps to 2+ lines (gate 49) :: [{"text":"Skip to content","lines":3.1,"h":44,"vis":true},{"text":"Nick Salazar","lines":2,"h":44,"vis":true},{"text":"Build a brief","lines":3.1,"h":44,"vis":true},{"text":"Work","lines":3.1,"h":44,"vis":true},{"text":"Services","lines":3.1,"h":44,"vis":true},{"text":"Contact","lines":3.1,"h":44,"v
+[PASS] w320: no horizontal overflow at any plate progress :: []
+[PASS] w320: page is finite (reachable end) and no overflow at end :: {"s":320,"c":320,"finite":true}
+[PASS] w375: page loaded (71 ms), docH=18454, plates=7, videos=7, scroll-timeline=true :: {"scrollW":375,"clientW":375,"bodyScrollW":375,"docH":18454,"h1fs":72,"top3":[{"tag":"H1","cls":"hero__name in","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"H2","cls":"plate__pair","fs":48},{"tag":"SPAN","cls":"plate__word","fs":48},{"tag":"SPA
+[PASS] w375: no horizontal overflow at top :: {"scrollW":375,"clientW":375,"bodyScrollW":375}
+[PASS] w375: Nick's name (h1) is the largest type :: {"h1":72,"largestOther":{"tag":"H2","cls":"plate__pair","fs":48}}
+[FAIL] w375: no clickable text wraps to 2+ lines (gate 49) :: [{"text":"Skip to content","lines":3.1,"h":44,"vis":true},{"text":"Nick Salazar","lines":2,"h":44,"vis":true},{"text":"Build a brief","lines":3.1,"h":44,"vis":true},{"text":"Work","lines":3.1,"h":44,"vis":true},{"text":"Services","lines":3.1,"h":44,"vis":true},{"text":"Contact","lines":3.1,"h":44,"v
+[PASS] w375: no horizontal overflow at any plate progress :: []
+[PASS] w375: page is finite (reachable end) and no overflow at end :: {"s":375,"c":375,"finite":true}
+[PASS] w414: page loaded (57 ms), docH=18216, plates=7, videos=7, scroll-timeline=true :: {"scrollW":414,"clientW":414,"bodyScrollW":414,"docH":18216,"h1fs":72,"top3":[{"tag":"H1","cls":"hero__name in","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"SPAN","cls":"hero__line","fs":72},{"tag":"H2","cls":"plate__pair","fs":48},{"tag":"SPAN","cls":"plate__word","fs":48},{"tag":"SPA
+[PASS] w414: no horizontal overflow at top :: {"scrollW":414,"clientW":414,"bodyScrollW":414}
+[PASS] w414: Nick's name (h1) is the largest type :: {"h1":72,"largestOther":{"tag":"H2","cls":"plate__pair","fs":48}}
+[FAIL] w414: no clickable text wraps to 2+ lines (gate 49) :: [{"text":"Skip to content","lines":3.1,"h":44,"vis":true},{"text":"Nick Salazar","lines":2,"h":44,"vis":true},{"text":"Build a brief","lines":3.1,"h":44,"vis":true},{"text":"Work","lines":3.1,"h":44,"vis":true},{"text":"Services","lines":3.1,"h":44,"vis":true},{"text":"Contact","lines":3.1,"h":44,"v
+[PASS] w414: no horizontal overflow at any plate progress :: []
+[PASS] w414: page is finite (reachable end) and no overflow at end :: {"s":414,"c":414,"finite":true}
+[PASS] w768: page loaded (77 ms), docH=19748, plates=7, videos=7, scroll-timeline=true :: {"scrollW":768,"clientW":768,"bodyScrollW":768,"docH":19748,"h1fs":130.56,"top3":[{"tag":"H1","cls":"hero__name in","fs":130.56},{"tag":"SPAN","cls":"hero__line","fs":130.56},{"tag":"SPAN","cls":"hero__line","fs":130.56},{"tag":"H2","cls":"plate__pair","fs":69.12},{"tag":"SPAN","cls":"plate__word","
+[PASS] w768: no horizontal overflow at top :: {"scrollW":768,"clientW":768,"bodyScrollW":768}
+[PASS] w768: Nick's name (h1) is the largest type :: {"h1":130.56,"largestOther":{"tag":"H2","cls":"plate__pair","fs":69.12}}
+[FAIL] w768: no clickable text wraps to 2+ lines (gate 49) :: [{"text":"Skip to content","lines":3.1,"h":44,"vis":true},{"text":"Credentials","lines":2.6,"h":36,"vis":true},{"text":"Work","lines":2.6,"h":36,"vis":true},{"text":"Services","lines":2.6,"h":36,"vis":true},{"text":"Contact","lines":2.6,"h":36,"vis":true},{"text":"Build a brief","lines":2.6,"h":36,"
+[PASS] w768: no horizontal overflow at any plate progress :: []
+[PASS] w768: page is finite (reachable end) and no overflow at end :: {"s":768,"c":768,"finite":true}
+[PASS] w1440: page loaded (81 ms), docH=18523, plates=7, videos=7, scroll-timeline=true :: {"scrollW":1440,"clientW":1440,"bodyScrollW":1440,"docH":18523,"h1fs":240,"top3":[{"tag":"H1","cls":"hero__name in","fs":240},{"tag":"SPAN","cls":"hero__line","fs":240},{"tag":"SPAN","cls":"hero__line","fs":240},{"tag":"H2","cls":"plate__pair","fs":128},{"tag":"SPAN","cls":"plate__word","fs":128},{"
+[PASS] w1440: no horizontal overflow at top :: {"scrollW":1440,"clientW":1440,"bodyScrollW":1440}
+[PASS] w1440: Nick's name (h1) is the largest type :: {"h1":240,"largestOther":{"tag":"H2","cls":"plate__pair","fs":128}}
+[FAIL] w1440: no clickable text wraps to 2+ lines (gate 49) :: [{"text":"Skip to content","lines":3.1,"h":44,"vis":true},{"text":"Credentials","lines":2.6,"h":36,"vis":true},{"text":"Work","lines":2.6,"h":36,"vis":true},{"text":"Services","lines":2.6,"h":36,"vis":true},{"text":"Contact","lines":2.6,"h":36,"vis":true},{"text":"Build a brief","lines":2.6,"h":36,"
+[PASS] w1440: no horizontal overflow at any plate progress :: []
+[PASS] w1440: page is finite (reachable end) and no overflow at end :: {"s":1440,"c":1440,"finite":true}
+[PASS] contrast through transitions: 0 samples; worst-pixel failures=0; mean failures=0 :: {"worstPixelFails":[],"meanFails":[]}
+[PASS] keyboard: Tab reaches 20 focusable elements; all show a visible ring :: {"noRing":[],"first":[{"tag":"A","text":"Skip to content","outline":"solid 2px oklch(0.78 0.14 60)","boxShadow":"none","inView":true,"ring":true},{"tag":"A","text":"Nick Salazar","outline":"solid 2px oklch(0.78 0.14 60)","boxShadow":"none","inView":true,"ring":true},{"tag":"A","text":"Credentials","
+[PASS] keyboard: skip link is first tab stop and becomes visible :: {"text":"Skip to content","href":"#main","visible":true}
+[FAIL] nav: 0 pill links navigate to in-page targets :: []
+[PASS] nav: keyboard Enter activates a nav link :: {"y":0,"hash":"#top"}
+[FAIL] contact: assignment-brief form exists :: form.brief not found
+[PASS] reduced-motion: videos never play, no long animations, pointer light off :: {"matches":true,"videos":[{"paused":true,"src":true,"poster":true},{"paused":true,"src":false,"poster":true},{"paused":true,"src":false,"poster":true},{"paused":true,"src":false,"poster":true},{"paused":true,"src":false,"poster":true},{"paused":true,"src":false,"poster":true},{"paused":true,"src":fa
+[PASS] autoplay denied: page stays legible, posters shown, no uncaught errors :: {"errs":[],"videos":[{"paused":true,"poster":true,"cls":"plate plate--hero"},{"paused":false,"poster":true,"cls":"plate"},{"paused":true,"poster":true,"cls":"plate"},{"paused":true,"poster":true,"cls":"plate"},{"paused":true,"poster":true,"cls":"plate"},{"paused":true,"poster":true,"cls":"plate"},{"
+[PASS] slow network (400 kbps, 150 ms): DOMContentLoaded 7284 ms; h1 visible; transferred 212 KB; mp4 requests so far: 0 :: {"dcl":7284,"vidReq":[]}
+SUITE ERROR page.goto: net::ERR_EMPTY_RESPONSE at http://127.0.0.1:8123/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8123/", waiting until "load"[22m
+
+    at /Users/scottscheferman/nick-salazar-website/analysis/verification/tests/browser_suite.mjs:163:132 {
+  log: [
+    '  - navigating to "http://127.0.0.1:8123/", waiting until "load"'
+  ],
+  name: 'Error'
+}

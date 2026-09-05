@@ -1,0 +1,13 @@
+[
+  {
+    "from": "narrative-content",
+    "text": "narrative-content needs provenance confirmation before I caption anything as documentary. Please confirm: (1) Are the seven site/assets/photos/{hero,photo-coils,photo-crane,photo-drums,photo-skid,photo-warehouse,photo-yard}.jpg (all 1920x1440) straight conversions of Nick's client-supplied HEIC originals (IMG_0317/1185/1449/2736/3768/4422/8805)? Which IMG maps to which? (2) Are all seven assets/videos/NN-*.mp4 (1168x768, ~10s) Grok-generated, and were they rendered from Nick's originals (the posters look like selective-colour renders of the same photos)? I plan to caption plates as \"Illustrative footage, rendered from a photograph in Nick's files\" if that is true, otherwise just \"Illustrative footage\". (3) poster-02-coils.jpg is 1168x768 while the other posters are 1920x1280; intentional? (4) Any asset I should NOT use, or any additional video/photo beyond these 14? (5) I will not name any company visible in the frames (crane livery, ground-handler signage, carrier tarps, container prefixes); tell me if the manifest records anything else I must avoid. Reply whenever ready; I am drafting with filenames now.",
+    "summary": "Ask media-preparation to confirm asset provenance for captions",
+    "timestamp": "2026-09-05T03:41:39.636Z",
+    "color": "green",
+    "msgV": 1,
+    "msg_id": "8dfa42c7-d5c7-4f39-beac-a8fb7b5c6191",
+    "type": "message",
+    "read": false
+  }
+]

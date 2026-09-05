@@ -1,0 +1,3 @@
+result: "{\"w\":320,\"navLeft\":53,\"navRight\":267,\"navW\":213,\"gutterL\":53,\"gutterR\":53,\"menuRight\":262,\"menuText\":\"Menu\",\"visibleChildren\":[\"nav__mark:195\",\"nav__menu:262\"],\"skyWords\":0,\"creds\":\"oklch(0.845 0.168 93)\"}"
+result: "{\"w\":360,\"navLeft\":73,\"navRight\":287,\"navW\":213,\"gutterL\":73,\"gutterR\":73,\"menuRight\":282,\"menuText\":\"Menu\",\"visibleChildren\":[\"nav__mark:215\",\"nav__menu:282\"],\"skyWords\":0,\"creds\":\"oklch(0.845 0.168 93)\"}"
+result: "{\"w\":375,\"navLeft\":81,\"navRight\":294,\"navW\":213,\"gutterL\":81,\"gutterR\":81,\"menuRight\":289,\"menuText\":\"Menu\",\"visibleChildren\":[\"nav__mark:223\",\"nav__menu:289\"],\"skyWords\":0,\"creds\":\"oklch(0.845 0.168 93)\"}"

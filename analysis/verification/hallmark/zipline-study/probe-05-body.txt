@@ -1,0 +1,3 @@
+result: "[{\"ff\":\"fkGroteskNeue, \\\"fkGroteskNeue Fallback\\\", sans-serif\",\"fs\":\"14px\",\"fw\":\"400\",\"lh\":\"24px\",\"color\":\"rgb(33, 33, 33)\",\"maxW\":\"none\",\"w\":386},{\"ff\":\"fkGroteskNeue, \\\"fkGroteskNeue Fallback\\\", sans-serif\",\"fs\":\"14px\",\"fw\":\"400\",\"lh\":\"24px\",\"color\":\"rgb(33, 33, 33)\",\"maxW\":\"none\",\"w\":797},{\"ff\":\"fkGroteskNeue, \\\"fkGroteskNeue Fallback\\\", sans-serif\",\"fs\":\"22px\",\"fw\":\"400\",\"lh\":\"30.8px\",\"color\":\"rgb(247, 244, 232)\",\"maxW\":\"none\",\"w\":379.99993896484375}]"
+help[1]:
+  Run `chrome-devtools-axi snapshot` to see current page state

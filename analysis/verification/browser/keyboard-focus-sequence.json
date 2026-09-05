@@ -1,0 +1,162 @@
+[
+  {
+    "tag": "A",
+    "text": "Skip to content",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": true,
+    "ring": true
+  },
+  {
+    "tag": "A",
+    "text": "Nick Salazar",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": true,
+    "ring": true
+  },
+  {
+    "tag": "A",
+    "text": "Credentials",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": true,
+    "ring": true
+  },
+  {
+    "tag": "A",
+    "text": "Work",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": true,
+    "ring": true
+  },
+  {
+    "tag": "A",
+    "text": "Services",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": true,
+    "ring": true
+  },
+  {
+    "tag": "A",
+    "text": "Contact",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": true,
+    "ring": true
+  },
+  {
+    "tag": "A",
+    "text": "Build a brief",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": true,
+    "ring": true
+  },
+  {
+    "tag": "A",
+    "text": "Build a brief",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": true,
+    "ring": true
+  },
+  {
+    "tag": "SELECT",
+    "text": "Choose a survey type\n    ",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "TEXTAREA",
+    "text": "",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "TEXTAREA",
+    "text": "",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "TEXTAREA",
+    "text": "",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "PRE",
+    "text": "ASSIGNMENT BRIEF — Nick S",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Copy brief",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Download .txt",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  }
+]

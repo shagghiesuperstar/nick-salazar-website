@@ -1,0 +1,2 @@
+result: "{\"w\":320,\"docW\":320,\"credFs\":\"14.4px\",\"spans\":[{\"t\":\"Second Mate Unlimited\",\"rects\":1,\"w\":216},{\"t\":\"1600-Ton Master\",\"rects\":1,\"w\":155}]}"
+result: "{\"w\":375,\"docW\":375,\"credFs\":\"14.4px\",\"spans\":[{\"t\":\"Second Mate Unlimited\",\"rects\":1,\"w\":216},{\"t\":\"1600-Ton Master\",\"rects\":1,\"w\":155}]}"

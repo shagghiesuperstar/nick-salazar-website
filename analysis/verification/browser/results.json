@@ -1,0 +1,908 @@
+{
+  "base": "http://127.0.0.1:8124/",
+  "ranAt": "2026-09-05T04:16:22.177Z",
+  "results": [
+    {
+      "name": "w320: page loaded (82 ms), docH=18865, plates=7, videos=7, scroll-timeline=true",
+      "status": "PASS",
+      "detail": {
+        "scrollW": 320,
+        "clientW": 320,
+        "bodyScrollW": 320,
+        "docH": 18865,
+        "h1fs": 72,
+        "top3": [
+          {
+            "tag": "H1",
+            "cls": "hero__name in",
+            "fs": 72
+          },
+          {
+            "tag": "SPAN",
+            "cls": "hero__line",
+            "fs": 72
+          },
+          {
+            "tag": "SPAN",
+            "cls": "hero__line",
+            "fs": 72
+          },
+          {
+            "tag": "H2",
+            "cls": "plate__pair",
+            "fs": 48
+          },
+          {
+            "tag": "SPAN",
+            "cls": "plate__word",
+            "fs": 48
+          },
+          {
+            "tag": "SPAN",
+            "cls": "plate__word plate__word--accent",
+            "fs": 48
+          }
+        ],
+        "plates": 7,
+        "videos": 7,
+        "supportsScrollTimeline": true
+      }
+    },
+    {
+      "name": "w320: no horizontal overflow at top",
+      "status": "PASS",
+      "detail": {
+        "scrollW": 320,
+        "clientW": 320,
+        "bodyScrollW": 320
+      }
+    },
+    {
+      "name": "w320: Nick's name (h1) is the largest type",
+      "status": "PASS",
+      "detail": {
+        "h1": 72,
+        "largestOther": {
+          "tag": "H2",
+          "cls": "plate__pair",
+          "fs": 48
+        }
+      }
+    },
+    {
+      "name": "w320: no clickable text wraps to 2+ lines (gate 49)",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "w320: no horizontal overflow at any plate progress",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "w320: page is finite (reachable end) and no overflow at end",
+      "status": "PASS",
+      "detail": {
+        "s": 320,
+        "c": 320,
+        "finite": true
+      }
+    },
+    {
+      "name": "w375: page loaded (49 ms), docH=18454, plates=7, videos=7, scroll-timeline=true",
+      "status": "PASS",
+      "detail": {
+        "scrollW": 375,
+        "clientW": 375,
+        "bodyScrollW": 375,
+        "docH": 18454,
+        "h1fs": 72,
+        "top3": [
+          {
+            "tag": "H1",
+            "cls": "hero__name in",
+            "fs": 72
+          },
+          {
+            "tag": "SPAN",
+            "cls": "hero__line",
+            "fs": 72
+          },
+          {
+            "tag": "SPAN",
+            "cls": "hero__line",
+            "fs": 72
+          },
+          {
+            "tag": "H2",
+            "cls": "plate__pair",
+            "fs": 48
+          },
+          {
+            "tag": "SPAN",
+            "cls": "plate__word",
+            "fs": 48
+          },
+          {
+            "tag": "SPAN",
+            "cls": "plate__word plate__word--accent",
+            "fs": 48
+          }
+        ],
+        "plates": 7,
+        "videos": 7,
+        "supportsScrollTimeline": true
+      }
+    },
+    {
+      "name": "w375: no horizontal overflow at top",
+      "status": "PASS",
+      "detail": {
+        "scrollW": 375,
+        "clientW": 375,
+        "bodyScrollW": 375
+      }
+    },
+    {
+      "name": "w375: Nick's name (h1) is the largest type",
+      "status": "PASS",
+      "detail": {
+        "h1": 72,
+        "largestOther": {
+          "tag": "H2",
+          "cls": "plate__pair",
+          "fs": 48
+        }
+      }
+    },
+    {
+      "name": "w375: no clickable text wraps to 2+ lines (gate 49)",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "w375: no horizontal overflow at any plate progress",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "w375: page is finite (reachable end) and no overflow at end",
+      "status": "PASS",
+      "detail": {
+        "s": 375,
+        "c": 375,
+        "finite": true
+      }
+    },
+    {
+      "name": "w414: page loaded (70 ms), docH=18216, plates=7, videos=7, scroll-timeline=true",
+      "status": "PASS",
+      "detail": {
+        "scrollW": 414,
+        "clientW": 414,
+        "bodyScrollW": 414,
+        "docH": 18216,
+        "h1fs": 72,
+        "top3": [
+          {
+            "tag": "H1",
+            "cls": "hero__name in",
+            "fs": 72
+          },
+          {
+            "tag": "SPAN",
+            "cls": "hero__line",
+            "fs": 72
+          },
+          {
+            "tag": "SPAN",
+            "cls": "hero__line",
+            "fs": 72
+          },
+          {
+            "tag": "H2",
+            "cls": "plate__pair",
+            "fs": 48
+          },
+          {
+            "tag": "SPAN",
+            "cls": "plate__word",
+            "fs": 48
+          },
+          {
+            "tag": "SPAN",
+            "cls": "plate__word plate__word--accent",
+            "fs": 48
+          }
+        ],
+        "plates": 7,
+        "videos": 7,
+        "supportsScrollTimeline": true
+      }
+    },
+    {
+      "name": "w414: no horizontal overflow at top",
+      "status": "PASS",
+      "detail": {
+        "scrollW": 414,
+        "clientW": 414,
+        "bodyScrollW": 414
+      }
+    },
+    {
+      "name": "w414: Nick's name (h1) is the largest type",
+      "status": "PASS",
+      "detail": {
+        "h1": 72,
+        "largestOther": {
+          "tag": "H2",
+          "cls": "plate__pair",
+          "fs": 48
+        }
+      }
+    },
+    {
+      "name": "w414: no clickable text wraps to 2+ lines (gate 49)",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "w414: no horizontal overflow at any plate progress",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "w414: page is finite (reachable end) and no overflow at end",
+      "status": "PASS",
+      "detail": {
+        "s": 414,
+        "c": 414,
+        "finite": true
+      }
+    },
+    {
+      "name": "w768: page loaded (62 ms), docH=19656, plates=7, videos=7, scroll-timeline=true",
+      "status": "PASS",
+      "detail": {
+        "scrollW": 768,
+        "clientW": 768,
+        "bodyScrollW": 768,
+        "docH": 19656,
+        "h1fs": 115.2,
+        "top3": [
+          {
+            "tag": "H1",
+            "cls": "hero__name in",
+            "fs": 115.2
+          },
+          {
+            "tag": "SPAN",
+            "cls": "hero__line",
+            "fs": 115.2
+          },
+          {
+            "tag": "SPAN",
+            "cls": "hero__line",
+            "fs": 115.2
+          },
+          {
+            "tag": "H2",
+            "cls": "plate__pair",
+            "fs": 69.12
+          },
+          {
+            "tag": "SPAN",
+            "cls": "plate__word",
+            "fs": 69.12
+          },
+          {
+            "tag": "SPAN",
+            "cls": "plate__word plate__word--accent",
+            "fs": 69.12
+          }
+        ],
+        "plates": 7,
+        "videos": 7,
+        "supportsScrollTimeline": true
+      }
+    },
+    {
+      "name": "w768: no horizontal overflow at top",
+      "status": "PASS",
+      "detail": {
+        "scrollW": 768,
+        "clientW": 768,
+        "bodyScrollW": 768
+      }
+    },
+    {
+      "name": "w768: Nick's name (h1) is the largest type",
+      "status": "PASS",
+      "detail": {
+        "h1": 115.2,
+        "largestOther": {
+          "tag": "H2",
+          "cls": "plate__pair",
+          "fs": 69.12
+        }
+      }
+    },
+    {
+      "name": "w768: no clickable text wraps to 2+ lines (gate 49)",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "w768: no horizontal overflow at any plate progress",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "w768: page is finite (reachable end) and no overflow at end",
+      "status": "PASS",
+      "detail": {
+        "s": 768,
+        "c": 768,
+        "finite": true
+      }
+    },
+    {
+      "name": "w1440: page loaded (56 ms), docH=17826, plates=7, videos=7, scroll-timeline=true",
+      "status": "PASS",
+      "detail": {
+        "scrollW": 1440,
+        "clientW": 1440,
+        "bodyScrollW": 1440,
+        "docH": 17826,
+        "h1fs": 198,
+        "top3": [
+          {
+            "tag": "H1",
+            "cls": "hero__name in",
+            "fs": 198
+          },
+          {
+            "tag": "SPAN",
+            "cls": "hero__line",
+            "fs": 198
+          },
+          {
+            "tag": "SPAN",
+            "cls": "hero__line",
+            "fs": 198
+          },
+          {
+            "tag": "H2",
+            "cls": "plate__pair",
+            "fs": 128
+          },
+          {
+            "tag": "SPAN",
+            "cls": "plate__word",
+            "fs": 128
+          },
+          {
+            "tag": "SPAN",
+            "cls": "plate__word plate__word--accent",
+            "fs": 128
+          }
+        ],
+        "plates": 7,
+        "videos": 7,
+        "supportsScrollTimeline": true
+      }
+    },
+    {
+      "name": "w1440: no horizontal overflow at top",
+      "status": "PASS",
+      "detail": {
+        "scrollW": 1440,
+        "clientW": 1440,
+        "bodyScrollW": 1440
+      }
+    },
+    {
+      "name": "w1440: Nick's name (h1) is the largest type",
+      "status": "PASS",
+      "detail": {
+        "h1": 198,
+        "largestOther": {
+          "tag": "H2",
+          "cls": "plate__pair",
+          "fs": 128
+        }
+      }
+    },
+    {
+      "name": "w1440: no clickable text wraps to 2+ lines (gate 49)",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "w1440: no horizontal overflow at any plate progress",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "name": "w1440: page is finite (reachable end) and no overflow at end",
+      "status": "PASS",
+      "detail": {
+        "s": 1440,
+        "c": 1440,
+        "finite": true
+      }
+    },
+    {
+      "name": "contrast through transitions: 510 samples; worst-pixel failures=64; mean failures=0",
+      "status": "FAIL",
+      "detail": {
+        "worstPixelFails": [
+          {
+            "l": "w320 hero-top .hero__name \"Nick Salazar\"",
+            "worst": 2.76,
+            "mean": 5.4,
+            "thr": 3
+          },
+          {
+            "l": "w320 hero-top h1 \"Nick Salazar\"",
+            "worst": 2.76,
+            "mean": 5.39,
+            "thr": 3
+          },
+          {
+            "l": "w320 plate2 p12 .plate:nth-of-type(2) .plate__story \"Steel does not forgive a vague report. C\"",
+            "worst": 2.48,
+            "mean": 16.73,
+            "thr": 4.5
+          },
+          {
+            "l": "w320 plate2 p12 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
+            "worst": 1.01,
+            "mean": 6.68,
+            "thr": 4.5
+          },
+          {
+            "l": "w320 plate3 p12 #plate-crane .plate__story \"A heavy lift is planned on paper and pro\"",
+            "worst": 2.48,
+            "mean": 16.56,
+            "thr": 4.5
+          },
+          {
+            "l": "w320 plate3 p12 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
+            "worst": 1.02,
+            "mean": 6.92,
+            "thr": 4.5
+          },
+          {
+            "l": "w320 plate4 p12 #plate-drums .plate__story \"Inside a container the cargo has nowhere\"",
+            "worst": 2.48,
+            "mean": 15.73,
+            "thr": 4.5
+          },
+          {
+            "l": "w320 plate4 p12 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
+            "worst": 1.03,
+            "mean": 6.61,
+            "thr": 4.5
+          },
+          {
+            "l": "w320 plate5 p12 #plate-containers .plate__story \"Break bulk cargo travels exposed: flat r\"",
+            "worst": 2.48,
+            "mean": 17.01,
+            "thr": 4.5
+          },
+          {
+            "l": "w320 plate5 p12 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
+            "worst": 1,
+            "mean": 6.58,
+            "thr": 4.5
+          },
+          {
+            "l": "w320 plate6 p12 #plate-warehouse .plate__story \"Packing problems show up long after the \"",
+            "worst": 2.48,
+            "mean": 16.42,
+            "thr": 4.5
+          },
+          {
+            "l": "w320 plate6 p12 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
+            "worst": 1.04,
+            "mean": 6.91,
+            "thr": 4.5
+          }
+        ],
+        "meanFails": []
+      }
+    },
+    {
+      "name": "keyboard: Tab reaches 20 focusable elements; all show a visible ring",
+      "status": "PASS",
+      "detail": {
+        "noRing": [],
+        "first": [
+          {
+            "tag": "A",
+            "text": "Skip to content",
+            "outline": "solid 2px oklch(0.78 0.14 60)",
+            "boxShadow": "none",
+            "inView": true,
+            "ring": true
+          },
+          {
+            "tag": "A",
+            "text": "Nick Salazar",
+            "outline": "solid 2px oklch(0.78 0.14 60)",
+            "boxShadow": "none",
+            "inView": true,
+            "ring": true
+          },
+          {
+            "tag": "A",
+            "text": "Credentials",
+            "outline": "solid 2px oklch(0.78 0.14 60)",
+            "boxShadow": "none",
+            "inView": true,
+            "ring": true
+          },
+          {
+            "tag": "A",
+            "text": "Work",
+            "outline": "solid 2px oklch(0.78 0.14 60)",
+            "boxShadow": "none",
+            "inView": true,
+            "ring": true
+          },
+          {
+            "tag": "A",
+            "text": "Services",
+            "outline": "solid 2px oklch(0.78 0.14 60)",
+            "boxShadow": "none",
+            "inView": true,
+            "ring": true
+          },
+          {
+            "tag": "A",
+            "text": "Contact",
+            "outline": "solid 2px oklch(0.78 0.14 60)",
+            "boxShadow": "none",
+            "inView": true,
+            "ring": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "keyboard: skip link is first tab stop and becomes visible",
+      "status": "PASS",
+      "detail": {
+        "text": "Skip to content",
+        "href": "#main",
+        "visible": true
+      }
+    },
+    {
+      "name": "nav: 4 pill links navigate to in-page targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "href": "#credentials",
+          "before": 0,
+          "y": 2710,
+          "hash": "#credentials",
+          "targetTop": 80
+        },
+        {
+          "href": "#work",
+          "before": 2710,
+          "y": 8179,
+          "hash": "#work",
+          "targetTop": 79.734375
+        },
+        {
+          "href": "#services",
+          "before": 8179,
+          "y": 5065,
+          "hash": "#services",
+          "targetTop": 80.078125
+        },
+        {
+          "href": "#contact",
+          "before": 5065,
+          "y": 15391,
+          "hash": "#contact",
+          "targetTop": 80.4375
+        }
+      ]
+    },
+    {
+      "name": "nav: keyboard Enter activates a nav link",
+      "status": "PASS",
+      "detail": {
+        "y": 0,
+        "hash": "#top"
+      }
+    },
+    {
+      "name": "contact: live brief assembles from fields",
+      "status": "PASS",
+      "detail": "ASSIGNMENT BRIEF — Nick Salazar, marine surveyor\nPrepared locally on 2026-09-05\n\nSURVEY TYPE: Break bulk\nCARGO DESCRIPTION: Test cargo: 40 steel coils, 18 t each\nPORT OR FACILITY: Test facility\nTIMING: Next week\nEVIDENCE YOU NEED: Condition photos and a signed report\nYOUR NAME: Test Adjuster\nORGANISATION: Test Syndicate\nHOW TO REACH YOU: test@example.invalid\n\nThis brief was written on the visitor'"
+    },
+    {
+      "name": "contact: Copy brief writes clipboard and shows non-sending status",
+      "status": "PASS",
+      "detail": {
+        "clip": "ASSIGNMENT BRIEF — Nick Salazar, marine surveyor\nPrepared locally on 2026-09-05\n\nSURVEY TYPE: Break bulk\nCARGO DESCRIPTI",
+        "status": "Copied. Nothing was sent."
+      }
+    },
+    {
+      "name": "contact: Download .txt produces a local file containing the brief",
+      "status": "PASS",
+      "detail": {
+        "file": "/Users/scottscheferman/nick-salazar-website/analysis/verification/browser/downloaded-assignment-brief.txt",
+        "bytes": 441,
+        "filename": "assignment-brief.txt"
+      }
+    },
+    {
+      "name": "contact: page states nothing is sent; no network request made by the utility",
+      "status": "PASS",
+      "detail": {
+        "note": "Nothing is sent from this page. Copy or download the brief and send it through your own channel.",
+        "externalRequests": []
+      }
+    },
+    {
+      "name": "reduced-motion: videos never play, no long animations, pointer light off",
+      "status": "PASS",
+      "detail": {
+        "matches": true,
+        "videos": [
+          {
+            "paused": true,
+            "src": true,
+            "poster": true
+          },
+          {
+            "paused": true,
+            "src": false,
+            "poster": true
+          },
+          {
+            "paused": true,
+            "src": false,
+            "poster": true
+          },
+          {
+            "paused": true,
+            "src": false,
+            "poster": true
+          },
+          {
+            "paused": true,
+            "src": false,
+            "poster": true
+          },
+          {
+            "paused": true,
+            "src": false,
+            "poster": true
+          },
+          {
+            "paused": true,
+            "src": false,
+            "poster": true
+          }
+        ],
+        "animated": 0,
+        "pointerLight": "none/0"
+      }
+    },
+    {
+      "name": "autoplay denied: page stays legible, posters shown, no uncaught errors",
+      "status": "PASS",
+      "detail": {
+        "errs": [],
+        "videos": [
+          {
+            "paused": true,
+            "poster": true,
+            "cls": "plate plate--hero"
+          },
+          {
+            "paused": false,
+            "poster": true,
+            "cls": "plate"
+          },
+          {
+            "paused": true,
+            "poster": true,
+            "cls": "plate"
+          },
+          {
+            "paused": true,
+            "poster": true,
+            "cls": "plate"
+          },
+          {
+            "paused": true,
+            "poster": true,
+            "cls": "plate"
+          },
+          {
+            "paused": true,
+            "poster": true,
+            "cls": "plate"
+          },
+          {
+            "paused": true,
+            "poster": true,
+            "cls": "plate"
+          }
+        ]
+      }
+    },
+    {
+      "name": "slow network (400 kbps, 150 ms): DOMContentLoaded 7419 ms; h1 visible; transferred 269 KB; mp4 requests so far: 0",
+      "status": "PASS",
+      "detail": {
+        "dcl": 7419,
+        "vidReq": []
+      }
+    },
+    {
+      "name": "offscreen pause: no offscreen video is playing after scrolling to plate 3",
+      "status": "PASS",
+      "detail": {
+        "before": [
+          {
+            "paused": false,
+            "ns": 1,
+            "hasSrc": true,
+            "rs": 4
+          },
+          {
+            "paused": true,
+            "ns": 3,
+            "hasSrc": false,
+            "rs": 0
+          },
+          {
+            "paused": true,
+            "ns": 3,
+            "hasSrc": false,
+            "rs": 0
+          },
+          {
+            "paused": true,
+            "ns": 3,
+            "hasSrc": false,
+            "rs": 0
+          },
+          {
+            "paused": true,
+            "ns": 3,
+            "hasSrc": false,
+            "rs": 0
+          },
+          {
+            "paused": true,
+            "ns": 3,
+            "hasSrc": false,
+            "rs": 0
+          },
+          {
+            "paused": true,
+            "ns": 3,
+            "hasSrc": false,
+            "rs": 0
+          }
+        ],
+        "after": [
+          {
+            "paused": true,
+            "inView": false,
+            "hasSrc": true,
+            "rs": 4
+          },
+          {
+            "paused": true,
+            "inView": false,
+            "hasSrc": false,
+            "rs": 0
+          },
+          {
+            "paused": false,
+            "inView": true,
+            "hasSrc": true,
+            "rs": 4
+          },
+          {
+            "paused": true,
+            "inView": false,
+            "hasSrc": false,
+            "rs": 0
+          },
+          {
+            "paused": true,
+            "inView": false,
+            "hasSrc": false,
+            "rs": 0
+          },
+          {
+            "paused": true,
+            "inView": false,
+            "hasSrc": false,
+            "rs": 0
+          },
+          {
+            "paused": true,
+            "inView": false,
+            "hasSrc": false,
+            "rs": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "lazy loading: the last two videos are not loaded before they are near view",
+      "status": "PASS",
+      "detail": {
+        "last2": [
+          {
+            "paused": true,
+            "inView": false,
+            "hasSrc": false,
+            "rs": 0
+          },
+          {
+            "paused": true,
+            "inView": false,
+            "hasSrc": false,
+            "rs": 0
+          }
+        ]
+      },
+      "note": "FAIL here means bytes were fetched early; may be acceptable if preload=metadata by design — see detail"
+    },
+    {
+      "name": "fallback: with CSS.supports(animation-timeline) forced false (native support=false), JS fallback drives --progress / shade / media across scroll",
+      "status": "PASS",
+      "detail": {
+        "progVals": [
+          {
+            "progress": "0.4000",
+            "cls": "plate plate--hero",
+            "shadeOpacity": "0.22",
+            "mediaTransform": "matrix(1, 0, 0, 1, 0, 0)"
+          },
+          {
+            "progress": "0.5600",
+            "cls": "plate plate--hero",
+            "shadeOpacity": "0.442222",
+            "mediaTransform": "matrix(1, 0, 0, 1, 0, -32.256)"
+          },
+          {
+            "progress": "0.7200",
+            "cls": "plate plate--hero",
+            "shadeOpacity": "0.664444",
+            "mediaTransform": "matrix(1, 0, 0, 1, 0, -64.512)"
+          }
+        ],
+        "errs": []
+      }
+    },
+    {
+      "name": "scroll capture recorded (webm; converted to mp4 by the runner)",
+      "status": "PASS",
+      "detail": {
+        "path": "/Users/scottscheferman/nick-salazar-website/analysis/verification/browser/video-raw/page@7aa8349674c9f5427fcca716c07d5371.webm"
+      }
+    },
+    {
+      "name": "console: 0 error/warning entries across all runs",
+      "status": "PASS",
+      "detail": []
+    }
+  ],
+  "log": []
+}

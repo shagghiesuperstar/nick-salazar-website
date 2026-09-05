@@ -1,0 +1,12 @@
+SUITE ERROR page.goto: net::ERR_EMPTY_RESPONSE at http://127.0.0.1:8123/
+Call log:
+[2m  - navigating to "http://127.0.0.1:8123/", waiting until "load"[22m
+
+    at go (/Users/scottscheferman/nick-salazar-website/analysis/verification/tests/browser_suite.mjs:16:264)
+    at async file:///Users/scottscheferman/nick-salazar-website/analysis/verification/tests/browser_suite.mjs:54:28 {
+  log: [
+    '  - navigating to "http://127.0.0.1:8123/", waiting until "load"'
+  ],
+  name: 'Error'
+}
+[FAIL] SUITE ABORTED (partial results above) :: Error: page.goto: net::ERR_EMPTY_RESPONSE at http://127.0.0.1:8123/

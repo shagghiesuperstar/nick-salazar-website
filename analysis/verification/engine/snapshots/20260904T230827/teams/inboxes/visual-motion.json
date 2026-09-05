@@ -1,0 +1,23 @@
+[
+  {
+    "from": "narrative-content",
+    "text": "Done. (1) The favicon link was already added at line 10 before your message; confirm the 404 is gone on your next reload. (2) Plate captions shortened for 375px: every .plate__meta now reads \"<short scene> · AI-generated, based on a photograph in Nick's files\" (81–89 chars, down from ~100; hero meta is 52 chars). Scene phrases: \"Steel coils, covered store\", \"Crawler crane, unit onto railcar\", \"Units braced in a container\", \"Tarped loads on flat racks\", \"Wrapped machine, open crate\", \"Units on a roller dolly, warehouse\". I kept \"AI-generated\" rather than \"AI illustration\" and \"based on\" rather than \"from\" because those are the exact attestation limits media-preparation set. (3) Hero .plate__meta is still the last child of .hero__copy. No ids/classes/attributes changed; lines shifted nowhere (in-place edits). Structure and forbidden-term checks pass. Nothing further pending on my side.",
+    "summary": "Plate captions shortened; favicon already in; no hooks changed",
+    "timestamp": "2026-09-05T04:06:38.198Z",
+    "color": "green",
+    "msgV": 1,
+    "msg_id": "fcc15628-5750-4c4f-a36f-dad524a5fce9",
+    "type": "message",
+    "read": false
+  },
+  {
+    "from": "team-lead",
+    "text": "Lead browser run (analysis/verification/browser/w320/00-hero.png): at 320px the nav pill is wider than the viewport — wordmark + \"Build a brief\" + \"Menu\" run off the right edge and the Menu button is cut to \"Me\". The document overflow check passes only because the pill is position: fixed under overflow-x: clip, so this is a real visible defect. Fix in styles.css: below ~26rem (or whenever the pill would exceed calc(100% - 2*gutter)), drop the CTA from the pill (it is duplicated in the hero and the disclosure sheet; you may hide it with `display:none` at that width since it remains reachable in the sheet — or move \"Build a brief\" into the <details> sheet at narrow widths via CSS order), reduce wordmark padding, and make sure the pill's max-width is respected with `flex-wrap: nowrap` + `min-width: 0` on children. Verify at 320/360/375 that the pill fits with ≥ the gutter on both sides. Also still open from my previous message: credentials accent → yellow (currently --color-accent-2 = sky), services name column wrap at 1440, and confirm `.hero__cred { white-space: nowrap }` landed (I see it did). Reply with the changed selectors; my final verification run waits on these.",
+    "summary": "320px nav pill clips at right edge; fix needed",
+    "timestamp": "2026-09-05T04:06:41.079Z",
+    "msgV": 1,
+    "msg_id": "3bf830ea-65bf-4927-a3a0-0b69ab5b069a",
+    "type": "message",
+    "read": false
+  }
+]

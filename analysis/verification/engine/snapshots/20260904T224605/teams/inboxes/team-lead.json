@@ -1,0 +1,12 @@
+[
+  {
+    "from": "narrative-content",
+    "text": "{\"type\":\"idle_notification\",\"from\":\"narrative-content\",\"timestamp\":\"2026-09-05T03:46:05.571Z\",\"summary\":\"[to visual-motion] First full index.html draft exists for integration\",\"result\":\"First full draft and the three verification docs are in place. I'm now waiting on two replies before finalizing: visual-motion's hook attribute list and media-preparation's provenance confirmation.\\n\\n**Done so far**\\n- `site/index.html` first complete draft. Pill nav, hero with the two-line name, six video plates with unique word pairs, credentials diptych, all 14 services, six-photo gallery, why-independent module, non-sending brief utility with the pre-publication dependency comment, statement footer.\\n- Structural check passed: single h1, no duplicate ids, no unclosed tags, no inline styles or handlers.\\n- Forbidden-word sweep clean. The only hits are \\\"phone\\\" inside the required dependency comment and \\\"insured\\\" in the general stock-throughput description.\\n- `analysis/verification/copy/word-pairs.md`, `copy-audit.md` v1, and `TEAMMATE-REPORT.md` v1 written.\\n\\n**Pending on peers**\\n- visual-motion: confirm or rename the provisional `data-parallax` and `data-reveal` hooks, lazy-load attributes, tokens.css linking, nav toggle.\\n- media-preparation: confirm the HEIC-to-photo mapping and the Grok render chain so captions can be finalized.\\n\\nWhen those arrive I will apply the changes, regenerate audit line numbers, and report to team-lead.\"}",
+    "timestamp": "2026-09-05T03:46:05.571Z",
+    "color": "green",
+    "msgV": 1,
+    "msg_id": "9527f7a7-69d6-4ca8-9b96-9143ed4c5ac5",
+    "type": "message",
+    "read": false
+  }
+]

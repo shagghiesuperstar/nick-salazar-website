@@ -1,0 +1,3 @@
+result: "{\"scrollH\":27212,\"innerW\":1440,\"innerH\":848,\"bodyBg\":\"rgb(247, 244, 232)\",\"htmlBg\":\"rgb(247, 244, 232)\",\"bodyColor\":\"rgb(0, 0, 0)\",\"bodyFont\":\"fkGroteskNeue, \\\"fkGroteskNeue Fallback\\\", sans-serif\",\"title\":\"Drone Delivery for Food, Groceries, and Medicine | Zipline\"}"
+help[1]:
+  Run `chrome-devtools-axi snapshot` to see current page state

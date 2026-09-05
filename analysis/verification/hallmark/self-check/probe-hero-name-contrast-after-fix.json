@@ -1,0 +1,21 @@
+{
+ "note": "background pixels sampled inside the .hero__name box excluding a 3px halo around any orange pixel (anti-aliasing edges); hero shade at load 0.32; text = median luminance of solid orange pixels",
+ "results": {
+  "320": {
+   "text_median_lum": 0.295,
+   "bg_brightest_lum_excl_3px_halo": 0.011,
+   "bg_p99": 0.01,
+   "worst_ratio": 5.63,
+   "p99_ratio": 5.75,
+   "n_bg": 73491
+  },
+  "375": {
+   "text_median_lum": 0.295,
+   "bg_brightest_lum_excl_3px_halo": 0.011,
+   "bg_p99": 0.011,
+   "worst_ratio": 5.63,
+   "p99_ratio": 5.69,
+   "n_bg": 103782
+  }
+ }
+}

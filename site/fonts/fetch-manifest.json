@@ -1,0 +1,47 @@
+[
+ {
+  "family": "Big Shoulders Display",
+  "weight": "700",
+  "file": "big-shoulders-display-700-latin.woff2",
+  "url": "https://fonts.gstatic.com/s/bigshouldersdisplay/v24/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdWg8FFkwSDH92ZW40Q.woff2",
+  "bytes": 14488,
+  "sha256": "58f4ff9ea245f358ed5589973c72b0ccef9c631c56ae0897b8cd5dfdf38f0a31",
+  "magic": "774f4632"
+ },
+ {
+  "family": "Big Shoulders Display",
+  "weight": "800",
+  "file": "big-shoulders-display-800-latin.woff2",
+  "url": "https://fonts.gstatic.com/s/bigshouldersdisplay/v24/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdQ88FFkwSDH92ZW40Q.woff2",
+  "bytes": 14508,
+  "sha256": "00279b727352bb2bd7a556d6bd4ea048ee4c1e37a4f9f3fa504ce6ee1f2491a4",
+  "magic": "774f4632"
+ },
+ {
+  "family": "Big Shoulders Display",
+  "weight": "900",
+  "file": "big-shoulders-display-900-latin.woff2",
+  "url": "https://fonts.gstatic.com/s/bigshouldersdisplay/v24/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdSY8FFkwSDH92ZW40Q.woff2",
+  "bytes": 13900,
+  "sha256": "8b3f2461f696dd6d04632b3180e2aff47e9a9400f76c3c62e37f8f45dfc5fab1",
+  "magic": "774f4632"
+ },
+ {
+  "family": "Geist",
+  "weight": "400",
+  "file": "geist-400-latin.woff2",
+  "url": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RnOMImpna6VEdtZiI.woff2",
+  "bytes": 13536,
+  "sha256": "fd943a89f854696def158c9889e67894ca613f81bed98d1c1c3509f4d7061772",
+  "magic": "774f4632"
+ },
+ {
+  "family": "Geist",
+  "weight": "500",
+  "file": "geist-500-latin.woff2",
+  "url": "https://fonts.gstatic.com/s/geist/v5/gyBhhwUxId8gMGYQMKR3pzfaWI_RruMImpna6VEdtZiI.woff2",
+  "bytes": 13864,
+  "sha256": "c75f076e5caf153220196557d9b20d82e7606b10840499a724c01aa9697679c0",
+  "magic": "774f4632"
+ }
+]

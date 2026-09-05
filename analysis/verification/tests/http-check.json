@@ -1,0 +1,178 @@
+{
+  "checked": "2026-09-04T23:10:12.948527-05:00",
+  "base": "http://127.0.0.1:8124/",
+  "index_status": 200,
+  "index_bytes": 28827,
+  "refs": [
+    {
+      "tag": "script",
+      "url": "app.js",
+      "status": 200,
+      "type": "text/javascript",
+      "bytes": 13113
+    },
+    {
+      "tag": "img",
+      "url": "assets/photos/hero.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 344015
+    },
+    {
+      "tag": "img",
+      "url": "assets/photos/photo-coils.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 320030
+    },
+    {
+      "tag": "img",
+      "url": "assets/photos/photo-crane.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 347138
+    },
+    {
+      "tag": "img",
+      "url": "assets/photos/photo-drums.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 328961
+    },
+    {
+      "tag": "img",
+      "url": "assets/photos/photo-skid.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 312271
+    },
+    {
+      "tag": "img",
+      "url": "assets/photos/photo-warehouse.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 300409
+    },
+    {
+      "tag": "img",
+      "url": "assets/photos/photo-yard.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 332903
+    },
+    {
+      "tag": "video",
+      "url": "assets/photos/poster-01-hero.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 328172
+    },
+    {
+      "tag": "video",
+      "url": "assets/photos/poster-02-coils.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 161544
+    },
+    {
+      "tag": "video",
+      "url": "assets/photos/poster-03-crane.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 319417
+    },
+    {
+      "tag": "video",
+      "url": "assets/photos/poster-04-drums.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 334309
+    },
+    {
+      "tag": "video",
+      "url": "assets/photos/poster-05-containers.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 344988
+    },
+    {
+      "tag": "video",
+      "url": "assets/photos/poster-06-warehouse.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 347303
+    },
+    {
+      "tag": "video",
+      "url": "assets/photos/poster-07-yard.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 325482
+    },
+    {
+      "tag": "source",
+      "url": "assets/videos/01-hero.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 4571422
+    },
+    {
+      "tag": "source",
+      "url": "assets/videos/02-coils.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 2664903
+    },
+    {
+      "tag": "source",
+      "url": "assets/videos/03-crane.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 5535539
+    },
+    {
+      "tag": "source",
+      "url": "assets/videos/04-drums.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 7504230
+    },
+    {
+      "tag": "source",
+      "url": "assets/videos/05-containers.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 2176192
+    },
+    {
+      "tag": "source",
+      "url": "assets/videos/06-warehouse.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 2280226
+    },
+    {
+      "tag": "source",
+      "url": "assets/videos/07-yard.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 6591641
+    },
+    {
+      "tag": "link",
+      "url": "styles.css",
+      "status": 200,
+      "type": "text/css",
+      "bytes": 33645
+    },
+    {
+      "tag": "css:styles.css",
+      "url": "tokens.css",
+      "status": 200,
+      "type": "text/css",
+      "bytes": 9423
+    }
+  ],
+  "external_refs": [],
+  "non200": 0
+}

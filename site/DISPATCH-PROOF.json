@@ -1,0 +1,32 @@
+{
+  "event": "cc-dispatch-confirmed",
+  "cc_pid": 30065,
+  "cc_model": "claude-fable-5-1",
+  "cc_effort": "high",
+  "cc_agent_teams": "in-process",
+  "cc_add_dirs": [
+    "/Users/scottscheferman/.hermes/kanban/workspaces/nick-salazar-site",
+    "/Users/scottscheferman/nick-salazar-website/analysis"
+  ],
+  "cc_launch_dir": "/Users/scottscheferman/nick-salazar-website",
+  "work_order": "/Users/scottscheferman/orchestrator/orders/nick-salazar-site.md",
+  "spec_files": [
+    "/Users/scottscheferman/.hermes/kanban/workspaces/nick-salazar-site/analysis-nick-salazar-site.md",
+    "/Users/scottscheferman/.hermes/kanban/workspaces/nick-salazar-site/prd-nick-salazar-site.md",
+    "/Users/scottscheferman/.hermes/kanban/workspaces/nick-salazar-site/arch-nick-salazar-site.md",
+    "/Users/scottscheferman/.hermes/kanban/workspaces/nick-salazar-site/story-2-build.md",
+    "/Users/scottscheferman/nick-salazar-website/analysis/research/zipline-dna.md"
+  ],
+  "skill": "/Users/scottscheferman/.claude/skills/hallmark/.agents/skills/hallmark",
+  "ar_protocol": {
+    "reviewer_model": "grok-4.6",
+    "critic_model": "z-ai/glm-5.3",
+    "max_inner_rounds": 5,
+    "criteria": "Scott's original brief A-Q + 15 mechanical Hallmark gates"
+  },
+  "started_utc": "2026-09-05T03:23:05Z",
+  "max_runtime_seconds": 14400,
+  "cost_to_nous": "$0 (Claude API on Max plan)",
+  "browser_spend": "$0 (Nous browser budget untouched)",
+  "harness_patch": "cc-run-v2.sh: removed explicit --effort ban (CC 2.1.258+ lists --effort in --help; general --help check covers truly-unknown flags). .bak at cc-run-v2.sh.bak.20260905_0322"
+}
