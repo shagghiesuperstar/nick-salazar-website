@@ -208,6 +208,7 @@
     var status = doc.getElementById("brief-status");
     var copyBtn = doc.getElementById("brief-copy");
     var dlBtn = doc.getElementById("brief-download");
+    var sendBtn = doc.getElementById("brief-send");
     var fields = [].slice.call(form.querySelectorAll("input, select, textarea"));
     var stateTimer = null;
 
@@ -225,7 +226,7 @@
         lines.push(labelFor(el).toUpperCase() + ": " + v);
       });
       if (!any) lines.push("(Fill in the fields above; the brief assembles here as you type.)");
-      lines.push("", "This brief was written on the visitor's device and has not been sent to anyone.");
+      lines.push("");
       return lines.join("\n");
     }
     function render() { if (out) out.textContent = buildBrief(); }
@@ -292,6 +293,37 @@
         if (navigator.clipboard && navigator.clipboard.writeText) {
           navigator.clipboard.writeText(text).then(done, fail);
         } else { fail(); }
+      });
+    }
+    if (sendBtn) {
+      sendBtn.addEventListener("click", function () {
+        var text = buildBrief();
+        var nameEl = doc.getElementById("bf-name");
+        var contactEl = doc.getElementById("bf-contact");
+        var name = nameEl ? (nameEl.value || "").trim() : "";
+        var reply = contactEl ? (contactEl.value || "").trim() : "";
+        sendBtn.disabled = true;
+        say("Sending…");
+        fetch("/api/contact", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ brief: text, name: name, reply_to: reply })
+        }).then(function (res) {
+          return res.json().then(function (data) { return { res: res, data: data }; });
+        }).then(function (pack) {
+          sendBtn.disabled = false;
+          if (pack.data && pack.data.ok) {
+            flash(sendBtn, "success", "Sent");
+            say("Sent to Nick at Houtxsurvey@outlook.com.");
+          } else {
+            flash(sendBtn, "error", "Not sent");
+            say((pack.data && pack.data.error) || "Could not send. Copy the brief and email Nick.", true);
+          }
+        }).catch(function () {
+          sendBtn.disabled = false;
+          flash(sendBtn, "error", "Not sent");
+          say("Could not reach the mail service. Copy the brief and email Nick.", true);
+        });
       });
     }
     if (dlBtn) {
