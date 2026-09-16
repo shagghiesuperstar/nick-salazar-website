@@ -1,6 +1,6 @@
 # Nick Salazar — independent marine surveyor & cargo consultant (static site)
 
-Status: **local preview build, not published.** Branch `feat/t_27ed7897`. Built by a Claude Code Agent Team (lead + 3 teammates, all claude-fable-5-1, effort high); evidence in `../analysis/verification/`.
+Status: **live on Cloudflare Pages (nicksalazar.net) from the `main` branch.** Originally built on branch `feat/t_27ed7897`. Built by a Claude Code Agent Team (lead + 3 teammates, all claude-fable-5-1, effort high); evidence in `../analysis/verification/`.
 
 ## View it locally (exact steps)
 
@@ -19,9 +19,9 @@ Verified during the build on the lead's loopback server at **http://127.0.0.1:81
 
 | path | purpose |
 |---|---|
-| `index.html` | the whole page: floating pill nav → hero (name + credentials over video) → 6 further video plates with word pairs and story blocks → credentials → services (complete supplied list) → gallery of Nick's photos → why-independent → contact (email + assignment-brief utility) → footer |
+| `index.html` | the whole page: floating pill nav → hero (name + credentials over video) → 6 further video plates with word pairs and story blocks → credentials → services (complete supplied list) → gallery of Nick's photos → why-independent → request a survey (email link, request form with Send / Copy / Download, what-to-include aside) → footer |
 | `styles.css`, `tokens.css` | Hallmark studied-DNA build (stamp on line 1 of styles.css); every colour/font is a token in `tokens.css` |
-| `app.js` | video play/pause in view, lazy source attach, scroll-progress fallback for browsers without CSS scroll-driven animations, reveal stagger, hero pointer light (off for reduced-motion / touch), nav current-section, assignment-brief copy/download. No network calls. |
+| `app.js` | video play/pause in view, lazy source attach, scroll-progress fallback for browsers without CSS scroll-driven animations, reveal stagger, hero pointer light (off for reduced-motion / touch), nav current-section + retract on scroll-down, survey-request message assembly with copy/download (local) and **Send to Nick** (the page's only network call: a POST to the Cloudflare Email Worker in `../src/mail-worker.js`, which mails `Houtxsurvey@outlook.com`). |
 | `fonts/` | self-hosted Big Shoulders Display + Geist (SIL OFL 1.1, see `fonts/LICENSES.md`); no runtime requests leave the origin (the favicon is an inline `data:` URI) |
 | `assets/videos/`, `assets/photos/` | 7 AI-generated (Grok) clips + posters; 7 client-supplied photos (resized from HEIC originals). Provenance: `assets/MANIFEST.md` and `../analysis/verification/media/reconciliation.md` |
 
@@ -29,11 +29,16 @@ Also present: `.hallmark/log.json` (Hallmark project memory) and `DISPATCH-PROOF
 
 ## Before publishing (dependencies recorded, not resolved here)
 
-1. **Contact destination — wired by the operator on 2026-09-04.** The Contact section and footer link to `Houtxsurvey@outlook.com` (supplied directly by the operator, not from the two source files; confirm it with Nick before publishing). The assignment-brief utility still assembles a plain-text brief for copy/download and states that nothing is submitted from the page.
+1. **Contact.** The Request-a-survey section and footer link to `Houtxsurvey@outlook.com`; **Send to Nick** posts the assembled message to the Email Worker (`../mail-worker.toml`, deployed separately with `npx wrangler deploy -c mail-worker.toml`). Copy and Download stay on the visitor's device. Confirm the mailbox with Nick; a `@nicksalazar.net` address would read stronger to B2B buyers.
 2. **Remove `<meta name="robots" content="noindex">`** in `index.html` when the site goes live.
 3. **Credentials are client-supplied and unverified** (the page says so). Confirm with Nick before removing the note.
 4. **Video plates are AI-generated illustrative footage** and are captioned as such; gallery photographs are from Nick's files. Do not re-caption plates as documentary.
 5. Independent external review (the redcell phase, criterion Q) has not run on this build.
+
+## Deploying (Cloudflare)
+
+- **Site:** Cloudflare Pages project `nicksalazar` (`../wrangler.toml`, `pages_build_output_dir = "site"`, plus the Pages Function `../functions/api/contact.js`). If the project is connected to the GitHub repo, every push to `main` builds and deploys production automatically and every other branch gets a preview URL; if it was set up by direct upload, deploy with `npx wrangler pages deploy site --project-name nicksalazar` after merging.
+- **Mail worker:** separate Worker `nicksalazar-mail` (`../mail-worker.toml`, `../src/mail-worker.js`); redeploy only when that file changes: `npx wrangler deploy -c mail-worker.toml`.
 
 ## Editing copy
 

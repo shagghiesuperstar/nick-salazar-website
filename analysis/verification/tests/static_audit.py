@@ -48,14 +48,15 @@ add('HTML: every <img> has width+height', not nodim, [str(i) for i in nodim] or 
 auto=[v for v in p.videos if 'autoplay' in v[0]]; unmuted=[v for v in p.videos if 'muted' not in v[0]]; nopost=[v for v in p.videos if not v[0].get('poster')]
 add('HTML: videos: no autoplay attr, all muted+playsinline, all have poster', not auto and not unmuted and not nopost and all('playsinline' in v[0] for v in p.videos), [f'videos={len(p.videos)} autoplay-attr={len(auto)} unmuted={len(unmuted)} no-poster={len(nopost)}'])
 add('HTML: video count >= 6 plates', len(p.videos)>=7, [f'videos={len(p.videos)}, sections with class plate={len(re.findall(r"class=\"[^\"]*\bplate\b", html))}'])
-ext=lines_matching(html, r'(src|href)="https?://')
+ext=[l for l in lines_matching(html, r'(src|href)="https?://') if not re.search(r'rel="(canonical|alternate)"|property="og:', l)]   # canonical/og URLs are metadata, not fetched resources
 add('HTML: no external http(s) resource references', not ext, ext or ['none'])
 add('HTML: contact destination present (operator wired the address; the pre-publication dependency comment was removed by the operator)', 'mailto:' in html, lines_matching(html, r'mailto:')[:3] or ['missing'])
 OPERATOR_CONTACT = 'Houtxsurvey@outlook.com'   # supplied directly by the operator on 2026-09-04 23:2x (not from the source files); the only permitted address
 addrs = set(re.findall(r'[\w.+-]+@[\w-]+\.\w+', html)); tels = lines_matching(html, r'tel:')
 add('HTML: no invented contact — only the operator-supplied address appears, no tel:', addrs <= {OPERATOR_CONTACT} and not tels, [f'addresses found: {sorted(addrs)}', f'operator-supplied: {OPERATOR_CONTACT}', f'mailto occurrences: {len(re.findall(r"mailto:", html))}'] + tels)
 banned = r'\b(rare|rarest|unusual|commanded|command(ing)? (of )?vessels?|guarantee[sd]?|settle(d|ment)s? (in|for)|Houston|testimonial|trusted by|clients include|\d+\+ (surveys|clients|jobs)|\d+ ?%|Lorem|Jane Doe|John Smith|seamless|unleash|empower|elevate|supercharge|next-generation)\b'
-bl=lines_matching(html, banned)
+html_text = re.sub(r'href="data:[^"]*"', 'href="data:"', html)   # percent-encoded data URIs are not copy
+bl=lines_matching(html_text, banned)
 add('COPY: banned / unsupported-claim words absent (rare, command history, guarantees, Houston, testimonials, %, +N, clichés)', not bl, bl or ['none'])
 add('COPY: complete service list incl. towing survey', all(k in html.lower() for k in ['break bulk','heavy lift','steel pipe','stock throughput','cargo claim','csc container','draft survey','towing','loading','stowage','railcar','truck','jack and slide','airfreight','packing','crate']), [k for k in ['break bulk','heavy lift','steel pipe','stock throughput','cargo claim','csc container','draft survey','towing','loading','stowage','railcar','truck','jack and slide','airfreight','packing','crate'] if k not in html.lower()] or ['all 16 terms present'])
 add('COPY: credentials present (Second Mate Unlimited, 1600-Ton Master, ~10 years)', all(k in html for k in ['Second Mate Unlimited','1600-Ton Master']) and re.search(r'10 years|ten years|a decade surveying', html, re.I) is not None, lines_matching(html, r'Second Mate Unlimited|1600-Ton Master|10 years|ten years|decade surveying')[:5])
@@ -92,10 +93,12 @@ add('CSS: overflow-wrap: anywhere on display', 'overflow-wrap' in allcss and 'an
 add('CSS: uppercase display line-height ≥ 1.0 (gate 55) — line-height < 1 lines listed', not [l for l in lines_matching(allcss, r'line-height\s*:\s*0?\.\d+') ], [l for l in lines_matching(allcss, r'line-height\s*:\s*0?\.\d+')] or ['no line-height below 1.0'])
 add('CSS: nowrap on clickable text (gate 49)', 'white-space: nowrap' in allcss.replace(' ','') or 'white-space:nowrap' in allcss.replace(' ',''), lines_matching(allcss, r'white-space\s*:\s*nowrap')[:3] or ['missing'])
 # JS checks
-add('JS: no external fetch/XHR/network sends', not re.search(r'fetch\(|XMLHttpRequest|navigator\.sendBeacon|WebSocket\(', js), lines_matching(js, r'fetch\(|XMLHttpRequest|sendBeacon|WebSocket')[:5] or ['none'])
+MAIL_WORKER = 'https://nicksalazar-mail.shagghie2.workers.dev/'   # the only permitted network call: Send to Nick → Cloudflare Email Worker (src/mail-worker.js)
+fetches = re.findall(r'fetch\(\s*"([^"]+)"', js)
+add('JS: the only network call is Send to Nick → the mail worker; no XHR/beacon/WebSocket', set(fetches) <= {MAIL_WORKER} and not re.search(r'XMLHttpRequest|navigator\.sendBeacon|WebSocket\(', js), [f'fetch targets: {fetches}'] + lines_matching(js, r'XMLHttpRequest|sendBeacon|WebSocket')[:3])
 add('JS: reduced-motion, saveData, autoplay rejection, IntersectionObserver, passive listeners handled', all(k in js for k in ['prefers-reduced-motion','saveData','catch','IntersectionObserver','passive']), [k for k in ['prefers-reduced-motion','saveData','catch','IntersectionObserver','passive'] if k not in js] or ['all present'])
 add('JS: no eval/innerHTML from user input', not re.search(r'\beval\(|innerHTML\s*=', js), lines_matching(js, r'\beval\(|innerHTML')[:5] or ['none'])
-add('JS: clipboard + download (Blob) utility present, no form submit', 'clipboard' in js and 'Blob' in js and not re.search(r'\.submit\(|action=', js), lines_matching(js, r'clipboard|Blob|submit')[:5])
+add('JS: clipboard + download (Blob) utility present, no native form submit', 'clipboard' in js and 'Blob' in js and not re.search(r'\.submit\(|action=', js), lines_matching(js, r'clipboard|Blob|submit')[:5])
 fails=[r for r in R if r[1]=='FAIL']
 with open(OUT,'w') as f:
     f.write(f'# Static audit — {datetime.datetime.now().astimezone().isoformat()}\n\nResult: {len(fails)} FAIL · {sum(1 for r in R if r[1]=="WARN")} WARN · {sum(1 for r in R if r[1]=="PASS")} PASS (of {len(R)})\n\n')

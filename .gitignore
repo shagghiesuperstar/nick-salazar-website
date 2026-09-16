@@ -1,3 +1,4 @@
 analysis/verification/tests/server-*.log
 *.tmp
 .DS_Store
+.wrangler/

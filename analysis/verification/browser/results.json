@@ -1,15 +1,15 @@
 {
   "base": "http://127.0.0.1:8124/",
-  "ranAt": "2026-09-05T04:28:37.620Z",
+  "ranAt": "2026-09-16T04:29:16.104Z",
   "results": [
     {
-      "name": "w320: page loaded (86 ms), docH=19025, plates=7, videos=7, scroll-timeline=true",
+      "name": "w320: page loaded (52 ms), docH=19592, plates=7, videos=7, scroll-timeline=true",
       "status": "PASS",
       "detail": {
         "scrollW": 320,
         "clientW": 320,
         "bodyScrollW": 320,
-        "docH": 19025,
+        "docH": 19592,
         "h1fs": 72,
         "top3": [
           {
@@ -71,15 +71,8 @@
     },
     {
       "name": "w320: no clickable text wraps to 2+ lines (gate 49)",
-      "status": "FAIL",
-      "detail": [
-        {
-          "text": "Houtxsurvey@outlook.com",
-          "lines": 2,
-          "h": 83.59375,
-          "vis": true
-        }
-      ]
+      "status": "PASS",
+      "detail": []
     },
     {
       "name": "w320: no horizontal overflow at any plate progress",
@@ -96,13 +89,13 @@
       }
     },
     {
-      "name": "w375: page loaded (50 ms), docH=18614, plates=7, videos=7, scroll-timeline=true",
+      "name": "w375: page loaded (49 ms), docH=19169, plates=7, videos=7, scroll-timeline=true",
       "status": "PASS",
       "detail": {
         "scrollW": 375,
         "clientW": 375,
         "bodyScrollW": 375,
-        "docH": 18614,
+        "docH": 19169,
         "h1fs": 72,
         "top3": [
           {
@@ -164,15 +157,8 @@
     },
     {
       "name": "w375: no clickable text wraps to 2+ lines (gate 49)",
-      "status": "FAIL",
-      "detail": [
-        {
-          "text": "Houtxsurvey@outlook.com",
-          "lines": 2,
-          "h": 83.59375,
-          "vis": true
-        }
-      ]
+      "status": "PASS",
+      "detail": []
     },
     {
       "name": "w375: no horizontal overflow at any plate progress",
@@ -189,13 +175,13 @@
       }
     },
     {
-      "name": "w414: page loaded (67 ms), docH=18342, plates=7, videos=7, scroll-timeline=true",
+      "name": "w414: page loaded (48 ms), docH=18791, plates=7, videos=7, scroll-timeline=true",
       "status": "PASS",
       "detail": {
         "scrollW": 414,
         "clientW": 414,
         "bodyScrollW": 414,
-        "docH": 18342,
+        "docH": 18791,
         "h1fs": 72,
         "top3": [
           {
@@ -257,15 +243,8 @@
     },
     {
       "name": "w414: no clickable text wraps to 2+ lines (gate 49)",
-      "status": "FAIL",
-      "detail": [
-        {
-          "text": "Houtxsurvey@outlook.com",
-          "lines": 2,
-          "h": 83.59375,
-          "vis": true
-        }
-      ]
+      "status": "PASS",
+      "detail": []
     },
     {
       "name": "w414: no horizontal overflow at any plate progress",
@@ -282,13 +261,13 @@
       }
     },
     {
-      "name": "w768: page loaded (84 ms), docH=19734, plates=7, videos=7, scroll-timeline=true",
+      "name": "w768: page loaded (66 ms), docH=20137, plates=7, videos=7, scroll-timeline=true",
       "status": "PASS",
       "detail": {
         "scrollW": 768,
         "clientW": 768,
         "bodyScrollW": 768,
-        "docH": 19734,
+        "docH": 20137,
         "h1fs": 115.2,
         "top3": [
           {
@@ -368,13 +347,13 @@
       }
     },
     {
-      "name": "w1440: page loaded (62 ms), docH=17953, plates=7, videos=7, scroll-timeline=true",
+      "name": "w1440: page loaded (67 ms), docH=17881, plates=7, videos=7, scroll-timeline=true",
       "status": "PASS",
       "detail": {
         "scrollW": 1440,
         "clientW": 1440,
         "bodyScrollW": 1440,
-        "docH": 17953,
+        "docH": 17881,
         "h1fs": 198,
         "top3": [
           {
@@ -454,144 +433,88 @@
       }
     },
     {
-      "name": "contrast through transitions: 481 samples; worst-pixel failures=109; mean failures=11",
+      "name": "contrast through transitions: 476 samples; worst-pixel failures=21; mean failures=0",
       "status": "FAIL",
       "detail": {
         "worstPixelFails": [
           {
             "l": "w320 hero-top .hero__name \"Nick Salazar\"",
-            "worst": 1.85,
+            "worst": 1.83,
             "mean": 4.97,
             "thr": 3
           },
           {
             "l": "w320 hero-top h1 \"Nick Salazar\"",
-            "worst": 1.85,
-            "mean": 4.95,
+            "worst": 1.83,
+            "mean": 4.96,
             "thr": 3
           },
           {
-            "l": "w320 plate1 p12 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
-            "worst": 2.51,
-            "mean": 5.54,
+            "l": "w320 #credentials #credentials p \"A U.S. merchant mariner deck officer lic\"",
+            "worst": 1,
+            "mean": 14.13,
             "thr": 4.5
           },
           {
-            "l": "w320 plate1 p50 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
-            "worst": 2.79,
-            "mean": 6.06,
+            "l": "w375 hero-top .hero__name \"Nick Salazar\"",
+            "worst": 1.85,
+            "mean": 4.66,
+            "thr": 3
+          },
+          {
+            "l": "w375 hero-top h1 \"Nick Salazar\"",
+            "worst": 1.83,
+            "mean": 4.64,
+            "thr": 3
+          },
+          {
+            "l": "w375 #credentials #credentials p \"A U.S. merchant mariner deck officer lic\"",
+            "worst": 1,
+            "mean": 14.67,
             "thr": 4.5
           },
           {
-            "l": "w320 plate1 p85 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
-            "worst": 3.21,
-            "mean": 5.9,
+            "l": "w414 hero-top .hero__name \"Nick Salazar\"",
+            "worst": 1.83,
+            "mean": 4.44,
+            "thr": 3
+          },
+          {
+            "l": "w414 hero-top h1 \"Nick Salazar\"",
+            "worst": 1.83,
+            "mean": 4.42,
+            "thr": 3
+          },
+          {
+            "l": "w414 hero-top .hero__creds \"Second Mate Unlimited · 1600-Ton Master\"",
+            "worst": 3.9,
+            "mean": 10.01,
             "thr": 4.5
           },
           {
-            "l": "w320 plate2 p50 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
-            "worst": 3.02,
-            "mean": 6.41,
+            "l": "w414 #credentials #credentials p \"A U.S. merchant mariner deck officer lic\"",
+            "worst": 1,
+            "mean": 14.92,
             "thr": 4.5
           },
           {
-            "l": "w320 plate2 p85 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
-            "worst": 3.29,
-            "mean": 6.57,
-            "thr": 4.5
+            "l": "w768 hero-top .hero__name \"Nick Salazar\"",
+            "worst": 1.99,
+            "mean": 3.85,
+            "thr": 3
           },
           {
-            "l": "w320 plate3 p50 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
-            "worst": 3.8,
-            "mean": 6.84,
-            "thr": 4.5
-          },
-          {
-            "l": "w320 plate3 p85 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
-            "worst": 3.69,
-            "mean": 6.94,
-            "thr": 4.5
-          },
-          {
-            "l": "w320 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
-            "worst": 2.78,
-            "mean": 3.75,
-            "thr": 4.5
-          },
-          {
-            "l": "w320 plate4 p85 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
-            "worst": 2.94,
-            "mean": 4.68,
-            "thr": 4.5
-          },
-          {
-            "l": "w320 plate5 p50 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
-            "worst": 4.35,
-            "mean": 4.98,
-            "thr": 4.5
+            "l": "w768 hero-top h1 \"Nick Salazar\"",
+            "worst": 1.99,
+            "mean": 3.85,
+            "thr": 3
           }
         ],
-        "meanFails": [
-          {
-            "l": "w320 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
-            "mean": 3.75,
-            "thr": 4.5
-          },
-          {
-            "l": "w375 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
-            "mean": 3.82,
-            "thr": 4.5
-          },
-          {
-            "l": "w414 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
-            "mean": 3.96,
-            "thr": 4.5
-          },
-          {
-            "l": "w414 plate4 p85 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
-            "mean": 4.48,
-            "thr": 4.5
-          },
-          {
-            "l": "w768 plate1 p85 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
-            "mean": 4.05,
-            "thr": 4.5
-          },
-          {
-            "l": "w768 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
-            "mean": 4.02,
-            "thr": 4.5
-          },
-          {
-            "l": "w1440 plate3 p50 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
-            "mean": 3.81,
-            "thr": 4.5
-          },
-          {
-            "l": "w1440 plate3 p85 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
-            "mean": 3.64,
-            "thr": 4.5
-          },
-          {
-            "l": "w1440 plate4 p85 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
-            "mean": 2.37,
-            "thr": 4.5
-          },
-          {
-            "l": "w1440 plate5 p50 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
-            "mean": 4.03,
-            "thr": 4.5
-          },
-          {
-            "l": "w1440 plate5 p85 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
-            "mean": 4.16,
-            "thr": 4.5
-          }
-        ]
+        "meanFails": []
       }
     },
     {
-      "name": "keyboard: Tab reaches 23 focusable elements; all show a visible ring",
+      "name": "keyboard: Tab reaches 25 focusable elements; all show a visible ring",
       "status": "PASS",
       "detail": {
         "noRing": [],
@@ -669,21 +592,21 @@
         },
         {
           "href": "#work",
-          "before": 2710,
+          "before": 2670,
           "y": 8179,
           "hash": "#work",
           "targetTop": 79.734375
         },
         {
           "href": "#services",
-          "before": 8179,
+          "before": 8139,
           "y": 5065,
           "hash": "#services",
           "targetTop": 80.078125
         },
         {
           "href": "#contact",
-          "before": 5065,
+          "before": 5025,
           "y": 15391,
           "hash": "#contact",
           "targetTop": 80.4375
@@ -701,30 +624,30 @@
     {
       "name": "contact: live brief assembles from fields",
       "status": "PASS",
-      "detail": "ASSIGNMENT BRIEF — Nick Salazar, marine surveyor\nPrepared locally on 2026-09-05\n\nSURVEY TYPE: Break bulk\nCARGO DESCRIPTION: Test cargo: 40 steel coils, 18 t each\nPORT OR FACILITY: Test facility\nTIMING: Next week\nEVIDENCE YOU NEED: Condition photos and a signed report\nYOUR NAME: Test Adjuster\nORGANISATION: Test Syndicate\nHOW TO REACH YOU: test@example.invalid\n\nThis brief was written on the visitor'"
+      "detail": "SURVEY REQUEST — Nick Salazar, marine surveyor\nPrepared on the nicksalazar.net request form, 2026-09-16\n\nSURVEY TYPE: Break bulk\nWHAT IS MOVING: Test cargo: 40 steel coils, 18 t each\nWHERE (PORT OR FACILITY): Test facility\nWHEN YOU NEED HIM: Next week\nWHAT YOU NEED IN THE REPORT: Condition photos and a signed report\nYOUR NAME: Test Adjuster\nCOMPANY: Test Syndicate\nEMAIL OR PHONE: test@example.inva"
     },
     {
-      "name": "contact: Copy brief writes clipboard and shows non-sending status",
+      "name": "contact: Copy message writes clipboard and shows a status",
       "status": "PASS",
       "detail": {
-        "clip": "ASSIGNMENT BRIEF — Nick Salazar, marine surveyor\nPrepared locally on 2026-09-05\n\nSURVEY TYPE: Break bulk\nCARGO DESCRIPTI",
-        "status": "Copied. Nothing was sent."
+        "clip": "SURVEY REQUEST — Nick Salazar, marine surveyor\nPrepared on the nicksalazar.net request form, 2026-09-16\n\nSURVEY TYPE: Br",
+        "status": "Copied to your clipboard."
       }
     },
     {
       "name": "contact: Download .txt produces a local file containing the brief",
       "status": "PASS",
       "detail": {
-        "file": "/Users/scottscheferman/nick-salazar-website/analysis/verification/browser/downloaded-assignment-brief.txt",
-        "bytes": 441,
-        "filename": "assignment-brief.txt"
+        "file": "/Users/scottscheferman/nick-salazar-website/analysis/verification/browser/downloaded-survey-request.txt",
+        "bytes": 404,
+        "filename": "survey-request.txt"
       }
     },
     {
-      "name": "contact: page states nothing is sent; no network request made by the utility",
+      "name": "contact: helper text names where Send goes and that copy/download stay local; copy/download made no network request",
       "status": "PASS",
       "detail": {
-        "note": "Nothing is sent from this page. Copy or download the brief and email it to Houtxsurvey@outlook.com.",
+        "note": "Send emails this form to Houtxsurvey@outlook.com. Copy and download stay on your device.",
         "externalRequests": []
       }
     },
@@ -819,10 +742,10 @@
       }
     },
     {
-      "name": "slow network (400 kbps, 150 ms): DOMContentLoaded 7387 ms; h1 visible; transferred 272 KB; mp4 requests so far: 0",
+      "name": "slow network (400 kbps, 150 ms): DOMContentLoaded 8288 ms; h1 visible; transferred 276 KB; mp4 requests so far: 0",
       "status": "PASS",
       "detail": {
-        "dcl": 7387,
+        "dcl": 8288,
         "vidReq": []
       }
     },
@@ -972,7 +895,7 @@
       "name": "scroll capture recorded (webm; converted to mp4 by the runner)",
       "status": "PASS",
       "detail": {
-        "path": "/Users/scottscheferman/nick-salazar-website/analysis/verification/browser/video-raw/page@71ce309460bc5e721a2ec5e6037ef1a1.webm"
+        "path": "/Users/scottscheferman/nick-salazar-website/analysis/verification/browser/video-raw/page@4364e4566a75ed976468a32c6a9b6f16.webm"
       }
     },
     {

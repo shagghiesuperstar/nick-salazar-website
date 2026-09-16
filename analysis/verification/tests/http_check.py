@@ -10,6 +10,7 @@ refs = set(); external = set()
 class P(HTMLParser):
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == 'link' and a.get('rel') in ('canonical', 'alternate'): return   # metadata URL, not a fetched resource
         for k in ('src', 'href', 'poster', 'data-src'):
             if a.get(k): refs.add((tag, a[k]))
         if a.get('srcset'):

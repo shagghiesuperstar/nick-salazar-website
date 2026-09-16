@@ -7,8 +7,9 @@
  *  4. Reveal-once stagger via IntersectionObserver
  *  5. Nav current-section highlighting + <details> menu close on choose
  *  6. Hero pointer light (fine pointer + hover + motion allowed only)
- *  7. Assignment brief: live assembly, copy (clipboard → execCommand fallback),
- *     download as .txt (Blob + object URL). Nothing is ever sent anywhere.
+ *  7. Survey request: live message assembly, copy (clipboard → execCommand fallback),
+ *     download as .txt (Blob + object URL), and Send to Nick (POST to the Cloudflare
+ *     Email Worker in src/mail-worker.js — the only network call on the page).
  */
 (function () {
   "use strict";
@@ -164,6 +165,20 @@
     }, { rootMargin: "-40% 0px -45% 0px", threshold: [0, 0.01, 0.1, 0.25, 0.5] });
     sections.forEach(function (s) { sectionIO.observe(s); });
   }
+  var navEl = doc.querySelector("[data-nav]");
+  if (navEl) {
+    var lastY = window.scrollY, navTick = false;
+    function navUpdate() {
+      navTick = false;
+      var y = window.scrollY;
+      var open = navMenu && navMenu.hasAttribute("open");
+      if (!open && y > 160 && y > lastY + 4) navEl.classList.add("is-hidden");
+      else if (y < lastY - 4 || y <= 160) navEl.classList.remove("is-hidden");
+      lastY = y;
+    }
+    window.addEventListener("scroll", function () { if (!navTick) { navTick = true; window.requestAnimationFrame(navUpdate); } }, { passive: true });
+    navEl.addEventListener("focusin", function () { navEl.classList.remove("is-hidden"); });
+  }
   if (navMenu) {
     navMenu.addEventListener("click", function (e) {
       var a = e.target.closest && e.target.closest("a");
@@ -201,7 +216,7 @@
     hero.addEventListener("pointerleave", function () { hero.classList.remove("is-lit"); }, { passive: true });
   }
 
-  /* ---------- 7 · Assignment brief (local only; nothing is sent) ---------- */
+  /* ---------- 7 · Survey request (copy/download local; Send posts to the mail worker) ---------- */
   var form = doc.getElementById("brief-form");
   if (form) {
     var out = doc.getElementById("brief-output");
@@ -217,7 +232,7 @@
       return (l ? l.textContent : el.name || el.id || "Field").trim();
     }
     function buildBrief() {
-      var lines = ["ASSIGNMENT BRIEF — Nick Salazar, marine surveyor", "Prepared locally on " + new Date().toISOString().slice(0, 10), ""];
+      var lines = ["SURVEY REQUEST — Nick Salazar, marine surveyor", "Prepared on the nicksalazar.net request form, " + new Date().toISOString().slice(0, 10), ""];
       var any = false;
       fields.forEach(function (el) {
         var v = (el.value || "").trim();
@@ -225,7 +240,7 @@
         any = true;
         lines.push(labelFor(el).toUpperCase() + ": " + v);
       });
-      if (!any) lines.push("(Fill in the fields above; the brief assembles here as you type.)");
+      if (!any) lines.push("(Fill in the fields above; the message assembles here as you type.)");
       lines.push("");
       return lines.join("\n");
     }
@@ -254,7 +269,7 @@
         if (!help) return;
         if (el.required && !el.value.trim()) {
           el.setAttribute("aria-invalid", "true");
-          help.textContent = "Needed so the brief makes sense. Add a short answer.";
+          help.textContent = "Needed so the request makes sense. Add a short answer.";
           help.classList.add("is-error");
         } else {
           el.removeAttribute("aria-invalid");
@@ -283,11 +298,11 @@
       copyBtn.addEventListener("click", function () {
         var text = buildBrief();
         render();
-        var done = function () { flash(copyBtn, "success", "Copied"); say("Copied. Nothing was sent."); };
+        var done = function () { flash(copyBtn, "success", "Copied"); say("Copied to your clipboard."); };
         var fail = function () {
           if (fallbackCopy(text)) { done(); return; }
           flash(copyBtn, "error", "Copy failed");
-          say("Couldn't reach the clipboard. Select the brief text and copy it manually.", true);
+          say("Couldn't reach the clipboard. Select the message text and copy it manually.", true);
           if (out) out.focus();
         };
         if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -317,12 +332,12 @@
             say("Sent to Nick at Houtxsurvey@outlook.com.");
           } else {
             flash(sendBtn, "error", "Not sent");
-            say((pack.data && pack.data.error) || "Could not send. Copy the brief and email Nick.", true);
+            say((pack.data && pack.data.error) || "Could not send. Copy the message and email Nick.", true);
           }
         }).catch(function () {
           sendBtn.disabled = false;
           flash(sendBtn, "error", "Not sent");
-          say("Could not reach the mail service. Copy the brief and email Nick.", true);
+          say("Could not reach the mail service. Copy the message and email Nick.", true);
         });
       });
     }
@@ -333,16 +348,16 @@
           var url = URL.createObjectURL(blob);
           var a = doc.createElement("a");
           a.href = url;
-          a.download = "assignment-brief.txt";
+          a.download = "survey-request.txt";
           doc.body.appendChild(a);
           a.click();
           doc.body.removeChild(a);
           setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
           flash(dlBtn, "success", "Saved");
-          say("Downloaded assignment-brief.txt to this device. Nothing was sent.");
+          say("Downloaded survey-request.txt to this device.");
         } catch (e) {
           flash(dlBtn, "error", "Download failed");
-          say("Couldn't build the file here. Use Copy brief instead.", true);
+          say("Couldn't build the file here. Use Copy message instead.", true);
         }
       });
     }

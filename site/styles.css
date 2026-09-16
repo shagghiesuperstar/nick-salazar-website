@@ -86,7 +86,9 @@ a { color: inherit; }
   backdrop-filter: blur(14px) saturate(120%);
   color: var(--color-ink);
   line-height: var(--lh-ui);
+  transition: transform var(--dur-short) var(--ease-out);
 }
+.nav.is-hidden { transform: translateY(calc(-100% - var(--nav-offset) - 0.25rem)); }   /* retracts on scroll-down so it never sits over section titles; returns on scroll-up or focus */
 .nav__mark {
   display: inline-flex;
   align-items: center;
@@ -136,8 +138,10 @@ a { color: inherit; }
 @media (hover: hover) {
   .nav__link:hover { color: var(--color-ink); background: var(--color-paper-4); }
 }
-.nav .nav__cta { display: none; margin-inline-start: var(--space-2xs); }   /* the hero carries the same CTA; the pill must stay content-sized at 320px */
-@media (min-width: 26rem) { .nav .nav__cta { display: inline-flex; } }
+.nav .nav__cta { display: inline-flex; margin-inline-start: var(--space-2xs); }   /* hire action stays reachable in the pill at every width */
+.nav__cta-long { display: none; }
+.nav__cta-short { display: inline; }
+@media (min-width: 30rem) { .nav__cta-long { display: inline; } .nav__cta-short { display: none; } }
 
 /* Narrow-width disclosure menu (native <details>) */
 .nav__menu { position: relative; }
@@ -370,7 +374,7 @@ a { color: inherit; }
   color: var(--color-ink-max);
   text-shadow: 0 1px 2px var(--color-veil-strong);
 }
-.hero__cta { justify-self: start; margin-top: var(--space-xs); }
+.hero__cta { justify-self: start; margin-top: var(--space-md); }
 .hero__light {
   position: absolute;
   top: 0;
@@ -579,7 +583,8 @@ html.js .plate__story[data-reveal] { transform: none; }  /* the story layer alre
   .section__inner > .creds__grid,
   .section__inner > .work__grid,
   .section__inner > .why__points,
-  .section__inner > .brief__form { grid-column: 1 / -1; }
+  .section__inner > .brief__form,
+  .section__inner > .brief__layout { grid-column: 1 / -1; }
 }
 
 /* ---------- Services — hairline rows with a liquid-silver head rule ---------- */
@@ -784,6 +789,7 @@ html.js .plate__story[data-reveal] { transform: none; }  /* the story layer alre
               transform var(--dur-micro) var(--ease-out);
 }
 .btn--sm { height: 2.25rem; padding-inline: var(--space-md); }
+.btn--lg { height: 3.25rem; padding-inline: var(--space-xl); font-size: var(--text-base); }
 .btn--fill { background: var(--color-ink); color: var(--color-paper); border-color: var(--color-ink); }
 .btn--outline { background: transparent; color: var(--color-ink); }
 @media (hover: hover) {
@@ -814,11 +820,39 @@ html.js .plate__story[data-reveal] { transform: none; }  /* the story layer alre
 /* =====================================================================
    6 · Assignment brief — inputs keep 1px borders in every state
    ===================================================================== */
+.brief__layout { display: grid; gap: var(--space-2xl); min-width: 0; }
+@media (min-width: 60rem) {
+  .brief__layout { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: var(--space-3xl); align-items: start; }
+  .brief__aside { position: sticky; top: var(--banner-height); }
+}
 .brief__form {
   display: grid;
   gap: var(--space-md);
   max-width: 40rem;
 }
+.brief__aside {
+  display: grid;
+  gap: var(--space-md);
+  max-width: var(--measure-narrow);
+  padding-top: var(--space-lg);
+  border-top: var(--rule-hair) solid var(--color-rule);
+  color: var(--color-silver);
+}
+.brief__aside-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: var(--text-xl);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-display);
+  text-transform: uppercase;
+  color: var(--color-ink);
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+.brief__aside-list { display: grid; gap: var(--space-sm); margin: 0; padding-inline-start: 1.1em; }
+.brief__aside-list li { padding-inline-start: var(--space-2xs); }
+.brief__aside-note { font-size: var(--text-sm); color: var(--color-muted); }
+.brief__aside-note a { color: var(--color-ink); text-underline-offset: 2px; }
 .field { display: grid; gap: var(--space-2xs); min-width: 0; }
 .field__label {
   font-size: var(--text-sm);
@@ -964,7 +998,7 @@ select.input {
     transition: opacity var(--dur-reduced) linear;
     transition-delay: 0ms;
   }
-  .btn, .nav__link, .nav__toggle, .input { transition-duration: var(--dur-reduced); }
+  .btn, .nav__link, .nav__toggle, .input, .nav { transition-duration: var(--dur-reduced); }
   .btn:active, .nav__link:active { transform: none; }
   .btn[data-state="loading"]::before { animation-duration: 1400ms; }
 }
