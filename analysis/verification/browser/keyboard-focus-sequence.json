@@ -49,7 +49,7 @@
   },
   {
     "tag": "A",
-    "text": "Build a brief",
+    "text": "Request a surveyRequest",
     "outline": "solid 2px oklch(0.78 0.14 60)",
     "boxShadow": "none",
     "inView": true,
@@ -57,7 +57,7 @@
   },
   {
     "tag": "A",
-    "text": "Build a brief",
+    "text": "Request a survey",
     "outline": "solid 2px oklch(0.78 0.14 60)",
     "boxShadow": "none",
     "inView": true,
@@ -145,7 +145,7 @@
   },
   {
     "tag": "PRE",
-    "text": "ASSIGNMENT BRIEF — Nick S",
+    "text": "SURVEY REQUEST — Nick Sal",
     "outline": "solid 2px oklch(0.78 0.14 60)",
     "boxShadow": "none",
     "inView": false,
@@ -153,7 +153,15 @@
   },
   {
     "tag": "BUTTON",
-    "text": "Copy brief",
+    "text": "Send to Nick",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Copy message",
     "outline": "solid 2px oklch(0.78 0.14 60)",
     "boxShadow": "none",
     "inView": false,
@@ -162,6 +170,14 @@
   {
     "tag": "BUTTON",
     "text": "Download .txt",
+    "outline": "solid 2px oklch(0.78 0.14 60)",
+    "boxShadow": "none",
+    "inView": false,
+    "ring": true
+  },
+  {
+    "tag": "A",
+    "text": "Houtxsurvey@outlook.com",
     "outline": "solid 2px oklch(0.78 0.14 60)",
     "boxShadow": "none",
     "inView": false,

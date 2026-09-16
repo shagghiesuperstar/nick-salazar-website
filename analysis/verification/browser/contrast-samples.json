@@ -6,11 +6,11 @@
       107,
       29
     ],
-    "worstRatio": 1.85,
+    "worstRatio": 1.83,
     "meanRatio": 4.97,
     "worstPixel": [
       105,
-      103,
+      104,
       103
     ],
     "samples": 8979,
@@ -32,11 +32,11 @@
       107,
       29
     ],
-    "worstRatio": 1.85,
-    "meanRatio": 4.95,
+    "worstRatio": 1.83,
+    "meanRatio": 4.96,
     "worstPixel": [
       105,
-      103,
+      104,
       103
     ],
     "samples": 8979,
@@ -58,11 +58,11 @@
       200,
       29
     ],
-    "worstRatio": 4.98,
-    "meanRatio": 8.85,
+    "worstRatio": 4.92,
+    "meanRatio": 8.83,
     "worstPixel": [
       82,
-      80,
+      81,
       80
     ],
     "samples": 11178,
@@ -106,79 +106,79 @@
   {
     "label": "w320 plate1 p12 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.51,
-    "meanRatio": 5.54,
+    "worstRatio": 6.36,
+    "meanRatio": 13.52,
     "worstPixel": [
-      102,
+      100,
       85,
-      35
+      26
     ],
-    "samples": 4148,
+    "samples": 4636,
     "box": {
       "x": 38.390625,
-      "y": 645.25,
+      "y": 635.65625,
       "width": 243.21875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
     "label": "w320 plate1 p50 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.79,
-    "meanRatio": 6.06,
+    "worstRatio": 6.91,
+    "meanRatio": 14.94,
     "worstPixel": [
-      94,
-      79,
-      20
+      92,
+      80,
+      36
     ],
-    "samples": 4148,
+    "samples": 4636,
     "box": {
       "x": 38.390625,
-      "y": 645.25,
+      "y": 635.65625,
       "width": 243.21875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
     "label": "w320 plate1 p85 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.21,
-    "meanRatio": 5.9,
+    "worstRatio": 7.96,
+    "meanRatio": 14.92,
     "worstPixel": [
-      84,
+      86,
       70,
-      23
+      18
     ],
-    "samples": 4148,
+    "samples": 4636,
     "box": {
       "x": 38.390625,
-      "y": 645.25,
+      "y": 635.65625,
       "width": 243.21875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -188,11 +188,11 @@
       237,
       235
     ],
-    "worstRatio": 6.58,
+    "worstRatio": 6.93,
     "meanRatio": 14.36,
     "worstPixel": [
-      97,
-      79,
+      92,
+      76,
       77
     ],
     "samples": 4100,
@@ -214,12 +214,12 @@
       237,
       235
     ],
-    "worstRatio": 7.43,
-    "meanRatio": 14.81,
+    "worstRatio": 7.3,
+    "meanRatio": 14.79,
     "worstPixel": [
-      77,
-      75,
-      74
+      78,
+      76,
+      76
     ],
     "samples": 5856,
     "box": {
@@ -240,12 +240,12 @@
       246,
       244
     ],
-    "worstRatio": 7.26,
+    "worstRatio": 7.27,
     "meanRatio": 15.99,
     "worstPixel": [
-      98,
-      77,
-      75
+      88,
+      80,
+      80
     ],
     "samples": 4150,
     "box": {
@@ -266,12 +266,12 @@
       246,
       244
     ],
-    "worstRatio": 8.7,
-    "meanRatio": 16.34,
+    "worstRatio": 8.69,
+    "meanRatio": 16.32,
     "worstPixel": [
-      72,
+      73,
       70,
-      70
+      68
     ],
     "samples": 5856,
     "box": {
@@ -288,15 +288,15 @@
   {
     "label": "w320 plate2 p50 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.02,
-    "meanRatio": 6.41,
+    "worstRatio": 7.46,
+    "meanRatio": 15.97,
     "worstPixel": [
       76,
-      75,
+      76,
       72
     ],
     "samples": 13851,
@@ -308,7 +308,7 @@
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -318,17 +318,17 @@
       252,
       249
     ],
-    "worstRatio": 9.16,
-    "meanRatio": 17.04,
+    "worstRatio": 8.25,
+    "meanRatio": 17.07,
     "worstPixel": [
-      99,
-      60,
-      56
+      101,
+      69,
+      65
     ],
     "samples": 4284,
     "box": {
       "x": 38.390625,
-      "y": 68.86976623535156,
+      "y": 60.86976623535156,
       "width": 250.51531982421875,
       "height": 151.26515197753906
     },
@@ -344,17 +344,17 @@
       252,
       249
     ],
-    "worstRatio": 9.77,
-    "meanRatio": 17.4,
+    "worstRatio": 9.17,
+    "meanRatio": 17.37,
     "worstPixel": [
-      77,
-      63,
-      62
+      78,
+      68,
+      67
     ],
     "samples": 5856,
     "box": {
       "x": 38.390625,
-      "y": 240.83816528320312,
+      "y": 232.83816528320312,
       "width": 243.21875,
       "height": 383.9062194824219
     },
@@ -366,27 +366,27 @@
   {
     "label": "w320 plate2 p85 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.29,
-    "meanRatio": 6.57,
+    "worstRatio": 8.11,
+    "meanRatio": 16.41,
     "worstPixel": [
-      72,
       69,
-      68
+      71,
+      69
     ],
-    "samples": 5246,
+    "samples": 5734,
     "box": {
       "x": 38.390625,
-      "y": 653.4375,
+      "y": 645.4375,
       "width": 243.21875,
-      "height": 86.5625
+      "height": 94.5625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -396,12 +396,12 @@
       237,
       235
     ],
-    "worstRatio": 11.89,
-    "meanRatio": 14.91,
+    "worstRatio": 10.59,
+    "meanRatio": 14.93,
     "worstPixel": [
-      46,
-      44,
-      44
+      54,
+      52,
+      52
     ],
     "samples": 4100,
     "box": {
@@ -422,12 +422,12 @@
       237,
       235
     ],
-    "worstRatio": 6.24,
-    "meanRatio": 14.39,
+    "worstRatio": 6.17,
+    "meanRatio": 14.27,
     "worstPixel": [
       88,
-      86,
-      86
+      87,
+      87
     ],
     "samples": 5063,
     "box": {
@@ -448,12 +448,12 @@
       246,
       244
     ],
-    "worstRatio": 13.06,
-    "meanRatio": 16.39,
+    "worstRatio": 12.57,
+    "meanRatio": 16.41,
     "worstPixel": [
-      45,
-      43,
-      43
+      47,
+      46,
+      45
     ],
     "samples": 4150,
     "box": {
@@ -475,7 +475,7 @@
       244
     ],
     "worstRatio": 7.43,
-    "meanRatio": 15.92,
+    "meanRatio": 15.79,
     "worstPixel": [
       82,
       80,
@@ -496,27 +496,27 @@
   {
     "label": "w320 plate3 p50 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.8,
-    "meanRatio": 6.84,
+    "worstRatio": 7.64,
+    "meanRatio": 16.69,
     "worstPixel": [
-      61,
-      60,
-      60
+      75,
+      74,
+      74
     ],
-    "samples": 5490,
+    "samples": 6588,
     "box": {
       "x": 38.390625,
       "y": 631.578125,
       "width": 243.21875,
-      "height": 89.5625
+      "height": 108.421875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -526,17 +526,17 @@
       252,
       249
     ],
-    "worstRatio": 12.47,
-    "meanRatio": 17.32,
+    "worstRatio": 13.49,
+    "meanRatio": 17.33,
     "worstPixel": [
-      51,
-      50,
-      49
+      47,
+      44,
+      44
     ],
     "samples": 4284,
     "box": {
       "x": 38.390625,
-      "y": 98.1875,
+      "y": 89.21875,
       "width": 250.51531982421875,
       "height": 151.26515197753906
     },
@@ -552,17 +552,17 @@
       252,
       249
     ],
-    "worstRatio": 8.25,
-    "meanRatio": 16.79,
+    "worstRatio": 8.34,
+    "meanRatio": 16.69,
     "worstPixel": [
-      79,
-      77,
-      70
+      78,
+      76,
+      73
     ],
     "samples": 5063,
     "box": {
       "x": 38.390625,
-      "y": 270.76177978515625,
+      "y": 261.79302978515625,
       "width": 243.21875,
       "height": 332.71875
     },
@@ -574,27 +574,27 @@
   {
     "label": "w320 plate3 p85 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.69,
-    "meanRatio": 6.94,
+    "worstRatio": 8.11,
+    "meanRatio": 16.99,
     "worstPixel": [
-      63,
-      62,
-      62
+      72,
+      70,
+      70
     ],
-    "samples": 5490,
+    "samples": 7198,
     "box": {
       "x": 38.390625,
-      "y": 631.578125,
+      "y": 622.609375,
       "width": 243.21875,
-      "height": 89.5625
+      "height": 117.390625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -604,12 +604,12 @@
       237,
       235
     ],
-    "worstRatio": 5.7,
-    "meanRatio": 15.13,
+    "worstRatio": 5.45,
+    "meanRatio": 15.26,
     "worstPixel": [
-      93,
-      92,
-      93
+      96,
+      95,
+      95
     ],
     "samples": 4100,
     "box": {
@@ -631,7 +631,7 @@
       235
     ],
     "worstRatio": 6.26,
-    "meanRatio": 11.63,
+    "meanRatio": 11.53,
     "worstPixel": [
       87,
       86,
@@ -656,12 +656,12 @@
       246,
       244
     ],
-    "worstRatio": 6.35,
-    "meanRatio": 16.48,
+    "worstRatio": 5.97,
+    "meanRatio": 16.68,
     "worstPixel": [
-      92,
-      90,
-      91
+      96,
+      94,
+      95
     ],
     "samples": 4150,
     "box": {
@@ -682,12 +682,12 @@
       246,
       244
     ],
-    "worstRatio": 7.46,
-    "meanRatio": 12.63,
+    "worstRatio": 7.54,
+    "meanRatio": 12.56,
     "worstPixel": [
       81,
-      80,
-      79
+      79,
+      80
     ],
     "samples": 5063,
     "box": {
@@ -704,28 +704,28 @@
   {
     "label": "w320 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.78,
-    "meanRatio": 3.75,
+    "worstRatio": 6.93,
+    "meanRatio": 9.73,
     "worstPixel": [
       82,
       80,
-      77
+      80
     ],
-    "samples": 5490,
+    "samples": 6588,
     "box": {
       "x": 38.390625,
       "y": 631.578125,
       "width": 243.21875,
-      "height": 89.5625
+      "height": 108.421875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
-    "meanPass": false
+    "pass": true,
+    "meanPass": true
   },
   {
     "label": "w320 plate4 p85 #plate-drums .plate__pair \"Block.\n          Brace.\n          Lash.\"",
@@ -734,17 +734,17 @@
       252,
       249
     ],
-    "worstRatio": 6.55,
-    "meanRatio": 17.26,
+    "worstRatio": 7.93,
+    "meanRatio": 17.56,
     "worstPixel": [
-      94,
-      91,
-      92
+      81,
+      79,
+      79
     ],
     "samples": 4284,
     "box": {
       "x": 38.390625,
-      "y": 98.18898010253906,
+      "y": 89.25148010253906,
       "width": 250.51531982421875,
       "height": 151.26515197753906
     },
@@ -761,7 +761,7 @@
       249
     ],
     "worstRatio": 8.09,
-    "meanRatio": 12.49,
+    "meanRatio": 12.62,
     "worstPixel": [
       79,
       78,
@@ -770,7 +770,7 @@
     "samples": 5063,
     "box": {
       "x": 38.390625,
-      "y": 270.76611328125,
+      "y": 261.82861328125,
       "width": 243.21875,
       "height": 332.71875
     },
@@ -782,27 +782,27 @@
   {
     "label": "w320 plate4 p85 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.94,
-    "meanRatio": 4.68,
+    "worstRatio": 7.28,
+    "meanRatio": 11.12,
     "worstPixel": [
-      79,
-      76,
-      76
+      78,
+      77,
+      77
     ],
-    "samples": 5490,
+    "samples": 7198,
     "box": {
       "x": 38.390625,
-      "y": 631.578125,
+      "y": 622.640625,
       "width": 243.21875,
-      "height": 89.5625
+      "height": 117.359375
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -812,12 +812,12 @@
       237,
       235
     ],
-    "worstRatio": 5.53,
-    "meanRatio": 9.79,
+    "worstRatio": 5.46,
+    "meanRatio": 9.71,
     "worstPixel": [
       96,
-      94,
-      92
+      95,
+      94
     ],
     "samples": 4100,
     "box": {
@@ -838,12 +838,12 @@
       237,
       235
     ],
-    "worstRatio": 7.62,
-    "meanRatio": 16.15,
+    "worstRatio": 6.83,
+    "meanRatio": 16.13,
     "worstPixel": [
-      76,
-      73,
-      74
+      83,
+      80,
+      80
     ],
     "samples": 5063,
     "box": {
@@ -864,12 +864,12 @@
       246,
       244
     ],
-    "worstRatio": 5.98,
-    "meanRatio": 11.15,
+    "worstRatio": 5.96,
+    "meanRatio": 11.09,
     "worstPixel": [
-      96,
+      97,
       94,
-      93
+      94
     ],
     "samples": 4150,
     "box": {
@@ -890,12 +890,12 @@
       246,
       244
     ],
-    "worstRatio": 8.11,
-    "meanRatio": 17.5,
+    "worstRatio": 7.71,
+    "meanRatio": 17.49,
     "worstPixel": [
-      81,
-      73,
-      74
+      82,
+      77,
+      77
     ],
     "samples": 5063,
     "box": {
@@ -912,27 +912,27 @@
   {
     "label": "w320 plate5 p50 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.35,
-    "meanRatio": 4.98,
+    "worstRatio": 11.15,
+    "meanRatio": 12.46,
     "worstPixel": [
-      53,
-      51,
-      50
+      52,
+      49,
+      48
     ],
-    "samples": 5490,
+    "samples": 5978,
     "box": {
       "x": 38.390625,
       "y": 631.578125,
       "width": 243.21875,
-      "height": 89.5625
+      "height": 97.5625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -942,12 +942,12 @@
       252,
       249
     ],
-    "worstRatio": 6.59,
-    "meanRatio": 12.17,
+    "worstRatio": 6.49,
+    "meanRatio": 12.11,
     "worstPixel": [
-      93,
-      91,
-      89
+      94,
+      92,
+      90
     ],
     "samples": 4284,
     "box": {
@@ -968,12 +968,12 @@
       252,
       249
     ],
-    "worstRatio": 8.58,
-    "meanRatio": 18.27,
+    "worstRatio": 8.73,
+    "meanRatio": 18.25,
     "worstPixel": [
-      79,
+      75,
       73,
-      74
+      72
     ],
     "samples": 5063,
     "box": {
@@ -990,27 +990,27 @@
   {
     "label": "w320 plate5 p85 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.2,
-    "meanRatio": 5.06,
+    "worstRatio": 9.75,
+    "meanRatio": 12.65,
     "worstPixel": [
-      56,
-      53,
-      52
+      61,
+      58,
+      57
     ],
-    "samples": 5490,
+    "samples": 5978,
     "box": {
       "x": 38.390625,
       "y": 631.578125,
       "width": 243.21875,
-      "height": 89.5625
+      "height": 97.5625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -1020,12 +1020,12 @@
       237,
       235
     ],
-    "worstRatio": 6.37,
+    "worstRatio": 9.56,
     "meanRatio": 16.59,
     "worstPixel": [
-      86,
-      85,
-      84
+      60,
+      59,
+      59
     ],
     "samples": 4100,
     "box": {
@@ -1046,12 +1046,12 @@
       237,
       235
     ],
-    "worstRatio": 6.54,
-    "meanRatio": 13.94,
+    "worstRatio": 6.64,
+    "meanRatio": 13.93,
     "worstPixel": [
-      81,
-      84,
-      85
+      85,
+      82,
+      80
     ],
     "samples": 5063,
     "box": {
@@ -1072,12 +1072,12 @@
       246,
       244
     ],
-    "worstRatio": 8.14,
-    "meanRatio": 18.07,
+    "worstRatio": 10.68,
+    "meanRatio": 18.08,
     "worstPixel": [
-      77,
-      74,
-      74
+      58,
+      57,
+      57
     ],
     "samples": 4150,
     "box": {
@@ -1098,12 +1098,12 @@
       246,
       244
     ],
-    "worstRatio": 7.76,
-    "meanRatio": 15.47,
+    "worstRatio": 7.75,
+    "meanRatio": 15.44,
     "worstPixel": [
       81,
       77,
-      74
+      75
     ],
     "samples": 5063,
     "box": {
@@ -1120,27 +1120,27 @@
   {
     "label": "w320 plate6 p50 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.5,
-    "meanRatio": 6.4,
+    "worstRatio": 8.29,
+    "meanRatio": 16.03,
     "worstPixel": [
-      72,
-      64,
-      60
+      74,
+      68,
+      63
     ],
-    "samples": 5490,
+    "samples": 5978,
     "box": {
       "x": 38.390625,
       "y": 631.578125,
       "width": 243.21875,
-      "height": 89.5625
+      "height": 97.5625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -1150,12 +1150,12 @@
       252,
       249
     ],
-    "worstRatio": 8.46,
-    "meanRatio": 19.02,
+    "worstRatio": 8.85,
+    "meanRatio": 19.04,
     "worstPixel": [
-      77,
-      75,
-      74
+      74,
+      72,
+      72
     ],
     "samples": 4284,
     "box": {
@@ -1176,12 +1176,12 @@
       252,
       249
     ],
-    "worstRatio": 8.41,
-    "meanRatio": 16.4,
+    "worstRatio": 8.5,
+    "meanRatio": 16.37,
     "worstPixel": [
-      79,
-      75,
-      72
+      80,
+      74,
+      70
     ],
     "samples": 5063,
     "box": {
@@ -1198,27 +1198,27 @@
   {
     "label": "w320 plate6 p85 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.86,
-    "meanRatio": 6.41,
+    "worstRatio": 9.52,
+    "meanRatio": 16.08,
     "worstPixel": [
-      68,
+      73,
       57,
-      51
+      45
     ],
-    "samples": 5490,
+    "samples": 5978,
     "box": {
       "x": 38.390625,
       "y": 631.578125,
       "width": 243.21875,
-      "height": 89.5625
+      "height": 97.5625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -1228,12 +1228,12 @@
       237,
       235
     ],
-    "worstRatio": 6.34,
-    "meanRatio": 9.38,
+    "worstRatio": 6.39,
+    "meanRatio": 9.24,
     "worstPixel": [
-      87,
-      85,
-      85
+      98,
+      84,
+      37
     ],
     "samples": 4100,
     "box": {
@@ -1254,12 +1254,12 @@
       237,
       235
     ],
-    "worstRatio": 6.22,
-    "meanRatio": 11.18,
+    "worstRatio": 6.24,
+    "meanRatio": 10.92,
     "worstPixel": [
-      89,
+      88,
       86,
-      86
+      87
     ],
     "samples": 5063,
     "box": {
@@ -1280,12 +1280,12 @@
       246,
       244
     ],
-    "worstRatio": 7.41,
-    "meanRatio": 10.57,
+    "worstRatio": 7.09,
+    "meanRatio": 10.38,
     "worstPixel": [
-      95,
-      79,
-      36
+      98,
+      82,
+      31
     ],
     "samples": 4150,
     "box": {
@@ -1307,7 +1307,7 @@
       244
     ],
     "worstRatio": 7.45,
-    "meanRatio": 12.53,
+    "meanRatio": 12.32,
     "worstPixel": [
       81,
       80,
@@ -1328,27 +1328,27 @@
   {
     "label": "w320 plate7 p50 #plate-yard .plate__meta \"Units on a roller dolly, warehouse · AI-\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.77,
-    "meanRatio": 5.72,
+    "worstRatio": 6.93,
+    "meanRatio": 13.53,
     "worstPixel": [
       82,
       80,
       80
     ],
-    "samples": 5490,
+    "samples": 6588,
     "box": {
       "x": 38.390625,
       "y": 631.578125,
       "width": 243.21875,
-      "height": 89.5625
+      "height": 108.421875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -1358,17 +1358,17 @@
       252,
       249
     ],
-    "worstRatio": 7.66,
-    "meanRatio": 11.25,
+    "worstRatio": 7.45,
+    "meanRatio": 11.12,
     "worstPixel": [
-      97,
-      80,
-      28
+      99,
+      82,
+      22
     ],
     "samples": 4284,
     "box": {
       "x": 38.390625,
-      "y": 98.19046020507812,
+      "y": 89.29983520507812,
       "width": 250.51531982421875,
       "height": 151.26515197753906
     },
@@ -1384,17 +1384,17 @@
       252,
       249
     ],
-    "worstRatio": 8.18,
-    "meanRatio": 13.32,
+    "worstRatio": 8.28,
+    "meanRatio": 13.19,
     "worstPixel": [
       79,
-      77,
-      77
+      76,
+      76
     ],
     "samples": 5063,
     "box": {
       "x": 38.390625,
-      "y": 270.7704162597656,
+      "y": 261.8797912597656,
       "width": 243.21875,
       "height": 332.7187194824219
     },
@@ -1406,27 +1406,27 @@
   {
     "label": "w320 plate7 p85 #plate-yard .plate__meta \"Units on a roller dolly, warehouse · AI-\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.9,
-    "meanRatio": 6.01,
+    "worstRatio": 7.23,
+    "meanRatio": 14.53,
     "worstPixel": [
-      79,
+      80,
       77,
       77
     ],
-    "samples": 5490,
+    "samples": 7198,
     "box": {
       "x": 38.390625,
-      "y": 631.578125,
+      "y": 622.6875,
       "width": 243.21875,
-      "height": 89.5625
+      "height": 117.3125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -1437,7 +1437,7 @@
       234
     ],
     "worstRatio": 1,
-    "meanRatio": 16.27,
+    "meanRatio": 14.13,
     "worstPixel": [
       240,
       238,
@@ -1534,7 +1534,7 @@
     "meanPass": true
   },
   {
-    "label": "w320 #credentials #credentials p \"About ten years surveying. Previously em\"",
+    "label": "w320 #credentials #credentials p \"A decade surveying cargo. Previously emp\"",
     "text": [
       241,
       238,
@@ -1722,12 +1722,12 @@
       195,
       192
     ],
-    "worstRatio": 3.34,
-    "meanRatio": 11.41,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      104,
-      100,
-      99
+      8,
+      5,
+      4
     ],
     "samples": 7533,
     "box": {
@@ -1738,7 +1738,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -1748,12 +1748,12 @@
       195,
       192
     ],
-    "worstRatio": 1,
-    "meanRatio": 11.19,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      197,
-      196,
-      191
+      8,
+      5,
+      4
     ],
     "samples": 5184,
     "box": {
@@ -1764,7 +1764,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -1852,12 +1852,12 @@
       195,
       192
     ],
-    "worstRatio": 1.02,
-    "meanRatio": 11.2,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      199,
-      198,
-      193
+      8,
+      5,
+      4
     ],
     "samples": 5751,
     "box": {
@@ -1868,7 +1868,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -1982,32 +1982,6 @@
       151,
       147
     ],
-    "worstRatio": 5.38,
-    "meanRatio": 6.95,
-    "worstPixel": [
-      39,
-      35,
-      34
-    ],
-    "samples": 4617,
-    "box": {
-      "x": 38.390625,
-      "y": 0,
-      "width": 243.21875,
-      "height": 19.40625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": true,
-    "meanPass": true
-  },
-  {
-    "label": "w320 #contact #contact p \"\"",
-    "text": [
-      156,
-      151,
-      147
-    ],
     "worstRatio": 7.02,
     "meanRatio": 7.02,
     "worstPixel": [
@@ -2018,7 +1992,7 @@
     "samples": 5346,
     "box": {
       "x": 38.390625,
-      "y": 109.796875,
+      "y": 19.34375,
       "width": 243.21875,
       "height": 22.390625
     },
@@ -2044,7 +2018,7 @@
     "samples": 5346,
     "box": {
       "x": 38.390625,
-      "y": 222.578125,
+      "y": 132.125,
       "width": 243.21875,
       "height": 22.390625
     },
@@ -2070,7 +2044,7 @@
     "samples": 5346,
     "box": {
       "x": 38.390625,
-      "y": 394.140625,
+      "y": 244.90625,
       "width": 243.21875,
       "height": 22.390625
     },
@@ -2096,7 +2070,7 @@
     "samples": 5346,
     "box": {
       "x": 38.390625,
-      "y": 506.921875,
+      "y": 357.6875,
       "width": 243.21875,
       "height": 22.390625
     },
@@ -2122,111 +2096,7 @@
     "samples": 5346,
     "box": {
       "x": 38.390625,
-      "y": 619.703125,
-      "width": 243.21875,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": true,
-    "meanPass": true
-  },
-  {
-    "label": "w320 #contact #contact p \"\"",
-    "text": [
-      156,
-      151,
-      147
-    ],
-    "worstRatio": 7.02,
-    "meanRatio": 7.02,
-    "worstPixel": [
-      8,
-      5,
-      4
-    ],
-    "samples": 1701,
-    "box": {
-      "x": 38.390625,
-      "y": 732.484375,
-      "width": 243.21875,
-      "height": 7.515625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": true,
-    "meanPass": true
-  },
-  {
-    "label": "w320 #contact #contact label \"Port or facility\"",
-    "text": [
-      241,
-      238,
-      234
-    ],
-    "worstRatio": 1,
-    "meanRatio": 12.98,
-    "worstPixel": [
-      240,
-      238,
-      234
-    ],
-    "samples": 5346,
-    "box": {
-      "x": 38.390625,
-      "y": 35.40625,
-      "width": 243.21875,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": false,
-    "meanPass": true
-  },
-  {
-    "label": "w320 #contact #contact label \"Timing\"",
-    "text": [
-      241,
-      238,
-      234
-    ],
-    "worstRatio": 17.56,
-    "meanRatio": 17.56,
-    "worstPixel": [
-      8,
-      5,
-      4
-    ],
-    "samples": 5346,
-    "box": {
-      "x": 38.390625,
-      "y": 148.1875,
-      "width": 243.21875,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": true,
-    "meanPass": true
-  },
-  {
-    "label": "w320 #contact #contact label \"Evidence you need\"",
-    "text": [
-      241,
-      238,
-      234
-    ],
-    "worstRatio": 17.56,
-    "meanRatio": 17.56,
-    "worstPixel": [
-      8,
-      5,
-      4
-    ],
-    "samples": 5346,
-    "box": {
-      "x": 38.390625,
-      "y": 260.96875,
+      "y": 529.25,
       "width": 243.21875,
       "height": 22.390625
     },
@@ -2252,7 +2122,7 @@
     "samples": 5346,
     "box": {
       "x": 38.390625,
-      "y": 432.53125,
+      "y": 57.734375,
       "width": 243.21875,
       "height": 22.390625
     },
@@ -2262,7 +2132,7 @@
     "meanPass": true
   },
   {
-    "label": "w320 #contact #contact label \"Organisation\"",
+    "label": "w320 #contact #contact label \"Company\"",
     "text": [
       241,
       238,
@@ -2278,7 +2148,7 @@
     "samples": 5346,
     "box": {
       "x": 38.390625,
-      "y": 545.3125,
+      "y": 170.515625,
       "width": 243.21875,
       "height": 22.390625
     },
@@ -2288,7 +2158,7 @@
     "meanPass": true
   },
   {
-    "label": "w320 #contact #contact label \"How to reach you\"",
+    "label": "w320 #contact #contact label \"Email or phone\"",
     "text": [
       241,
       238,
@@ -2304,7 +2174,33 @@
     "samples": 5346,
     "box": {
       "x": 38.390625,
-      "y": 658.09375,
+      "y": 283.296875,
+      "width": 243.21875,
+      "height": 22.390625
+    },
+    "threshold": 4.5,
+    "size": 14,
+    "pass": true,
+    "meanPass": true
+  },
+  {
+    "label": "w320 #contact #contact label \"Anything else\"",
+    "text": [
+      241,
+      238,
+      234
+    ],
+    "worstRatio": 17.56,
+    "meanRatio": 17.56,
+    "worstPixel": [
+      8,
+      5,
+      4
+    ],
+    "samples": 5346,
+    "box": {
+      "x": 38.390625,
+      "y": 396.078125,
       "width": 243.21875,
       "height": 22.390625
     },
@@ -2330,7 +2226,7 @@
     "samples": 5978,
     "box": {
       "x": 38.390625,
-      "y": 297.515625,
+      "y": 297.40625,
       "width": 243.21875,
       "height": 97.875
     },
@@ -2347,16 +2243,16 @@
       29
     ],
     "worstRatio": 1.85,
-    "meanRatio": 4.49,
+    "meanRatio": 4.66,
     "worstPixel": [
-      104,
+      105,
       103,
-      102
+      103
     ],
     "samples": 4900,
     "box": {
       "x": 39.5,
-      "y": 169.01625061035156,
+      "y": 157.45375061035156,
       "width": 299.552001953125,
       "height": 145.72801208496094
     },
@@ -2373,7 +2269,7 @@
       29
     ],
     "worstRatio": 1.83,
-    "meanRatio": 4.48,
+    "meanRatio": 4.64,
     "worstPixel": [
       105,
       104,
@@ -2382,7 +2278,7 @@
     "samples": 4900,
     "box": {
       "x": 39.5,
-      "y": 169.01625061035156,
+      "y": 157.45375061035156,
       "width": 299.552001953125,
       "height": 145.72801208496094
     },
@@ -2398,23 +2294,23 @@
       200,
       29
     ],
-    "worstRatio": 4.27,
-    "meanRatio": 9.78,
+    "worstRatio": 4.92,
+    "meanRatio": 9.38,
     "worstPixel": [
-      91,
-      90,
-      90
+      82,
+      81,
+      81
     ],
     "samples": 13616,
     "box": {
       "x": 39.5,
-      "y": 115.5625,
+      "y": 104,
       "width": 296,
       "height": 46.09375
     },
     "threshold": 4.5,
     "size": 14.4,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -2424,17 +2320,17 @@
       240,
       238
     ],
-    "worstRatio": 5.27,
-    "meanRatio": 9.71,
+    "worstRatio": 5.19,
+    "meanRatio": 9.48,
     "worstPixel": [
+      101,
       100,
-      99,
       99
     ],
     "samples": 4292,
     "box": {
       "x": 39.5,
-      "y": 333.0487365722656,
+      "y": 321.4862365722656,
       "width": 296,
       "height": 57.59375
     },
@@ -2446,79 +2342,79 @@
   {
     "label": "w375 plate1 p12 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.53,
-    "meanRatio": 5.75,
+    "worstRatio": 6.22,
+    "meanRatio": 14.24,
     "worstPixel": [
-      100,
-      85,
-      40
+      96,
+      87,
+      57
     ],
-    "samples": 13024,
+    "samples": 15392,
     "box": {
       "x": 39.5,
-      "y": 631.21875,
+      "y": 635.65625,
       "width": 296,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
     "label": "w375 plate1 p50 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.88,
-    "meanRatio": 6.14,
+    "worstRatio": 6.96,
+    "meanRatio": 15.24,
     "worstPixel": [
-      91,
-      77,
-      26
+      93,
+      79,
+      35
     ],
-    "samples": 13024,
+    "samples": 15392,
     "box": {
       "x": 39.5,
-      "y": 631.21875,
+      "y": 635.65625,
       "width": 296,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
     "label": "w375 plate1 p85 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.18,
-    "meanRatio": 5.79,
+    "worstRatio": 7.67,
+    "meanRatio": 14.58,
     "worstPixel": [
       81,
-      71,
-      40
+      73,
+      60
     ],
-    "samples": 13024,
+    "samples": 15392,
     "box": {
       "x": 39.5,
-      "y": 631.21875,
+      "y": 635.65625,
       "width": 296,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -2528,17 +2424,17 @@
       237,
       235
     ],
-    "worstRatio": 8.05,
-    "meanRatio": 14.31,
+    "worstRatio": 7.07,
+    "meanRatio": 14.32,
     "worstPixel": [
-      88,
-      65,
-      59
+      84,
+      77,
+      76
     ],
     "samples": 4600,
     "box": {
       "x": 39.5,
-      "y": 117.15998840332031,
+      "y": 114.31623840332031,
       "width": 276.8153381347656,
       "height": 149.05686950683594
     },
@@ -2554,17 +2450,17 @@
       237,
       235
     ],
-    "worstRatio": 7.99,
-    "meanRatio": 15.17,
+    "worstRatio": 6.96,
+    "meanRatio": 15.05,
     "worstPixel": [
-      77,
-      69,
-      68
+      85,
+      78,
+      77
     ],
     "samples": 5698,
     "box": {
       "x": 39.5,
-      "y": 290.018310546875,
+      "y": 287.174560546875,
       "width": 296,
       "height": 307.125
     },
@@ -2580,19 +2476,19 @@
       246,
       244
     ],
-    "worstRatio": 8.56,
-    "meanRatio": 15.78,
+    "worstRatio": 8.55,
+    "meanRatio": 15.81,
     "worstPixel": [
-      80,
-      69,
-      68
+      92,
+      65,
+      61
     ],
     "samples": 4650,
     "box": {
       "x": 39.5,
-      "y": 107.7783203125,
+      "y": 104.9345703125,
       "width": 279.42877197265625,
-      "height": 150.464111328125
+      "height": 150.46409606933594
     },
     "threshold": 3,
     "size": 48,
@@ -2606,17 +2502,17 @@
       246,
       244
     ],
-    "worstRatio": 8.96,
-    "meanRatio": 16.69,
+    "worstRatio": 8.29,
+    "meanRatio": 16.58,
     "worstPixel": [
-      77,
-      66,
-      66
+      75,
+      73,
+      73
     ],
     "samples": 5698,
     "box": {
       "x": 39.5,
-      "y": 282.17041015625,
+      "y": 279.32666015625,
       "width": 296,
       "height": 307.125
     },
@@ -2628,27 +2524,27 @@
   {
     "label": "w375 plate2 p50 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.17,
-    "meanRatio": 6.6,
+    "worstRatio": 7.9,
+    "meanRatio": 16.55,
     "worstPixel": [
-      72,
+      73,
       72,
       70
     ],
-    "samples": 5032,
+    "samples": 5624,
     "box": {
       "x": 39.5,
-      "y": 608.828125,
+      "y": 605.984375,
       "width": 296,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -2658,17 +2554,17 @@
       252,
       249
     ],
-    "worstRatio": 9.69,
-    "meanRatio": 16.67,
+    "worstRatio": 9.78,
+    "meanRatio": 16.71,
     "worstPixel": [
-      70,
-      66,
-      63
+      88,
+      59,
+      53
     ],
     "samples": 4794,
     "box": {
       "x": 39.5,
-      "y": 101.04164123535156,
+      "y": 98.19789123535156,
       "width": 280.9164123535156,
       "height": 151.26515197753906
     },
@@ -2684,17 +2580,17 @@
       252,
       249
     ],
-    "worstRatio": 9.39,
-    "meanRatio": 17.65,
+    "worstRatio": 9.73,
+    "meanRatio": 17.53,
     "worstPixel": [
-      75,
-      67,
+      68,
+      66,
       66
     ],
     "samples": 5698,
     "box": {
       "x": 39.5,
-      "y": 273.94866943359375,
+      "y": 271.10491943359375,
       "width": 296,
       "height": 307.125
     },
@@ -2706,27 +2602,27 @@
   {
     "label": "w375 plate2 p85 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.22,
-    "meanRatio": 6.63,
+    "worstRatio": 8.34,
+    "meanRatio": 16.61,
     "worstPixel": [
-      71,
-      71,
-      69
+      74,
+      67,
+      68
     ],
-    "samples": 5032,
+    "samples": 5624,
     "box": {
       "x": 39.5,
-      "y": 608.828125,
+      "y": 605.984375,
       "width": 296,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -2736,17 +2632,17 @@
       237,
       235
     ],
-    "worstRatio": 7.11,
-    "meanRatio": 14.37,
+    "worstRatio": 7.24,
+    "meanRatio": 14.52,
     "worstPixel": [
-      89,
-      78,
-      24
+      88,
+      77,
+      17
     ],
     "samples": 4600,
     "box": {
       "x": 39.5,
-      "y": 142.7537384033203,
+      "y": 114.31623840332031,
       "width": 276.8153381347656,
       "height": 149.05686950683594
     },
@@ -2762,17 +2658,17 @@
       237,
       235
     ],
-    "worstRatio": 6.37,
-    "meanRatio": 14.52,
+    "worstRatio": 6.24,
+    "meanRatio": 14.31,
     "worstPixel": [
+      88,
       86,
-      85,
-      84
+      87
     ],
     "samples": 5254,
     "box": {
       "x": 39.5,
-      "y": 314.5857849121094,
+      "y": 286.1482849121094,
       "width": 296,
       "height": 281.5312805175781
     },
@@ -2788,19 +2684,19 @@
       246,
       244
     ],
-    "worstRatio": 8.46,
-    "meanRatio": 15.83,
+    "worstRatio": 8.52,
+    "meanRatio": 15.95,
     "worstPixel": [
-      82,
-      72,
-      27
+      84,
+      71,
+      15
     ],
     "samples": 4650,
     "box": {
       "x": 39.5,
-      "y": 133.3720703125,
+      "y": 104.9345703125,
       "width": 279.42877197265625,
-      "height": 150.464111328125
+      "height": 150.46409606933594
     },
     "threshold": 3,
     "size": 48,
@@ -2815,7 +2711,7 @@
       244
     ],
     "worstRatio": 7.32,
-    "meanRatio": 16.04,
+    "meanRatio": 15.8,
     "worstPixel": [
       83,
       81,
@@ -2824,7 +2720,7 @@
     "samples": 5254,
     "box": {
       "x": 39.5,
-      "y": 307.3918762207031,
+      "y": 278.9543762207031,
       "width": 296,
       "height": 281.5312194824219
     },
@@ -2836,27 +2732,27 @@
   {
     "label": "w375 plate3 p50 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.74,
-    "meanRatio": 6.83,
+    "worstRatio": 7.48,
+    "meanRatio": 16.75,
     "worstPixel": [
-      63,
-      61,
-      60
+      77,
+      75,
+      76
     ],
-    "samples": 5032,
+    "samples": 7252,
     "box": {
       "x": 39.5,
-      "y": 608.828125,
+      "y": 580.390625,
       "width": 296,
-      "height": 67.171875
+      "height": 97.5625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -2866,17 +2762,17 @@
       252,
       249
     ],
-    "worstRatio": 8.19,
-    "meanRatio": 16.68,
+    "worstRatio": 8.24,
+    "meanRatio": 16.86,
     "worstPixel": [
-      80,
-      77,
-      73
+      91,
+      76,
+      15
     ],
     "samples": 4794,
     "box": {
       "x": 39.5,
-      "y": 126.63539123535156,
+      "y": 98.19789123535156,
       "width": 280.9164123535156,
       "height": 151.26515197753906
     },
@@ -2892,17 +2788,17 @@
       252,
       249
     ],
-    "worstRatio": 8.58,
-    "meanRatio": 17.03,
+    "worstRatio": 8.35,
+    "meanRatio": 16.81,
     "worstPixel": [
+      77,
       76,
-      74,
-      74
+      75
     ],
     "samples": 5254,
     "box": {
       "x": 39.5,
-      "y": 299.85528564453125,
+      "y": 271.41778564453125,
       "width": 296,
       "height": 281.53125
     },
@@ -2914,27 +2810,27 @@
   {
     "label": "w375 plate3 p85 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.74,
-    "meanRatio": 6.98,
+    "worstRatio": 8.65,
+    "meanRatio": 17.02,
     "worstPixel": [
-      63,
-      61,
-      60
+      67,
+      66,
+      67
     ],
-    "samples": 5032,
+    "samples": 7252,
     "box": {
       "x": 39.5,
-      "y": 608.828125,
+      "y": 580.390625,
       "width": 296,
-      "height": 67.171875
+      "height": 97.5625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -2944,17 +2840,17 @@
       237,
       235
     ],
-    "worstRatio": 6.24,
-    "meanRatio": 13.92,
+    "worstRatio": 6.26,
+    "meanRatio": 14.08,
     "worstPixel": [
-      88,
+      87,
       86,
-      86
+      87
     ],
     "samples": 4600,
     "box": {
       "x": 39.5,
-      "y": 142.73638916015625,
+      "y": 134.73638916015625,
       "width": 276.8201904296875,
       "height": 149.0594482421875
     },
@@ -2971,7 +2867,7 @@
       235
     ],
     "worstRatio": 6.24,
-    "meanRatio": 11.82,
+    "meanRatio": 11.78,
     "worstPixel": [
       89,
       86,
@@ -2980,7 +2876,7 @@
     "samples": 5254,
     "box": {
       "x": 39.5,
-      "y": 314.5724792480469,
+      "y": 306.5724792480469,
       "width": 296,
       "height": 281.5312805175781
     },
@@ -2996,17 +2892,17 @@
       246,
       244
     ],
-    "worstRatio": 6.76,
-    "meanRatio": 15.21,
+    "worstRatio": 6.84,
+    "meanRatio": 15.47,
     "worstPixel": [
       88,
-      86,
+      85,
       86
     ],
     "samples": 4650,
     "box": {
       "x": 39.5,
-      "y": 133.35472106933594,
+      "y": 125.35472106933594,
       "width": 279.43359375,
       "height": 150.46669006347656
     },
@@ -3023,7 +2919,7 @@
       244
     ],
     "worstRatio": 7.35,
-    "meanRatio": 12.75,
+    "meanRatio": 12.77,
     "worstPixel": [
       82,
       81,
@@ -3032,7 +2928,7 @@
     "samples": 5254,
     "box": {
       "x": 39.5,
-      "y": 307.3785705566406,
+      "y": 299.3785705566406,
       "width": 296,
       "height": 281.5312194824219
     },
@@ -3044,28 +2940,28 @@
   {
     "label": "w375 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.74,
-    "meanRatio": 3.82,
+    "worstRatio": 6.86,
+    "meanRatio": 9.63,
     "worstPixel": [
       82,
       81,
       79
     ],
-    "samples": 5032,
+    "samples": 5624,
     "box": {
       "x": 39.5,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 296,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
-    "meanPass": false
+    "pass": true,
+    "meanPass": true
   },
   {
     "label": "w375 plate4 p85 #plate-drums .plate__pair \"Block.\n          Brace.\n          Lash.\"",
@@ -3074,17 +2970,17 @@
       252,
       249
     ],
-    "worstRatio": 7.25,
-    "meanRatio": 15.86,
+    "worstRatio": 7.36,
+    "meanRatio": 16.1,
     "worstPixel": [
-      86,
       85,
+      84,
       84
     ],
     "samples": 4794,
     "box": {
       "x": 39.5,
-      "y": 126.62796020507812,
+      "y": 118.62796020507812,
       "width": 280.9164123535156,
       "height": 151.26516723632812
     },
@@ -3100,17 +2996,17 @@
       252,
       249
     ],
-    "worstRatio": 8.21,
-    "meanRatio": 12.7,
+    "worstRatio": 8.18,
+    "meanRatio": 12.76,
     "worstPixel": [
-      78,
+      79,
       77,
       77
     ],
     "samples": 5254,
     "box": {
       "x": 39.5,
-      "y": 299.8370056152344,
+      "y": 291.8370056152344,
       "width": 296,
       "height": 281.5312805175781
     },
@@ -3122,27 +3018,27 @@
   {
     "label": "w375 plate4 p85 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.87,
-    "meanRatio": 4.54,
+    "worstRatio": 7.18,
+    "meanRatio": 11.18,
     "worstPixel": [
       79,
       78,
       77
     ],
-    "samples": 5032,
+    "samples": 5624,
     "box": {
       "x": 39.5,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 296,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -3152,17 +3048,17 @@
       237,
       235
     ],
-    "worstRatio": 8.04,
-    "meanRatio": 12.47,
+    "worstRatio": 7.79,
+    "meanRatio": 12.15,
     "worstPixel": [
+      74,
       72,
-      70,
-      69
+      71
     ],
     "samples": 4600,
     "box": {
       "x": 39.5,
-      "y": 168.34402465820312,
+      "y": 160.34402465820312,
       "width": 276.8163146972656,
       "height": 149.057373046875
     },
@@ -3178,17 +3074,17 @@
       237,
       235
     ],
-    "worstRatio": 7.28,
-    "meanRatio": 15.94,
+    "worstRatio": 7.2,
+    "meanRatio": 16,
     "worstPixel": [
       79,
-      76,
+      77,
       76
     ],
     "samples": 4736,
     "box": {
       "x": 39.5,
-      "y": 339.1508483886719,
+      "y": 331.1508483886719,
       "width": 296,
       "height": 255.93753051757812
     },
@@ -3204,17 +3100,17 @@
       246,
       244
     ],
-    "worstRatio": 8.99,
-    "meanRatio": 14.24,
+    "worstRatio": 8.58,
+    "meanRatio": 13.89,
     "worstPixel": [
-      70,
-      68,
-      66
+      73,
+      71,
+      69
     ],
     "samples": 4650,
     "box": {
       "x": 39.5,
-      "y": 158.96234130859375,
+      "y": 150.96234130859375,
       "width": 279.4297180175781,
       "height": 150.46463012695312
     },
@@ -3230,17 +3126,17 @@
       246,
       244
     ],
-    "worstRatio": 8.02,
-    "meanRatio": 17.37,
+    "worstRatio": 8.44,
+    "meanRatio": 17.48,
     "worstPixel": [
-      78,
-      75,
-      74
+      74,
+      72,
+      71
     ],
     "samples": 4736,
     "box": {
       "x": 39.5,
-      "y": 332.6109313964844,
+      "y": 324.6109313964844,
       "width": 296,
       "height": 255.93753051757812
     },
@@ -3252,27 +3148,27 @@
   {
     "label": "w375 plate5 p50 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.14,
-    "meanRatio": 4.95,
+    "worstRatio": 10.36,
+    "meanRatio": 12.34,
     "worstPixel": [
       57,
       54,
       53
     ],
-    "samples": 5032,
+    "samples": 5624,
     "box": {
       "x": 39.5,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 296,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -3282,17 +3178,17 @@
       252,
       249
     ],
-    "worstRatio": 9.3,
-    "meanRatio": 15.45,
+    "worstRatio": 8.87,
+    "meanRatio": 15.11,
     "worstPixel": [
-      71,
-      69,
-      67
+      74,
+      72,
+      70
     ],
     "samples": 4794,
     "box": {
       "x": 39.5,
-      "y": 152.2276611328125,
+      "y": 144.2276611328125,
       "width": 280.9164123535156,
       "height": 151.26513671875
     },
@@ -3309,7 +3205,7 @@
       249
     ],
     "worstRatio": 8.6,
-    "meanRatio": 18.38,
+    "meanRatio": 18.48,
     "worstPixel": [
       79,
       73,
@@ -3318,7 +3214,7 @@
     "samples": 4736,
     "box": {
       "x": 39.5,
-      "y": 325.7585754394531,
+      "y": 317.7585754394531,
       "width": 296,
       "height": 255.93746948242188
     },
@@ -3330,27 +3226,27 @@
   {
     "label": "w375 plate5 p85 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.98,
-    "meanRatio": 5.06,
+    "worstRatio": 10.09,
+    "meanRatio": 12.58,
     "worstPixel": [
-      59,
-      57,
-      55
+      58,
+      56,
+      54
     ],
-    "samples": 5032,
+    "samples": 5624,
     "box": {
       "x": 39.5,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 296,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -3360,17 +3256,17 @@
       237,
       235
     ],
-    "worstRatio": 6.26,
-    "meanRatio": 15.92,
+    "worstRatio": 6.24,
+    "meanRatio": 16.19,
     "worstPixel": [
-      87,
+      88,
       86,
       86
     ],
     "samples": 4600,
     "box": {
       "x": 39.5,
-      "y": 142.75027465820312,
+      "y": 134.75027465820312,
       "width": 276.8163146972656,
       "height": 149.057373046875
     },
@@ -3387,7 +3283,7 @@
       235
     ],
     "worstRatio": 6.26,
-    "meanRatio": 14.23,
+    "meanRatio": 14.08,
     "worstPixel": [
       88,
       86,
@@ -3396,7 +3292,7 @@
     "samples": 5254,
     "box": {
       "x": 39.5,
-      "y": 314.5831298828125,
+      "y": 306.5831298828125,
       "width": 296,
       "height": 281.53125
     },
@@ -3412,17 +3308,17 @@
       246,
       244
     ],
-    "worstRatio": 7.4,
-    "meanRatio": 17.2,
+    "worstRatio": 7.43,
+    "meanRatio": 17.45,
     "worstPixel": [
-      83,
+      82,
       80,
       80
     ],
     "samples": 4650,
     "box": {
       "x": 39.5,
-      "y": 133.36859130859375,
+      "y": 125.36859130859375,
       "width": 279.4297180175781,
       "height": 150.46463012695312
     },
@@ -3439,7 +3335,7 @@
       244
     ],
     "worstRatio": 7.34,
-    "meanRatio": 15.81,
+    "meanRatio": 15.67,
     "worstPixel": [
       83,
       81,
@@ -3448,7 +3344,7 @@
     "samples": 5254,
     "box": {
       "x": 39.5,
-      "y": 307.38922119140625,
+      "y": 299.38922119140625,
       "width": 296,
       "height": 281.53125
     },
@@ -3460,27 +3356,27 @@
   {
     "label": "w375 plate6 p50 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.35,
-    "meanRatio": 6.23,
+    "worstRatio": 8.38,
+    "meanRatio": 15.7,
     "worstPixel": [
       74,
       67,
       63
     ],
-    "samples": 5032,
+    "samples": 5624,
     "box": {
       "x": 39.5,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 296,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -3490,17 +3386,17 @@
       252,
       249
     ],
-    "worstRatio": 8.19,
-    "meanRatio": 17.77,
+    "worstRatio": 8.09,
+    "meanRatio": 18.04,
     "worstPixel": [
       79,
-      77,
-      76
+      78,
+      77
     ],
     "samples": 4794,
     "box": {
       "x": 39.5,
-      "y": 126.6339111328125,
+      "y": 118.6339111328125,
       "width": 280.9164123535156,
       "height": 151.26513671875
     },
@@ -3517,7 +3413,7 @@
       249
     ],
     "worstRatio": 8.54,
-    "meanRatio": 16.98,
+    "meanRatio": 16.83,
     "worstPixel": [
       79,
       74,
@@ -3526,7 +3422,7 @@
     "samples": 5254,
     "box": {
       "x": 39.5,
-      "y": 299.85162353515625,
+      "y": 291.85162353515625,
       "width": 296,
       "height": 281.53125
     },
@@ -3538,27 +3434,27 @@
   {
     "label": "w375 plate6 p85 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.65,
-    "meanRatio": 6.23,
+    "worstRatio": 9.12,
+    "meanRatio": 15.68,
     "worstPixel": [
       68,
       62,
       56
     ],
-    "samples": 5032,
+    "samples": 5624,
     "box": {
       "x": 39.5,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 296,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -3568,17 +3464,17 @@
       237,
       235
     ],
-    "worstRatio": 6.18,
-    "meanRatio": 10.05,
+    "worstRatio": 6.17,
+    "meanRatio": 10.07,
     "worstPixel": [
       88,
       87,
-      85
+      86
     ],
     "samples": 4600,
     "box": {
       "x": 39.5,
-      "y": 145.95339965820312,
+      "y": 137.95339965820312,
       "width": 276.8163146972656,
       "height": 149.057373046875
     },
@@ -3595,7 +3491,7 @@
       235
     ],
     "worstRatio": 6.26,
-    "meanRatio": 11.84,
+    "meanRatio": 11.72,
     "worstPixel": [
       87,
       86,
@@ -3604,7 +3500,7 @@
     "samples": 4736,
     "box": {
       "x": 39.5,
-      "y": 316.7602233886719,
+      "y": 308.7602233886719,
       "width": 296,
       "height": 255.93753051757812
     },
@@ -3630,7 +3526,7 @@
     "samples": 4650,
     "box": {
       "x": 39.5,
-      "y": 136.57171630859375,
+      "y": 128.57171630859375,
       "width": 279.4297180175781,
       "height": 150.46463012695312
     },
@@ -3647,7 +3543,7 @@
       244
     ],
     "worstRatio": 7.44,
-    "meanRatio": 13.16,
+    "meanRatio": 13.07,
     "worstPixel": [
       82,
       80,
@@ -3656,7 +3552,7 @@
     "samples": 4736,
     "box": {
       "x": 39.5,
-      "y": 310.2203063964844,
+      "y": 302.2203063964844,
       "width": 296,
       "height": 255.93753051757812
     },
@@ -3668,27 +3564,27 @@
   {
     "label": "w375 plate7 p50 #plate-yard .plate__meta \"Units on a roller dolly, warehouse · AI-\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.73,
-    "meanRatio": 5.55,
+    "worstRatio": 6.82,
+    "meanRatio": 13.83,
     "worstPixel": [
       83,
       81,
       80
     ],
-    "samples": 6660,
+    "samples": 7252,
     "box": {
       "x": 39.5,
-      "y": 586.4375,
+      "y": 578.4375,
       "width": 296,
-      "height": 89.5625
+      "height": 97.5625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -3699,16 +3595,16 @@
       249
     ],
     "worstRatio": 8.09,
-    "meanRatio": 12.07,
+    "meanRatio": 12.05,
     "worstPixel": [
-      80,
+      79,
       78,
-      74
+      77
     ],
     "samples": 4794,
     "box": {
       "x": 39.5,
-      "y": 129.8370361328125,
+      "y": 121.8370361328125,
       "width": 280.9164123535156,
       "height": 151.26513671875
     },
@@ -3724,17 +3620,17 @@
       252,
       249
     ],
-    "worstRatio": 8.3,
-    "meanRatio": 14.2,
+    "worstRatio": 8.31,
+    "meanRatio": 14.14,
     "worstPixel": [
       78,
       76,
-      77
+      76
     ],
     "samples": 4736,
     "box": {
       "x": 39.5,
-      "y": 303.3679504394531,
+      "y": 295.3679504394531,
       "width": 296,
       "height": 255.93746948242188
     },
@@ -3746,27 +3642,27 @@
   {
     "label": "w375 plate7 p85 #plate-yard .plate__meta \"Units on a roller dolly, warehouse · AI-\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.87,
-    "meanRatio": 5.81,
+    "worstRatio": 7.15,
+    "meanRatio": 14.41,
     "worstPixel": [
-      79,
+      80,
       78,
       77
     ],
-    "samples": 6660,
+    "samples": 7252,
     "box": {
       "x": 39.5,
-      "y": 586.4375,
+      "y": 578.4375,
       "width": 296,
-      "height": 89.5625
+      "height": 97.5625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -3777,7 +3673,7 @@
       234
     ],
     "worstRatio": 1,
-    "meanRatio": 16.51,
+    "meanRatio": 14.67,
     "worstPixel": [
       240,
       238,
@@ -3874,7 +3770,7 @@
     "meanPass": true
   },
   {
-    "label": "w375 #credentials #credentials p \"About ten years surveying. Previously em\"",
+    "label": "w375 #credentials #credentials p \"A decade surveying cargo. Previously emp\"",
     "text": [
       241,
       238,
@@ -3932,12 +3828,12 @@
       195,
       192
     ],
-    "worstRatio": 8.89,
-    "meanRatio": 11.51,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      39,
-      35,
-      34
+      8,
+      5,
+      4
     ],
     "samples": 5032,
     "box": {
@@ -4062,12 +3958,12 @@
       195,
       192
     ],
-    "worstRatio": 1,
-    "meanRatio": 10.86,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      197,
-      196,
-      191
+      8,
+      5,
+      4
     ],
     "samples": 12432,
     "box": {
@@ -4078,7 +3974,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -4088,12 +3984,12 @@
       195,
       192
     ],
-    "worstRatio": 1.01,
-    "meanRatio": 11.42,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      196,
-      195,
-      191
+      8,
+      5,
+      4
     ],
     "samples": 6336,
     "box": {
@@ -4104,7 +4000,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -4192,12 +4088,12 @@
       195,
       192
     ],
-    "worstRatio": 1.01,
-    "meanRatio": 11.19,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      196,
-      195,
-      191
+      8,
+      5,
+      4
     ],
     "samples": 5247,
     "box": {
@@ -4208,7 +4104,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -4322,32 +4218,6 @@
       151,
       147
     ],
-    "worstRatio": 1,
-    "meanRatio": 5.91,
-    "worstPixel": [
-      154,
-      151,
-      148
-    ],
-    "samples": 6512,
-    "box": {
-      "x": 39.5,
-      "y": 35.890625,
-      "width": 296,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": false,
-    "meanPass": true
-  },
-  {
-    "label": "w375 #contact #contact p \"\"",
-    "text": [
-      156,
-      151,
-      147
-    ],
     "worstRatio": 7.02,
     "meanRatio": 7.02,
     "worstPixel": [
@@ -4358,7 +4228,7 @@
     "samples": 6512,
     "box": {
       "x": 39.5,
-      "y": 148.671875,
+      "y": 44.828125,
       "width": 296,
       "height": 22.390625
     },
@@ -4384,7 +4254,7 @@
     "samples": 6512,
     "box": {
       "x": 39.5,
-      "y": 261.453125,
+      "y": 157.609375,
       "width": 296,
       "height": 22.390625
     },
@@ -4410,7 +4280,7 @@
     "samples": 6512,
     "box": {
       "x": 39.5,
-      "y": 433.015625,
+      "y": 270.390625,
       "width": 296,
       "height": 22.390625
     },
@@ -4436,7 +4306,7 @@
     "samples": 6512,
     "box": {
       "x": 39.5,
-      "y": 545.796875,
+      "y": 383.171875,
       "width": 296,
       "height": 22.390625
     },
@@ -4462,85 +4332,7 @@
     "samples": 6512,
     "box": {
       "x": 39.5,
-      "y": 658.578125,
-      "width": 296,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": true,
-    "meanPass": true
-  },
-  {
-    "label": "w375 #contact #contact label \"Port or facility\"",
-    "text": [
-      241,
-      238,
-      234
-    ],
-    "worstRatio": 17.56,
-    "meanRatio": 17.56,
-    "worstPixel": [
-      8,
-      5,
-      4
-    ],
-    "samples": 6512,
-    "box": {
-      "x": 39.5,
-      "y": 74.28125,
-      "width": 296,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": true,
-    "meanPass": true
-  },
-  {
-    "label": "w375 #contact #contact label \"Timing\"",
-    "text": [
-      241,
-      238,
-      234
-    ],
-    "worstRatio": 17.56,
-    "meanRatio": 17.56,
-    "worstPixel": [
-      8,
-      5,
-      4
-    ],
-    "samples": 6512,
-    "box": {
-      "x": 39.5,
-      "y": 187.0625,
-      "width": 296,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": true,
-    "meanPass": true
-  },
-  {
-    "label": "w375 #contact #contact label \"Evidence you need\"",
-    "text": [
-      241,
-      238,
-      234
-    ],
-    "worstRatio": 17.56,
-    "meanRatio": 17.56,
-    "worstPixel": [
-      8,
-      5,
-      4
-    ],
-    "samples": 6512,
-    "box": {
-      "x": 39.5,
-      "y": 299.84375,
+      "y": 554.734375,
       "width": 296,
       "height": 22.390625
     },
@@ -4566,7 +4358,7 @@
     "samples": 6512,
     "box": {
       "x": 39.5,
-      "y": 471.40625,
+      "y": 83.21875,
       "width": 296,
       "height": 22.390625
     },
@@ -4576,7 +4368,7 @@
     "meanPass": true
   },
   {
-    "label": "w375 #contact #contact label \"Organisation\"",
+    "label": "w375 #contact #contact label \"Company\"",
     "text": [
       241,
       238,
@@ -4592,7 +4384,7 @@
     "samples": 6512,
     "box": {
       "x": 39.5,
-      "y": 584.1875,
+      "y": 196,
       "width": 296,
       "height": 22.390625
     },
@@ -4602,7 +4394,7 @@
     "meanPass": true
   },
   {
-    "label": "w375 #contact #contact label \"How to reach you\"",
+    "label": "w375 #contact #contact label \"Email or phone\"",
     "text": [
       241,
       238,
@@ -4618,7 +4410,33 @@
     "samples": 6512,
     "box": {
       "x": 39.5,
-      "y": 696.96875,
+      "y": 308.78125,
+      "width": 296,
+      "height": 22.390625
+    },
+    "threshold": 4.5,
+    "size": 14,
+    "pass": true,
+    "meanPass": true
+  },
+  {
+    "label": "w375 #contact #contact label \"Anything else\"",
+    "text": [
+      241,
+      238,
+      234
+    ],
+    "worstRatio": 17.56,
+    "meanRatio": 17.56,
+    "worstPixel": [
+      8,
+      5,
+      4
+    ],
+    "samples": 6512,
+    "box": {
+      "x": 39.5,
+      "y": 421.5625,
       "width": 296,
       "height": 22.390625
     },
@@ -4644,7 +4462,7 @@
     "samples": 4884,
     "box": {
       "x": 39.5,
-      "y": 352.203125,
+      "y": 351.71875,
       "width": 296,
       "height": 65.25
     },
@@ -4661,7 +4479,7 @@
       29
     ],
     "worstRatio": 1.83,
-    "meanRatio": 4.23,
+    "meanRatio": 4.44,
     "worstPixel": [
       105,
       104,
@@ -4670,7 +4488,7 @@
     "samples": 5537,
     "box": {
       "x": 40.265625,
-      "y": 194.61000061035156,
+      "y": 170.61000061035156,
       "width": 337.4703674316406,
       "height": 145.72801208496094
     },
@@ -4687,7 +4505,7 @@
       29
     ],
     "worstRatio": 1.83,
-    "meanRatio": 4.21,
+    "meanRatio": 4.42,
     "worstPixel": [
       105,
       104,
@@ -4696,7 +4514,7 @@
     "samples": 5537,
     "box": {
       "x": 40.265625,
-      "y": 194.61000061035156,
+      "y": 170.61000061035156,
       "width": 337.4703674316406,
       "height": 145.72801208496094
     },
@@ -4712,17 +4530,17 @@
       200,
       29
     ],
-    "worstRatio": 3.83,
-    "meanRatio": 9.94,
+    "worstRatio": 3.9,
+    "meanRatio": 10.01,
     "worstPixel": [
-      102,
+      97,
       96,
       96
     ],
     "samples": 15318,
     "box": {
       "x": 40.265625,
-      "y": 141.15625,
+      "y": 117.15625,
       "width": 333.46875,
       "height": 46.09375
     },
@@ -4738,17 +4556,17 @@
       240,
       238
     ],
-    "worstRatio": 6.25,
-    "meanRatio": 10.31,
+    "worstRatio": 5.27,
+    "meanRatio": 9.92,
     "worstPixel": [
-      103,
-      87,
-      25
+      100,
+      99,
+      99
     ],
     "samples": 4843,
     "box": {
       "x": 40.265625,
-      "y": 358.6424865722656,
+      "y": 334.6424865722656,
       "width": 333.46875,
       "height": 57.59375
     },
@@ -4760,79 +4578,79 @@
   {
     "label": "w414 plate1 p12 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.44,
-    "meanRatio": 5.74,
+    "worstRatio": 6.32,
+    "meanRatio": 14.06,
     "worstPixel": [
-      102,
-      88,
-      26
+      100,
+      85,
+      40
     ],
-    "samples": 14652,
+    "samples": 4342,
     "box": {
       "x": 40.265625,
-      "y": 631.21875,
+      "y": 623.21875,
       "width": 333.46875,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
     "label": "w414 plate1 p50 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.91,
-    "meanRatio": 6.05,
+    "worstRatio": 7.17,
+    "meanRatio": 15.03,
     "worstPixel": [
-      91,
-      76,
-      32
+      92,
+      77,
+      26
     ],
-    "samples": 14652,
+    "samples": 4342,
     "box": {
       "x": 40.265625,
-      "y": 631.21875,
+      "y": 623.21875,
       "width": 333.46875,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
     "label": "w414 plate1 p85 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.18,
-    "meanRatio": 5.72,
+    "worstRatio": 8.19,
+    "meanRatio": 14.65,
     "worstPixel": [
-      81,
-      71,
-      40
+      77,
+      69,
+      53
     ],
-    "samples": 14652,
+    "samples": 4342,
     "box": {
       "x": 40.265625,
-      "y": 631.21875,
+      "y": 623.21875,
       "width": 333.46875,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -4842,17 +4660,17 @@
       237,
       235
     ],
-    "worstRatio": 7.35,
-    "meanRatio": 14.2,
+    "worstRatio": 7.18,
+    "meanRatio": 14.21,
     "worstPixel": [
-      76,
-      76,
-      76
+      86,
+      75,
+      75
     ],
     "samples": 4600,
     "box": {
       "x": 40.265625,
-      "y": 142.7537384033203,
+      "y": 134.7537384033203,
       "width": 276.8153381347656,
       "height": 149.05686950683594
     },
@@ -4869,7 +4687,7 @@
       235
     ],
     "worstRatio": 8.19,
-    "meanRatio": 15.2,
+    "meanRatio": 15.15,
     "worstPixel": [
       77,
       67,
@@ -4878,7 +4696,7 @@
     "samples": 5964,
     "box": {
       "x": 40.265625,
-      "y": 314.5857849121094,
+      "y": 306.5857849121094,
       "width": 333.46875,
       "height": 281.5312805175781
     },
@@ -4894,17 +4712,17 @@
       246,
       244
     ],
-    "worstRatio": 8.98,
-    "meanRatio": 15.72,
+    "worstRatio": 8.36,
+    "meanRatio": 15.69,
     "worstPixel": [
-      82,
-      64,
-      65
+      80,
+      71,
+      70
     ],
     "samples": 4650,
     "box": {
       "x": 40.265625,
-      "y": 133.3720703125,
+      "y": 125.3720703125,
       "width": 279.42877197265625,
       "height": 150.464111328125
     },
@@ -4920,17 +4738,17 @@
       246,
       244
     ],
-    "worstRatio": 8.29,
-    "meanRatio": 16.71,
+    "worstRatio": 8.85,
+    "meanRatio": 16.68,
     "worstPixel": [
-      79,
-      72,
-      71
+      71,
+      69,
+      67
     ],
     "samples": 5964,
     "box": {
       "x": 40.265625,
-      "y": 307.3918762207031,
+      "y": 299.3918762207031,
       "width": 333.46875,
       "height": 281.5312194824219
     },
@@ -4942,27 +4760,27 @@
   {
     "label": "w414 plate2 p50 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.11,
-    "meanRatio": 6.6,
+    "worstRatio": 7.84,
+    "meanRatio": 16.46,
     "worstPixel": [
-      74,
+      72,
       73,
-      72
+      70
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -4972,17 +4790,17 @@
       252,
       249
     ],
-    "worstRatio": 10.28,
-    "meanRatio": 16.66,
+    "worstRatio": 10.15,
+    "meanRatio": 16.67,
     "worstPixel": [
-      67,
-      62,
-      59
+      89,
+      55,
+      50
     ],
     "samples": 4794,
     "box": {
       "x": 40.265625,
-      "y": 126.63539123535156,
+      "y": 118.63539123535156,
       "width": 280.9164123535156,
       "height": 151.26515197753906
     },
@@ -4998,17 +4816,17 @@
       252,
       249
     ],
-    "worstRatio": 9.47,
-    "meanRatio": 17.76,
+    "worstRatio": 10.21,
+    "meanRatio": 17.75,
     "worstPixel": [
-      73,
-      67,
-      65
+      71,
+      61,
+      62
     ],
     "samples": 5964,
     "box": {
       "x": 40.265625,
-      "y": 299.85528564453125,
+      "y": 291.85528564453125,
       "width": 333.46875,
       "height": 281.53125
     },
@@ -5020,27 +4838,27 @@
   {
     "label": "w414 plate2 p85 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.31,
-    "meanRatio": 6.66,
+    "worstRatio": 8.14,
+    "meanRatio": 16.62,
     "worstPixel": [
+      71,
       70,
-      69,
-      67
+      69
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -5050,17 +4868,17 @@
       237,
       235
     ],
-    "worstRatio": 6.18,
-    "meanRatio": 13.96,
+    "worstRatio": 6.17,
+    "meanRatio": 14.03,
     "worstPixel": [
       88,
       87,
-      85
+      86
     ],
     "samples": 4600,
     "box": {
       "x": 40.265625,
-      "y": 193.91348266601562,
+      "y": 185.91348266601562,
       "width": 276.8230895996094,
       "height": 149.06100463867188
     },
@@ -5076,17 +4894,17 @@
       237,
       235
     ],
-    "worstRatio": 6.25,
-    "meanRatio": 14.73,
+    "worstRatio": 6.17,
+    "meanRatio": 14.62,
     "worstPixel": [
       88,
-      86,
-      85
+      87,
+      86
     ],
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 363.7033386230469,
+      "y": 355.7033386230469,
       "width": 333.46875,
       "height": 230.34378051757812
     },
@@ -5102,17 +4920,17 @@
       246,
       244
     ],
-    "worstRatio": 7.35,
-    "meanRatio": 15.45,
+    "worstRatio": 7.43,
+    "meanRatio": 15.49,
     "worstPixel": [
-      82,
-      81,
-      80
+      83,
+      80,
+      77
     ],
     "samples": 4650,
     "box": {
       "x": 40.265625,
-      "y": 184.5873260498047,
+      "y": 176.5873260498047,
       "width": 279.4210205078125,
       "height": 150.4599151611328
     },
@@ -5128,17 +4946,17 @@
       246,
       244
     ],
-    "worstRatio": 7.44,
-    "meanRatio": 16.33,
+    "worstRatio": 7.56,
+    "meanRatio": 16.23,
     "worstPixel": [
-      82,
-      80,
-      79
+      81,
+      79,
+      78
     ],
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 357.85223388671875,
+      "y": 349.85223388671875,
       "width": 333.46875,
       "height": 230.34375
     },
@@ -5150,27 +4968,27 @@
   {
     "label": "w414 plate3 p50 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.74,
-    "meanRatio": 6.83,
+    "worstRatio": 9.36,
+    "meanRatio": 17.05,
     "worstPixel": [
       62,
       61,
       61
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -5180,17 +4998,17 @@
       252,
       249
     ],
-    "worstRatio": 8.12,
-    "meanRatio": 16.36,
+    "worstRatio": 8.17,
+    "meanRatio": 16.42,
     "worstPixel": [
-      79,
-      78,
-      74
+      80,
+      77,
+      75
     ],
     "samples": 4794,
     "box": {
       "x": 40.265625,
-      "y": 177.81101989746094,
+      "y": 169.81101989746094,
       "width": 280.9164123535156,
       "height": 151.26515197753906
     },
@@ -5206,17 +5024,17 @@
       252,
       249
     ],
-    "worstRatio": 8.48,
-    "meanRatio": 17.21,
+    "worstRatio": 8.46,
+    "meanRatio": 17.23,
     "worstPixel": [
-      76,
+      77,
       75,
       74
     ],
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 351.64459228515625,
+      "y": 343.64459228515625,
       "width": 333.46875,
       "height": 230.34375
     },
@@ -5228,27 +5046,27 @@
   {
     "label": "w414 plate3 p85 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.78,
-    "meanRatio": 6.98,
+    "worstRatio": 9.3,
+    "meanRatio": 17.29,
     "worstPixel": [
-      63,
-      60,
-      60
+      64,
+      61,
+      61
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -5258,17 +5076,17 @@
       237,
       235
     ],
-    "worstRatio": 6.17,
-    "meanRatio": 12.19,
+    "worstRatio": 6.26,
+    "meanRatio": 12.47,
     "worstPixel": [
-      88,
       87,
+      86,
       86
     ],
     "samples": 4600,
     "box": {
       "x": 40.265625,
-      "y": 193.9412384033203,
+      "y": 185.9412384033203,
       "width": 276.8153381347656,
       "height": 149.05686950683594
     },
@@ -5284,17 +5102,17 @@
       237,
       235
     ],
-    "worstRatio": 6.21,
-    "meanRatio": 12.17,
+    "worstRatio": 6.17,
+    "meanRatio": 12.02,
     "worstPixel": [
       88,
       87,
-      81
+      86
     ],
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 363.72076416015625,
+      "y": 355.72076416015625,
       "width": 333.46875,
       "height": 230.34375
     },
@@ -5310,17 +5128,17 @@
       246,
       244
     ],
-    "worstRatio": 7.45,
-    "meanRatio": 13.23,
+    "worstRatio": 7.35,
+    "meanRatio": 13.57,
     "worstPixel": [
+      82,
       81,
-      80,
       80
     ],
     "samples": 4650,
     "box": {
       "x": 40.265625,
-      "y": 184.5595703125,
+      "y": 176.5595703125,
       "width": 279.42877197265625,
       "height": 150.464111328125
     },
@@ -5337,7 +5155,7 @@
       244
     ],
     "worstRatio": 7.35,
-    "meanRatio": 13.16,
+    "meanRatio": 13.13,
     "worstPixel": [
       82,
       81,
@@ -5346,7 +5164,7 @@
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 357.8348388671875,
+      "y": 349.8348388671875,
       "width": 333.46875,
       "height": 230.34375
     },
@@ -5358,28 +5176,28 @@
   {
     "label": "w414 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.77,
-    "meanRatio": 3.96,
+    "worstRatio": 6.93,
+    "meanRatio": 9.98,
     "worstPixel": [
       82,
       80,
       80
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
-    "meanPass": false
+    "pass": true,
+    "meanPass": true
   },
   {
     "label": "w414 plate4 p85 #plate-drums .plate__pair \"Block.\n          Brace.\n          Lash.\"",
@@ -5388,17 +5206,17 @@
       252,
       249
     ],
-    "worstRatio": 8.19,
-    "meanRatio": 13.8,
+    "worstRatio": 8.09,
+    "meanRatio": 14.07,
     "worstPixel": [
       79,
-      77,
-      76
+      78,
+      77
     ],
     "samples": 4794,
     "box": {
       "x": 40.265625,
-      "y": 177.82289123535156,
+      "y": 169.82289123535156,
       "width": 280.9164123535156,
       "height": 151.26515197753906
     },
@@ -5415,7 +5233,7 @@
       249
     ],
     "worstRatio": 8.09,
-    "meanRatio": 12.85,
+    "meanRatio": 12.93,
     "worstPixel": [
       79,
       78,
@@ -5424,7 +5242,7 @@
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 351.66851806640625,
+      "y": 343.66851806640625,
       "width": 333.46875,
       "height": 230.34375
     },
@@ -5436,28 +5254,28 @@
   {
     "label": "w414 plate4 p85 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.91,
-    "meanRatio": 4.48,
+    "worstRatio": 7.35,
+    "meanRatio": 10.98,
     "worstPixel": [
-      78,
-      77,
-      77
+      79,
+      76,
+      76
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
-    "meanPass": false
+    "pass": true,
+    "meanPass": true
   },
   {
     "label": "w414 plate5 p12 #plate-containers .plate__pair \"Wrap.\n          Secure.\n          Ship.\"",
@@ -5466,17 +5284,17 @@
       237,
       235
     ],
-    "worstRatio": 7.9,
-    "meanRatio": 13.59,
+    "worstRatio": 7.89,
+    "meanRatio": 13.22,
     "worstPixel": [
-      72,
       71,
-      74
+      71,
+      78
     ],
     "samples": 4600,
     "box": {
       "x": 40.265625,
-      "y": 193.9447021484375,
+      "y": 185.9447021484375,
       "width": 276.8143615722656,
       "height": 149.05633544921875
     },
@@ -5493,7 +5311,7 @@
       235
     ],
     "worstRatio": 6.94,
-    "meanRatio": 15.96,
+    "meanRatio": 16.04,
     "worstPixel": [
       82,
       79,
@@ -5502,7 +5320,7 @@
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 363.7229309082031,
+      "y": 355.7229309082031,
       "width": 333.46875,
       "height": 230.34371948242188
     },
@@ -5518,17 +5336,17 @@
       246,
       244
     ],
-    "worstRatio": 9.44,
-    "meanRatio": 15.4,
+    "worstRatio": 9.4,
+    "meanRatio": 15.04,
     "worstPixel": [
       66,
       65,
-      65
+      68
     ],
     "samples": 4650,
     "box": {
       "x": 40.265625,
-      "y": 184.5630340576172,
+      "y": 176.5630340576172,
       "width": 279.42779541015625,
       "height": 150.4635772705078
     },
@@ -5544,17 +5362,17 @@
       246,
       244
     ],
-    "worstRatio": 8.17,
-    "meanRatio": 17.37,
+    "worstRatio": 8,
+    "meanRatio": 17.48,
     "worstPixel": [
       82,
-      72,
-      74
+      74,
+      73
     ],
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 357.8370056152344,
+      "y": 349.8370056152344,
       "width": 333.46875,
       "height": 230.34378051757812
     },
@@ -5566,27 +5384,27 @@
   {
     "label": "w414 plate5 p50 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.16,
-    "meanRatio": 5,
+    "worstRatio": 10.39,
+    "meanRatio": 12.44,
     "worstPixel": [
       56,
       54,
       53
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -5596,17 +5414,17 @@
       252,
       249
     ],
-    "worstRatio": 10.25,
-    "meanRatio": 16.78,
+    "worstRatio": 10.02,
+    "meanRatio": 16.41,
     "worstPixel": [
-      63,
-      63,
-      64
+      67,
+      64,
+      63
     ],
     "samples": 4794,
     "box": {
       "x": 40.265625,
-      "y": 177.82437133789062,
+      "y": 169.82437133789062,
       "width": 280.9164123535156,
       "height": 151.26516723632812
     },
@@ -5622,17 +5440,17 @@
       252,
       249
     ],
-    "worstRatio": 8.19,
-    "meanRatio": 18.21,
+    "worstRatio": 8.28,
+    "meanRatio": 18.35,
     "worstPixel": [
       79,
-      77,
-      76
+      76,
+      77
     ],
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 351.6715087890625,
+      "y": 343.6715087890625,
       "width": 333.46875,
       "height": 230.34375
     },
@@ -5644,27 +5462,27 @@
   {
     "label": "w414 plate5 p85 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.08,
-    "meanRatio": 5.1,
+    "worstRatio": 10.2,
+    "meanRatio": 12.69,
     "worstPixel": [
       58,
       55,
       54
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -5674,17 +5492,17 @@
       237,
       235
     ],
-    "worstRatio": 7.03,
-    "meanRatio": 14.25,
+    "worstRatio": 6.94,
+    "meanRatio": 14.5,
     "worstPixel": [
+      72,
       81,
-      78,
-      81
+      87
     ],
     "samples": 4600,
     "box": {
       "x": 40.265625,
-      "y": 193.9447021484375,
+      "y": 185.9447021484375,
       "width": 276.8143615722656,
       "height": 149.05633544921875
     },
@@ -5701,7 +5519,7 @@
       235
     ],
     "worstRatio": 6.35,
-    "meanRatio": 14.57,
+    "meanRatio": 14.44,
     "worstPixel": [
       88,
       85,
@@ -5710,7 +5528,7 @@
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 363.7229309082031,
+      "y": 355.7229309082031,
       "width": 333.46875,
       "height": 230.34371948242188
     },
@@ -5726,17 +5544,17 @@
       246,
       244
     ],
-    "worstRatio": 8.01,
-    "meanRatio": 15.49,
+    "worstRatio": 8.2,
+    "meanRatio": 15.76,
     "worstPixel": [
-      73,
-      76,
+      69,
+      75,
       80
     ],
     "samples": 4650,
     "box": {
       "x": 40.265625,
-      "y": 184.5630340576172,
+      "y": 176.5630340576172,
       "width": 279.42779541015625,
       "height": 150.4635772705078
     },
@@ -5752,17 +5570,17 @@
       246,
       244
     ],
-    "worstRatio": 7.62,
-    "meanRatio": 16.21,
+    "worstRatio": 7.73,
+    "meanRatio": 16.07,
     "worstPixel": [
-      83,
-      78,
+      82,
+      77,
       74
     ],
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 357.8370056152344,
+      "y": 349.8370056152344,
       "width": 333.46875,
       "height": 230.34378051757812
     },
@@ -5774,27 +5592,27 @@
   {
     "label": "w414 plate6 p50 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.52,
-    "meanRatio": 6.23,
+    "worstRatio": 8.38,
+    "meanRatio": 15.72,
     "worstPixel": [
-      71,
-      64,
-      59
+      74,
+      67,
+      63
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -5804,17 +5622,17 @@
       252,
       249
     ],
-    "worstRatio": 8.72,
-    "meanRatio": 16.16,
+    "worstRatio": 8.86,
+    "meanRatio": 16.41,
     "worstPixel": [
-      70,
+      65,
       74,
       77
     ],
     "samples": 4794,
     "box": {
       "x": 40.265625,
-      "y": 177.82437133789062,
+      "y": 169.82437133789062,
       "width": 280.9164123535156,
       "height": 151.26516723632812
     },
@@ -5830,17 +5648,17 @@
       252,
       249
     ],
-    "worstRatio": 8.41,
-    "meanRatio": 17.29,
+    "worstRatio": 8.5,
+    "meanRatio": 17.14,
     "worstPixel": [
       79,
-      75,
+      74,
       73
     ],
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 351.6715087890625,
+      "y": 343.6715087890625,
       "width": 333.46875,
       "height": 230.34375
     },
@@ -5852,27 +5670,27 @@
   {
     "label": "w414 plate6 p85 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.69,
-    "meanRatio": 6.24,
+    "worstRatio": 9.06,
+    "meanRatio": 15.68,
     "worstPixel": [
-      68,
-      61,
-      56
+      69,
+      62,
+      58
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -5882,17 +5700,17 @@
       237,
       235
     ],
-    "worstRatio": 6.24,
-    "meanRatio": 10.39,
+    "worstRatio": 6.17,
+    "meanRatio": 10.41,
     "worstPixel": [
       88,
-      86,
-      86
+      87,
+      87
     ],
     "samples": 4600,
     "box": {
       "x": 40.265625,
-      "y": 193.9447021484375,
+      "y": 185.9447021484375,
       "width": 276.8143615722656,
       "height": 149.05633544921875
     },
@@ -5909,7 +5727,7 @@
       235
     ],
     "worstRatio": 6.15,
-    "meanRatio": 12.39,
+    "meanRatio": 12.28,
     "worstPixel": [
       89,
       87,
@@ -5918,7 +5736,7 @@
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 363.7229309082031,
+      "y": 355.7229309082031,
       "width": 333.46875,
       "height": 230.34371948242188
     },
@@ -5934,17 +5752,17 @@
       246,
       244
     ],
-    "worstRatio": 7.35,
-    "meanRatio": 11.65,
+    "worstRatio": 7.4,
+    "meanRatio": 11.66,
     "worstPixel": [
-      82,
-      81,
+      83,
+      80,
       80
     ],
     "samples": 4650,
     "box": {
       "x": 40.265625,
-      "y": 184.5630340576172,
+      "y": 176.5630340576172,
       "width": 279.42779541015625,
       "height": 150.4635772705078
     },
@@ -5960,17 +5778,17 @@
       246,
       244
     ],
-    "worstRatio": 7.32,
-    "meanRatio": 13.86,
+    "worstRatio": 7.55,
+    "meanRatio": 13.76,
     "worstPixel": [
-      83,
       81,
-      80
+      79,
+      79
     ],
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 357.8370056152344,
+      "y": 349.8370056152344,
       "width": 333.46875,
       "height": 230.34378051757812
     },
@@ -5982,27 +5800,27 @@
   {
     "label": "w414 plate7 p50 #plate-yard .plate__meta \"Units on a roller dolly, warehouse · AI-\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.78,
-    "meanRatio": 5.72,
+    "worstRatio": 6.95,
+    "meanRatio": 14.21,
     "worstPixel": [
       81,
       80,
       80
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -6012,17 +5830,17 @@
       252,
       249
     ],
-    "worstRatio": 8.06,
-    "meanRatio": 12.46,
+    "worstRatio": 8.09,
+    "meanRatio": 12.47,
     "worstPixel": [
-      80,
+      79,
       78,
       77
     ],
     "samples": 4794,
     "box": {
       "x": 40.265625,
-      "y": 177.82437133789062,
+      "y": 169.82437133789062,
       "width": 280.9164123535156,
       "height": 151.26516723632812
     },
@@ -6038,17 +5856,17 @@
       252,
       249
     ],
-    "worstRatio": 8.06,
-    "meanRatio": 14.81,
+    "worstRatio": 8.09,
+    "meanRatio": 14.72,
     "worstPixel": [
-      80,
+      79,
       78,
       77
     ],
     "samples": 4872,
     "box": {
       "x": 40.265625,
-      "y": 351.6715087890625,
+      "y": 343.6715087890625,
       "width": 333.46875,
       "height": 230.34375
     },
@@ -6060,27 +5878,27 @@
   {
     "label": "w414 plate7 p85 #plate-yard .plate__meta \"Units on a roller dolly, warehouse · AI-\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.95,
-    "meanRatio": 6.05,
+    "worstRatio": 7.26,
+    "meanRatio": 14.87,
     "worstPixel": [
-      78,
-      76,
-      76
+      79,
+      77,
+      77
     ],
-    "samples": 5678,
+    "samples": 6346,
     "box": {
       "x": 40.265625,
-      "y": 608.828125,
+      "y": 600.828125,
       "width": 333.46875,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -6091,7 +5909,7 @@
       234
     ],
     "worstRatio": 1,
-    "meanRatio": 16.61,
+    "meanRatio": 14.92,
     "worstPixel": [
       240,
       238,
@@ -6246,12 +6064,12 @@
       195,
       192
     ],
-    "worstRatio": 1.01,
-    "meanRatio": 10.82,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      198,
-      197,
-      192
+      8,
+      5,
+      4
     ],
     "samples": 6346,
     "box": {
@@ -6262,7 +6080,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -6376,12 +6194,12 @@
       195,
       192
     ],
-    "worstRatio": 1.04,
-    "meanRatio": 11.04,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      201,
-      199,
-      195
+      8,
+      5,
+      4
     ],
     "samples": 8851,
     "box": {
@@ -6392,7 +6210,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -6506,12 +6324,12 @@
       195,
       192
     ],
-    "worstRatio": 1.02,
-    "meanRatio": 11.2,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      199,
-      198,
-      193
+      8,
+      5,
+      4
     ],
     "samples": 5661,
     "box": {
@@ -6522,7 +6340,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -6636,32 +6454,6 @@
       151,
       147
     ],
-    "worstRatio": 1,
-    "meanRatio": 6.61,
-    "worstPixel": [
-      154,
-      151,
-      148
-    ],
-    "samples": 7326,
-    "box": {
-      "x": 40.265625,
-      "y": 45.640625,
-      "width": 333.46875,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": false,
-    "meanPass": true
-  },
-  {
-    "label": "w414 #contact #contact p \"\"",
-    "text": [
-      156,
-      151,
-      147
-    ],
     "worstRatio": 7.02,
     "meanRatio": 7.02,
     "worstPixel": [
@@ -6672,7 +6464,7 @@
     "samples": 7326,
     "box": {
       "x": 40.265625,
-      "y": 158.421875,
+      "y": 139.375,
       "width": 333.46875,
       "height": 22.390625
     },
@@ -6698,7 +6490,7 @@
     "samples": 7326,
     "box": {
       "x": 40.265625,
-      "y": 271.203125,
+      "y": 252.15625,
       "width": 333.46875,
       "height": 22.390625
     },
@@ -6724,7 +6516,7 @@
     "samples": 7326,
     "box": {
       "x": 40.265625,
-      "y": 442.765625,
+      "y": 364.9375,
       "width": 333.46875,
       "height": 22.390625
     },
@@ -6750,7 +6542,7 @@
     "samples": 7326,
     "box": {
       "x": 40.265625,
-      "y": 555.546875,
+      "y": 477.71875,
       "width": 333.46875,
       "height": 22.390625
     },
@@ -6776,7 +6568,7 @@
     "samples": 7326,
     "box": {
       "x": 40.265625,
-      "y": 668.328125,
+      "y": 649.28125,
       "width": 333.46875,
       "height": 22.390625
     },
@@ -6786,7 +6578,7 @@
     "meanPass": true
   },
   {
-    "label": "w414 #contact #contact label \"Port or facility\"",
+    "label": "w414 #contact #contact label \"What you need in the report\"",
     "text": [
       241,
       238,
@@ -6802,59 +6594,7 @@
     "samples": 7326,
     "box": {
       "x": 40.265625,
-      "y": 84.03125,
-      "width": 333.46875,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": true,
-    "meanPass": true
-  },
-  {
-    "label": "w414 #contact #contact label \"Timing\"",
-    "text": [
-      241,
-      238,
-      234
-    ],
-    "worstRatio": 17.56,
-    "meanRatio": 17.56,
-    "worstPixel": [
-      8,
-      5,
-      4
-    ],
-    "samples": 7326,
-    "box": {
-      "x": 40.265625,
-      "y": 196.8125,
-      "width": 333.46875,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": true,
-    "meanPass": true
-  },
-  {
-    "label": "w414 #contact #contact label \"Evidence you need\"",
-    "text": [
-      241,
-      238,
-      234
-    ],
-    "worstRatio": 17.56,
-    "meanRatio": 17.56,
-    "worstPixel": [
-      8,
-      5,
-      4
-    ],
-    "samples": 7326,
-    "box": {
-      "x": 40.265625,
-      "y": 309.59375,
+      "y": 6.203125,
       "width": 333.46875,
       "height": 22.390625
     },
@@ -6880,7 +6620,7 @@
     "samples": 7326,
     "box": {
       "x": 40.265625,
-      "y": 481.15625,
+      "y": 177.765625,
       "width": 333.46875,
       "height": 22.390625
     },
@@ -6890,7 +6630,7 @@
     "meanPass": true
   },
   {
-    "label": "w414 #contact #contact label \"Organisation\"",
+    "label": "w414 #contact #contact label \"Company\"",
     "text": [
       241,
       238,
@@ -6906,7 +6646,7 @@
     "samples": 7326,
     "box": {
       "x": 40.265625,
-      "y": 593.9375,
+      "y": 290.546875,
       "width": 333.46875,
       "height": 22.390625
     },
@@ -6916,7 +6656,7 @@
     "meanPass": true
   },
   {
-    "label": "w414 #contact #contact label \"How to reach you\"",
+    "label": "w414 #contact #contact label \"Email or phone\"",
     "text": [
       241,
       238,
@@ -6932,7 +6672,33 @@
     "samples": 7326,
     "box": {
       "x": 40.265625,
-      "y": 706.71875,
+      "y": 403.328125,
+      "width": 333.46875,
+      "height": 22.390625
+    },
+    "threshold": 4.5,
+    "size": 14,
+    "pass": true,
+    "meanPass": true
+  },
+  {
+    "label": "w414 #contact #contact label \"Anything else\"",
+    "text": [
+      241,
+      238,
+      234
+    ],
+    "worstRatio": 17.56,
+    "meanRatio": 17.56,
+    "worstPixel": [
+      8,
+      5,
+      4
+    ],
+    "samples": 7326,
+    "box": {
+      "x": 40.265625,
+      "y": 516.109375,
       "width": 333.46875,
       "height": 22.390625
     },
@@ -6958,7 +6724,7 @@
     "samples": 5511,
     "box": {
       "x": 40.265625,
-      "y": 386.96875,
+      "y": 386.296875,
       "width": 333.34375,
       "height": 65.25
     },
@@ -6974,17 +6740,17 @@
       107,
       29
     ],
-    "worstRatio": 2.04,
-    "meanRatio": 3.86,
+    "worstRatio": 1.99,
+    "meanRatio": 3.85,
     "worstPixel": [
-      107,
-      97,
-      53
+      100,
+      98,
+      98
     ],
     "samples": 4446,
     "box": {
       "x": 47.359375,
-      "y": 489.3944091796875,
+      "y": 465.3944091796875,
       "width": 681.360595703125,
       "height": 233.17108154296875
     },
@@ -7000,17 +6766,17 @@
       107,
       29
     ],
-    "worstRatio": 2.02,
+    "worstRatio": 1.99,
     "meanRatio": 3.85,
     "worstPixel": [
-      99,
-      97,
-      97
+      100,
+      98,
+      98
     ],
     "samples": 4446,
     "box": {
       "x": 47.359375,
-      "y": 489.3944091796875,
+      "y": 465.3944091796875,
       "width": 681.360595703125,
       "height": 233.17108154296875
     },
@@ -7026,17 +6792,17 @@
       200,
       29
     ],
-    "worstRatio": 3.62,
-    "meanRatio": 7.28,
+    "worstRatio": 3.21,
+    "meanRatio": 7.39,
     "worstPixel": [
-      102,
-      101,
-      100
+      110,
+      109,
+      108
     ],
     "samples": 4718,
     "box": {
       "x": 47.359375,
-      "y": 458.34375,
+      "y": 434.34375,
       "width": 673.28125,
       "height": 28.875
     },
@@ -7052,17 +6818,17 @@
       240,
       238
     ],
-    "worstRatio": 5.44,
-    "meanRatio": 11.64,
+    "worstRatio": 5.35,
+    "meanRatio": 11.28,
     "worstPixel": [
-      107,
-      97,
-      59
+      106,
+      99,
+      55
     ],
     "samples": 14700,
     "box": {
       "x": 47.359375,
-      "y": 747.3212890625,
+      "y": 723.3212890625,
       "width": 525.09375,
       "height": 28.796875
     },
@@ -7074,80 +6840,80 @@
   {
     "label": "w768 plate1 p12 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.96,
-    "meanRatio": 5.37,
+    "worstRatio": 7.34,
+    "meanRatio": 14.02,
     "worstPixel": [
-      82,
-      75,
+      81,
+      76,
       71
     ],
-    "samples": 10538,
+    "samples": 14850,
     "box": {
       "x": 47.359375,
-      "y": 937.609375,
-      "width": 479.265625,
-      "height": 22.390625
+      "y": 929.609375,
+      "width": 495.265625,
+      "height": 30.390625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
     "label": "w768 plate1 p50 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3,
-    "meanRatio": 4.56,
+    "worstRatio": 7.46,
+    "meanRatio": 11.94,
     "worstPixel": [
-      84,
-      74,
-      58
+      82,
+      75,
+      61
     ],
-    "samples": 10538,
+    "samples": 14850,
     "box": {
       "x": 47.359375,
-      "y": 937.609375,
-      "width": 479.265625,
-      "height": 22.390625
+      "y": 929.609375,
+      "width": 495.265625,
+      "height": 30.390625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
     "label": "w768 plate1 p85 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.97,
-    "meanRatio": 4.05,
+    "worstRatio": 7.24,
+    "meanRatio": 10.59,
     "worstPixel": [
       80,
-      75,
-      74
+      77,
+      76
     ],
-    "samples": 10538,
+    "samples": 14850,
     "box": {
       "x": 47.359375,
-      "y": 937.609375,
-      "width": 479.265625,
-      "height": 22.390625
+      "y": 929.609375,
+      "width": 495.265625,
+      "height": 30.390625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
-    "meanPass": false
+    "pass": true,
+    "meanPass": true
   },
   {
     "label": "w768 plate2 p12 .plate:nth-of-type(2) .plate__pair \"Count.\n          Measure.\n          Reco\"",
@@ -7156,17 +6922,17 @@
       237,
       235
     ],
-    "worstRatio": 7.81,
-    "meanRatio": 15.21,
+    "worstRatio": 7.63,
+    "meanRatio": 15.22,
     "worstPixel": [
+      76,
       73,
-      72,
-      72
+      73
     ],
     "samples": 5400,
     "box": {
       "x": 47.359375,
-      "y": 440.1623840332031,
+      "y": 432.1623840332031,
       "width": 398.62158203125,
       "height": 214.67044067382812
     },
@@ -7182,17 +6948,17 @@
       237,
       235
     ],
-    "worstRatio": 7.17,
-    "meanRatio": 15.78,
+    "worstRatio": 7.61,
+    "meanRatio": 15.74,
     "worstPixel": [
-      77,
-      78,
-      76
+      86,
+      70,
+      71
     ],
     "samples": 4830,
     "box": {
       "x": 47.359375,
-      "y": 670.064697265625,
+      "y": 662.064697265625,
       "width": 525.09375,
       "height": 230.375
     },
@@ -7208,17 +6974,17 @@
       246,
       244
     ],
-    "worstRatio": 8.65,
-    "meanRatio": 16.65,
+    "worstRatio": 8.46,
+    "meanRatio": 16.68,
     "worstPixel": [
-      74,
-      70,
+      77,
+      71,
       69
     ],
     "samples": 5454,
     "box": {
       "x": 47.359375,
-      "y": 426.700927734375,
+      "y": 418.700927734375,
       "width": 402.3710632324219,
       "height": 216.689697265625
     },
@@ -7234,17 +7000,17 @@
       246,
       244
     ],
-    "worstRatio": 9.32,
-    "meanRatio": 17.3,
+    "worstRatio": 9.12,
+    "meanRatio": 17.27,
     "worstPixel": [
+      73,
       66,
-      66,
-      66
+      64
     ],
     "samples": 4830,
     "box": {
       "x": 47.359375,
-      "y": 664.1995849609375,
+      "y": 656.1995849609375,
       "width": 525.09375,
       "height": 230.375
     },
@@ -7256,27 +7022,27 @@
   {
     "label": "w768 plate2 p50 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.74,
-    "meanRatio": 6.76,
+    "worstRatio": 8.25,
+    "meanRatio": 16.9,
     "worstPixel": [
-      75,
-      57,
-      55
+      81,
+      66,
+      63
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 47.359375,
-      "y": 915.21875,
+      "y": 907.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -7286,17 +7052,17 @@
       252,
       249
     ],
-    "worstRatio": 8.95,
-    "meanRatio": 17.64,
+    "worstRatio": 8.6,
+    "meanRatio": 17.66,
     "worstPixel": [
-      75,
-      71,
-      69
+      79,
+      73,
+      72
     ],
     "samples": 5555,
     "box": {
       "x": 47.359375,
-      "y": 416.97991943359375,
+      "y": 408.97991943359375,
       "width": 404.5163879394531,
       "height": 217.84503173828125
     },
@@ -7312,17 +7078,17 @@
       252,
       249
     ],
-    "worstRatio": 10.09,
-    "meanRatio": 18.29,
+    "worstRatio": 9.49,
+    "meanRatio": 18.27,
     "worstPixel": [
-      68,
-      63,
-      63
+      72,
+      67,
+      66
     ],
     "samples": 4830,
     "box": {
       "x": 47.359375,
-      "y": 658.0164794921875,
+      "y": 650.0164794921875,
       "width": 525.09375,
       "height": 230.375
     },
@@ -7334,27 +7100,27 @@
   {
     "label": "w768 plate2 p85 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.76,
-    "meanRatio": 6.79,
+    "worstRatio": 9.91,
+    "meanRatio": 16.98,
     "worstPixel": [
-      74,
-      57,
-      54
+      72,
+      53,
+      51
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 47.359375,
-      "y": 915.21875,
+      "y": 907.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -7364,17 +7130,17 @@
       237,
       235
     ],
-    "worstRatio": 6.88,
-    "meanRatio": 13.74,
+    "worstRatio": 6.8,
+    "meanRatio": 13.65,
     "worstPixel": [
       88,
-      81,
-      32
+      82,
+      33
     ],
     "samples": 5400,
     "box": {
       "x": 47.359375,
-      "y": 446.55780029296875,
+      "y": 438.55780029296875,
       "width": 398.6246032714844,
       "height": 214.67205810546875
     },
@@ -7390,17 +7156,17 @@
       237,
       235
     ],
-    "worstRatio": 6.76,
-    "meanRatio": 15.56,
+    "worstRatio": 6.36,
+    "meanRatio": 15.46,
     "worstPixel": [
-      87,
-      80,
-      77
+      86,
+      85,
+      85
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 675.314208984375,
+      "y": 667.314208984375,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -7416,17 +7182,17 @@
       246,
       244
     ],
-    "worstRatio": 8.57,
-    "meanRatio": 15.31,
+    "worstRatio": 8.19,
+    "meanRatio": 15.27,
     "worstPixel": [
-      84,
-      70,
-      32
+      88,
+      73,
+      22
     ],
     "samples": 5454,
     "box": {
       "x": 47.359375,
-      "y": 433.0963439941406,
+      "y": 425.0963439941406,
       "width": 402.3741149902344,
       "height": 216.69131469726562
     },
@@ -7442,17 +7208,17 @@
       246,
       244
     ],
-    "worstRatio": 7.81,
-    "meanRatio": 17.04,
+    "worstRatio": 7.99,
+    "meanRatio": 16.96,
     "worstPixel": [
-      79,
-      77,
-      75
+      80,
+      75,
+      71
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 670.1822509765625,
+      "y": 662.1822509765625,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -7464,27 +7230,27 @@
   {
     "label": "w768 plate3 p50 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.69,
-    "meanRatio": 7.02,
+    "worstRatio": 9.2,
+    "meanRatio": 17.55,
     "worstPixel": [
-      63,
+      64,
       62,
       61
     ],
-    "samples": 7038,
+    "samples": 7866,
     "box": {
       "x": 47.359375,
-      "y": 892.828125,
+      "y": 884.828125,
       "width": 414.5625,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -7494,17 +7260,17 @@
       252,
       249
     ],
-    "worstRatio": 8.82,
-    "meanRatio": 16.42,
+    "worstRatio": 8.58,
+    "meanRatio": 16.33,
     "worstPixel": [
       88,
-      69,
-      55
+      72,
+      48
     ],
     "samples": 5555,
     "box": {
       "x": 47.359375,
-      "y": 423.38153076171875,
+      "y": 415.38153076171875,
       "width": 404.5163879394531,
       "height": 217.84503173828125
     },
@@ -7520,17 +7286,17 @@
       252,
       249
     ],
-    "worstRatio": 8.74,
-    "meanRatio": 18.05,
+    "worstRatio": 8.69,
+    "meanRatio": 17.94,
     "worstPixel": [
-      79,
-      72,
-      68
+      76,
+      73,
+      73
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 664.7705078125,
+      "y": 656.7705078125,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -7542,27 +7308,27 @@
   {
     "label": "w768 plate3 p85 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.09,
-    "meanRatio": 7.05,
+    "worstRatio": 9.66,
+    "meanRatio": 17.56,
     "worstPixel": [
-      57,
-      55,
-      54
+      60,
+      59,
+      58
     ],
-    "samples": 7038,
+    "samples": 7866,
     "box": {
       "x": 47.359375,
-      "y": 892.828125,
+      "y": 884.828125,
       "width": 414.5625,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -7573,7 +7339,7 @@
       235
     ],
     "worstRatio": 6.24,
-    "meanRatio": 12.36,
+    "meanRatio": 12.24,
     "worstPixel": [
       89,
       86,
@@ -7582,7 +7348,7 @@
     "samples": 5400,
     "box": {
       "x": 47.359375,
-      "y": 468.9592590332031,
+      "y": 460.9592590332031,
       "width": 398.62158203125,
       "height": 214.67044067382812
     },
@@ -7598,17 +7364,17 @@
       237,
       235
     ],
-    "worstRatio": 6.26,
-    "meanRatio": 13.54,
+    "worstRatio": 6.17,
+    "meanRatio": 13.55,
     "worstPixel": [
+      88,
       87,
-      86,
-      86
+      87
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 697.708984375,
+      "y": 689.708984375,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -7624,17 +7390,17 @@
       246,
       244
     ],
-    "worstRatio": 7.28,
-    "meanRatio": 14,
+    "worstRatio": 7.2,
+    "meanRatio": 13.79,
     "worstPixel": [
       84,
-      81,
+      82,
       82
     ],
     "samples": 5454,
     "box": {
       "x": 47.359375,
-      "y": 455.497802734375,
+      "y": 447.497802734375,
       "width": 402.3710632324219,
       "height": 216.689697265625
     },
@@ -7650,17 +7416,17 @@
       246,
       244
     ],
-    "worstRatio": 7.35,
-    "meanRatio": 13.16,
+    "worstRatio": 7.32,
+    "meanRatio": 13.27,
     "worstPixel": [
-      82,
+      83,
       81,
       80
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 692.5769653320312,
+      "y": 684.5769653320312,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -7672,28 +7438,28 @@
   {
     "label": "w768 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.78,
-    "meanRatio": 4.02,
+    "worstRatio": 7.01,
+    "meanRatio": 9.91,
     "worstPixel": [
-      81,
-      80,
+      82,
+      79,
       79
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 47.359375,
-      "y": 915.21875,
+      "y": 907.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
-    "meanPass": false
+    "pass": true,
+    "meanPass": true
   },
   {
     "label": "w768 plate4 p85 #plate-drums .plate__pair \"Block.\n          Brace.\n          Lash.\"",
@@ -7702,17 +7468,17 @@
       252,
       249
     ],
-    "worstRatio": 7.23,
-    "meanRatio": 15.07,
+    "worstRatio": 7.01,
+    "meanRatio": 14.85,
     "worstPixel": [
+      89,
       87,
-      85,
-      84
+      85
     ],
     "samples": 5555,
     "box": {
       "x": 47.359375,
-      "y": 445.77679443359375,
+      "y": 437.77679443359375,
       "width": 404.5163879394531,
       "height": 217.84503173828125
     },
@@ -7728,17 +7494,17 @@
       252,
       249
     ],
-    "worstRatio": 8.08,
-    "meanRatio": 11.8,
+    "worstRatio": 8.09,
+    "meanRatio": 11.89,
     "worstPixel": [
       79,
       78,
-      78
+      77
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 687.166748046875,
+      "y": 679.166748046875,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -7750,27 +7516,27 @@
   {
     "label": "w768 plate4 p85 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.03,
-    "meanRatio": 5.33,
+    "worstRatio": 7.58,
+    "meanRatio": 13.11,
     "worstPixel": [
       77,
       74,
       74
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 47.359375,
-      "y": 915.21875,
+      "y": 907.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -7780,17 +7546,17 @@
       237,
       235
     ],
-    "worstRatio": 9.02,
-    "meanRatio": 16.64,
+    "worstRatio": 8.2,
+    "meanRatio": 16.62,
     "worstPixel": [
-      64,
-      62,
-      69
+      68,
+      69,
+      73
     ],
     "samples": 5400,
     "box": {
       "x": 47.359375,
-      "y": 468.9881591796875,
+      "y": 460.9881591796875,
       "width": 398.613525390625,
       "height": 214.6661376953125
     },
@@ -7806,17 +7572,17 @@
       237,
       235
     ],
-    "worstRatio": 6.7,
-    "meanRatio": 14.06,
+    "worstRatio": 6.35,
+    "meanRatio": 14.22,
     "worstPixel": [
+      87,
       85,
-      81,
-      82
+      84
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 697.719970703125,
+      "y": 689.719970703125,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -7832,17 +7598,17 @@
       246,
       244
     ],
-    "worstRatio": 9.27,
-    "meanRatio": 18.05,
+    "worstRatio": 8.85,
+    "meanRatio": 18.06,
     "worstPixel": [
-      67,
-      66,
-      68
+      70,
+      69,
+      70
     ],
     "samples": 5454,
     "box": {
       "x": 47.359375,
-      "y": 455.46893310546875,
+      "y": 447.46893310546875,
       "width": 402.3791198730469,
       "height": 216.69403076171875
     },
@@ -7858,17 +7624,17 @@
       246,
       244
     ],
-    "worstRatio": 7.9,
-    "meanRatio": 15.27,
+    "worstRatio": 8.08,
+    "meanRatio": 15.4,
     "worstPixel": [
       82,
-      75,
-      75
+      73,
+      74
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 692.56591796875,
+      "y": 684.56591796875,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -7880,23 +7646,23 @@
   {
     "label": "w768 plate5 p50 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.6,
-    "meanRatio": 5.15,
+    "worstRatio": 11.49,
+    "meanRatio": 12.84,
     "worstPixel": [
       50,
       47,
       45
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 47.359375,
-      "y": 915.21875,
+      "y": 907.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
@@ -7910,17 +7676,17 @@
       252,
       249
     ],
-    "worstRatio": 9.47,
-    "meanRatio": 18.82,
+    "worstRatio": 9,
+    "meanRatio": 18.84,
     "worstPixel": [
-      69,
-      68,
-      67
+      73,
+      71,
+      70
     ],
     "samples": 5555,
     "box": {
       "x": 47.359375,
-      "y": 445.76446533203125,
+      "y": 437.76446533203125,
       "width": 404.5163879394531,
       "height": 217.844970703125
     },
@@ -7936,17 +7702,17 @@
       252,
       249
     ],
-    "worstRatio": 8.54,
-    "meanRatio": 16.03,
+    "worstRatio": 8.38,
+    "meanRatio": 16.17,
     "worstPixel": [
-      80,
-      73,
-      75
+      79,
+      75,
+      76
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 687.151611328125,
+      "y": 679.151611328125,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -7958,23 +7724,23 @@
   {
     "label": "w768 plate5 p85 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.72,
-    "meanRatio": 5.21,
+    "worstRatio": 11.77,
+    "meanRatio": 12.99,
     "worstPixel": [
-      48,
+      49,
       45,
-      45
+      44
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 47.359375,
-      "y": 915.21875,
+      "y": 907.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
@@ -7988,17 +7754,17 @@
       237,
       235
     ],
-    "worstRatio": 7.48,
-    "meanRatio": 13.72,
+    "worstRatio": 6.95,
+    "meanRatio": 13.22,
     "worstPixel": [
-      73,
-      75,
-      80
+      81,
+      79,
+      81
     ],
     "samples": 5400,
     "box": {
       "x": 47.359375,
-      "y": 468.9520263671875,
+      "y": 438.5614013671875,
       "width": 398.62359619140625,
       "height": 214.67156982421875
     },
@@ -8014,17 +7780,17 @@
       237,
       235
     ],
-    "worstRatio": 6.52,
-    "meanRatio": 14.42,
+    "worstRatio": 6.5,
+    "meanRatio": 14.36,
     "worstPixel": [
-      87,
+      88,
       83,
-      80
+      79
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 697.7061767578125,
+      "y": 667.3155517578125,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -8040,17 +7806,17 @@
       246,
       244
     ],
-    "worstRatio": 8.54,
-    "meanRatio": 15.27,
+    "worstRatio": 7.49,
+    "meanRatio": 14.73,
     "worstPixel": [
-      59,
-      74,
-      80
+      70,
+      82,
+      86
     ],
     "samples": 5454,
     "box": {
       "x": 47.359375,
-      "y": 455.4906005859375,
+      "y": 425.0999755859375,
       "width": 402.3730773925781,
       "height": 216.69073486328125
     },
@@ -8066,17 +7832,17 @@
       246,
       244
     ],
-    "worstRatio": 7.53,
-    "meanRatio": 15.95,
+    "worstRatio": 7.72,
+    "meanRatio": 15.86,
     "worstPixel": [
-      83,
-      79,
+      82,
+      77,
       75
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 692.57421875,
+      "y": 662.18359375,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -8088,27 +7854,27 @@
   {
     "label": "w768 plate6 p50 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.47,
-    "meanRatio": 6.45,
+    "worstRatio": 8.67,
+    "meanRatio": 16.25,
     "worstPixel": [
-      51,
-      49,
-      49
+      72,
+      65,
+      59
     ],
-    "samples": 4554,
+    "samples": 7866,
     "box": {
       "x": 47.359375,
-      "y": 915.21875,
+      "y": 884.828125,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -8118,17 +7884,17 @@
       252,
       249
     ],
-    "worstRatio": 9.35,
-    "meanRatio": 16.25,
+    "worstRatio": 8.29,
+    "meanRatio": 15.78,
     "worstPixel": [
-      62,
-      70,
-      77
+      68,
+      78,
+      86
     ],
     "samples": 5555,
     "box": {
       "x": 47.359375,
-      "y": 445.7737121582031,
+      "y": 415.3830871582031,
       "width": 404.5163879394531,
       "height": 217.84500122070312
     },
@@ -8144,17 +7910,17 @@
       252,
       249
     ],
-    "worstRatio": 8.51,
-    "meanRatio": 17.01,
+    "worstRatio": 8.42,
+    "meanRatio": 16.89,
     "worstPixel": [
       79,
-      74,
-      72
+      75,
+      71
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 687.1629638671875,
+      "y": 656.7723388671875,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -8166,23 +7932,23 @@
   {
     "label": "w768 plate6 p85 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.7,
-    "meanRatio": 6.46,
+    "worstRatio": 9.7,
+    "meanRatio": 16.3,
     "worstPixel": [
-      54,
-      44,
-      37
+      63,
+      58,
+      55
     ],
-    "samples": 4554,
+    "samples": 7866,
     "box": {
       "x": 47.359375,
-      "y": 915.21875,
+      "y": 884.828125,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
@@ -8197,7 +7963,7 @@
       235
     ],
     "worstRatio": 6.33,
-    "meanRatio": 12.43,
+    "meanRatio": 12.41,
     "worstPixel": [
       88,
       85,
@@ -8206,7 +7972,7 @@
     "samples": 5400,
     "box": {
       "x": 47.359375,
-      "y": 446.58306884765625,
+      "y": 438.58306884765625,
       "width": 398.6175537109375,
       "height": 214.66827392578125
     },
@@ -8222,17 +7988,17 @@
       237,
       235
     ],
-    "worstRatio": 6.07,
-    "meanRatio": 14.31,
+    "worstRatio": 6.08,
+    "meanRatio": 14.34,
     "worstPixel": [
       89,
       88,
-      88
+      87
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 675.3238525390625,
+      "y": 667.3238525390625,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -8248,17 +8014,17 @@
       246,
       244
     ],
-    "worstRatio": 7.54,
-    "meanRatio": 13.7,
+    "worstRatio": 7.56,
+    "meanRatio": 13.67,
     "worstPixel": [
-      83,
+      82,
       79,
-      73
+      74
     ],
     "samples": 5454,
     "box": {
       "x": 47.359375,
-      "y": 433.12164306640625,
+      "y": 425.12164306640625,
       "width": 402.3670349121094,
       "height": 216.6875
     },
@@ -8274,17 +8040,17 @@
       246,
       244
     ],
-    "worstRatio": 7.35,
-    "meanRatio": 15.6,
+    "worstRatio": 7.32,
+    "meanRatio": 15.67,
     "worstPixel": [
-      82,
+      83,
       81,
       80
     ],
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 670.19189453125,
+      "y": 662.19189453125,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -8296,23 +8062,23 @@
   {
     "label": "w768 plate7 p50 #plate-yard .plate__meta \"Units on a roller dolly, warehouse · AI-\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.62,
-    "meanRatio": 6.76,
+    "worstRatio": 11.06,
+    "meanRatio": 16.88,
     "worstPixel": [
-      48,
-      47,
-      46
+      51,
+      50,
+      49
     ],
-    "samples": 7038,
+    "samples": 7866,
     "box": {
       "x": 47.359375,
-      "y": 892.828125,
+      "y": 884.828125,
       "width": 414.5625,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
@@ -8326,17 +8092,17 @@
       252,
       249
     ],
-    "worstRatio": 7.95,
-    "meanRatio": 14.61,
+    "worstRatio": 7.67,
+    "meanRatio": 14.56,
     "worstPixel": [
-      90,
-      79,
-      33
+      92,
+      81,
+      45
     ],
     "samples": 5555,
     "box": {
       "x": 47.359375,
-      "y": 423.3923645019531,
+      "y": 415.3923645019531,
       "width": 404.5163879394531,
       "height": 217.84500122070312
     },
@@ -8353,7 +8119,7 @@
       249
     ],
     "worstRatio": 8.06,
-    "meanRatio": 16.55,
+    "meanRatio": 16.53,
     "worstPixel": [
       80,
       78,
@@ -8362,7 +8128,7 @@
     "samples": 4305,
     "box": {
       "x": 47.359375,
-      "y": 664.78369140625,
+      "y": 656.78369140625,
       "width": 525.09375,
       "height": 201.578125
     },
@@ -8374,27 +8140,27 @@
   {
     "label": "w768 plate7 p85 #plate-yard .plate__meta \"Units on a roller dolly, warehouse · AI-\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.29,
-    "meanRatio": 6.76,
+    "worstRatio": 11.87,
+    "meanRatio": 16.91,
     "worstPixel": [
-      53,
-      52,
-      52
+      46,
+      45,
+      45
     ],
-    "samples": 7038,
+    "samples": 7866,
     "box": {
       "x": 47.359375,
-      "y": 892.828125,
+      "y": 884.828125,
       "width": 414.5625,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -8586,12 +8352,12 @@
       195,
       192
     ],
-    "worstRatio": 3.34,
-    "meanRatio": 11.25,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      104,
-      100,
-      99
+      8,
+      5,
+      4
     ],
     "samples": 11470,
     "box": {
@@ -8602,7 +8368,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -8820,12 +8586,12 @@
       195,
       192
     ],
-    "worstRatio": 1,
-    "meanRatio": 10.61,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      199,
-      195,
-      192
+      8,
+      5,
+      4
     ],
     "samples": 4500,
     "box": {
@@ -8836,7 +8602,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -8846,12 +8612,12 @@
       195,
       192
     ],
-    "worstRatio": 8.89,
-    "meanRatio": 11.52,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      39,
-      35,
-      34
+      8,
+      5,
+      4
     ],
     "samples": 4732,
     "box": {
@@ -9054,12 +8820,12 @@
       238,
       234
     ],
-    "worstRatio": 1,
-    "meanRatio": 14.78,
+    "worstRatio": 17.56,
+    "meanRatio": 17.56,
     "worstPixel": [
-      240,
-      238,
-      234
+      8,
+      5,
+      4
     ],
     "samples": 13860,
     "box": {
@@ -9070,7 +8836,7 @@
     },
     "threshold": 3,
     "size": 38.72,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -9366,32 +9132,6 @@
       151,
       147
     ],
-    "worstRatio": 1.08,
-    "meanRatio": 6.78,
-    "worstPixel": [
-      148,
-      145,
-      142
-    ],
-    "samples": 14080,
-    "box": {
-      "x": 47.359375,
-      "y": 8.890625,
-      "width": 640,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": false,
-    "meanPass": true
-  },
-  {
-    "label": "w768 #contact #contact p \"\"",
-    "text": [
-      156,
-      151,
-      147
-    ],
     "worstRatio": 7.02,
     "meanRatio": 7.02,
     "worstPixel": [
@@ -9402,7 +9142,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 180.453125,
+      "y": 63.4375,
       "width": 640,
       "height": 22.390625
     },
@@ -9428,7 +9168,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 293.234375,
+      "y": 176.21875,
       "width": 640,
       "height": 22.390625
     },
@@ -9454,7 +9194,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 406.015625,
+      "y": 347.78125,
       "width": 640,
       "height": 22.390625
     },
@@ -9480,7 +9220,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 577.578125,
+      "y": 460.5625,
       "width": 640,
       "height": 22.390625
     },
@@ -9506,7 +9246,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 690.359375,
+      "y": 573.34375,
       "width": 640,
       "height": 22.390625
     },
@@ -9532,7 +9272,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 803.140625,
+      "y": 686.125,
       "width": 640,
       "height": 22.390625
     },
@@ -9558,7 +9298,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 915.921875,
+      "y": 857.6875,
       "width": 640,
       "height": 22.390625
     },
@@ -9568,33 +9308,33 @@
     "meanPass": true
   },
   {
-    "label": "w768 #contact #contact label \"Cargo description\"",
+    "label": "w768 #contact #contact label \"Where (port or facility)\"",
     "text": [
       241,
       238,
       234
     ],
-    "worstRatio": 1,
-    "meanRatio": 16.85,
+    "worstRatio": 17.56,
+    "meanRatio": 17.56,
     "worstPixel": [
-      240,
-      238,
-      234
+      8,
+      5,
+      4
     ],
-    "samples": 14080,
+    "samples": 7040,
     "box": {
       "x": 47.359375,
-      "y": 47.28125,
+      "y": 0,
       "width": 640,
-      "height": 22.390625
+      "height": 11.4375
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
-    "label": "w768 #contact #contact label \"Port or facility\"",
+    "label": "w768 #contact #contact label \"When you need him\"",
     "text": [
       241,
       238,
@@ -9610,7 +9350,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 218.84375,
+      "y": 101.828125,
       "width": 640,
       "height": 22.390625
     },
@@ -9620,7 +9360,7 @@
     "meanPass": true
   },
   {
-    "label": "w768 #contact #contact label \"Timing\"",
+    "label": "w768 #contact #contact label \"What you need in the report\"",
     "text": [
       241,
       238,
@@ -9636,33 +9376,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 331.625,
-      "width": 640,
-      "height": 22.390625
-    },
-    "threshold": 4.5,
-    "size": 14,
-    "pass": true,
-    "meanPass": true
-  },
-  {
-    "label": "w768 #contact #contact label \"Evidence you need\"",
-    "text": [
-      241,
-      238,
-      234
-    ],
-    "worstRatio": 17.56,
-    "meanRatio": 17.56,
-    "worstPixel": [
-      8,
-      5,
-      4
-    ],
-    "samples": 14080,
-    "box": {
-      "x": 47.359375,
-      "y": 444.40625,
+      "y": 214.609375,
       "width": 640,
       "height": 22.390625
     },
@@ -9688,7 +9402,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 615.96875,
+      "y": 386.171875,
       "width": 640,
       "height": 22.390625
     },
@@ -9698,7 +9412,7 @@
     "meanPass": true
   },
   {
-    "label": "w768 #contact #contact label \"Organisation\"",
+    "label": "w768 #contact #contact label \"Company\"",
     "text": [
       241,
       238,
@@ -9714,7 +9428,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 728.75,
+      "y": 498.953125,
       "width": 640,
       "height": 22.390625
     },
@@ -9724,7 +9438,7 @@
     "meanPass": true
   },
   {
-    "label": "w768 #contact #contact label \"How to reach you\"",
+    "label": "w768 #contact #contact label \"Email or phone\"",
     "text": [
       241,
       238,
@@ -9740,7 +9454,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 841.53125,
+      "y": 611.734375,
       "width": 640,
       "height": 22.390625
     },
@@ -9766,7 +9480,7 @@
     "samples": 14080,
     "box": {
       "x": 47.359375,
-      "y": 954.3125,
+      "y": 724.515625,
       "width": 640,
       "height": 22.390625
     },
@@ -9792,7 +9506,7 @@
     "samples": 4960,
     "box": {
       "x": 47.359375,
-      "y": 687,
+      "y": 686.5625,
       "width": 480,
       "height": 93.96875
     },
@@ -9809,7 +9523,7 @@
       29
     ],
     "worstRatio": 1,
-    "meanRatio": 3.36,
+    "meanRatio": 3.4,
     "worstPixel": [
       148,
       148,
@@ -9818,7 +9532,7 @@
     "samples": 4514,
     "box": {
       "x": 60.796875,
-      "y": 189.86502075195312,
+      "y": 165.86502075195312,
       "width": 1334.22705078125,
       "height": 400.7519836425781
     },
@@ -9835,16 +9549,16 @@
       29
     ],
     "worstRatio": 1,
-    "meanRatio": 3.36,
+    "meanRatio": 3.4,
     "worstPixel": [
       148,
       148,
-      148
+      145
     ],
     "samples": 4514,
     "box": {
       "x": 60.796875,
-      "y": 189.86502075195312,
+      "y": 165.86502075195312,
       "width": 1334.22705078125,
       "height": 400.7519836425781
     },
@@ -9860,17 +9574,17 @@
       200,
       29
     ],
-    "worstRatio": 1.77,
-    "meanRatio": 7.17,
+    "worstRatio": 2.01,
+    "meanRatio": 7.21,
     "worstPixel": [
-      153,
-      153,
-      153
+      143,
+      143,
+      143
     ],
     "samples": 5280,
     "box": {
       "x": 60.796875,
-      "y": 162.4375,
+      "y": 138.4375,
       "width": 1318.40625,
       "height": 35.1875
     },
@@ -9886,17 +9600,17 @@
       240,
       238
     ],
-    "worstRatio": 4.03,
-    "meanRatio": 9.04,
+    "worstRatio": 4.05,
+    "meanRatio": 9.03,
     "worstPixel": [
-      128,
-      118,
-      64
+      129,
+      117,
+      66
     ],
     "samples": 14700,
     "box": {
       "x": 60.796875,
-      "y": 623.3212280273438,
+      "y": 599.3212280273438,
       "width": 525.09375,
       "height": 28.796875
     },
@@ -9908,79 +9622,79 @@
   {
     "label": "w1440 plate1 p12 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.1,
-    "meanRatio": 4.5,
+    "worstRatio": 5.16,
+    "meanRatio": 11.48,
     "worstPixel": [
-      100,
-      98,
-      98
+      101,
+      99,
+      99
     ],
-    "samples": 10538,
+    "samples": 14850,
     "box": {
       "x": 60.796875,
-      "y": 813.609375,
-      "width": 479.265625,
-      "height": 22.390625
+      "y": 805.609375,
+      "width": 495.265625,
+      "height": 30.390625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
     "label": "w1440 plate1 p50 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.17,
-    "meanRatio": 4.53,
+    "worstRatio": 5.43,
+    "meanRatio": 11.17,
     "worstPixel": [
       97,
       96,
       95
     ],
-    "samples": 10538,
+    "samples": 14850,
     "box": {
       "x": 60.796875,
-      "y": 813.609375,
-      "width": 479.265625,
-      "height": 22.390625
+      "y": 805.609375,
+      "width": 495.265625,
+      "height": 30.390625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
     "label": "w1440 plate1 p85 .plate:nth-of-type(1) .plate__meta \"AI-generated, based on a photograph in N\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.34,
-    "meanRatio": 4.66,
+    "worstRatio": 5.95,
+    "meanRatio": 11.58,
     "worstPixel": [
-      92,
       91,
-      90
+      90,
+      89
     ],
-    "samples": 10538,
+    "samples": 14850,
     "box": {
       "x": 60.796875,
-      "y": 813.609375,
-      "width": 479.265625,
-      "height": 22.390625
+      "y": 805.609375,
+      "width": 495.265625,
+      "height": 30.390625
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -9991,7 +9705,7 @@
       235
     ],
     "worstRatio": 5.06,
-    "meanRatio": 13.6,
+    "meanRatio": 13.59,
     "worstPixel": [
       101,
       100,
@@ -10043,7 +9757,7 @@
       244
     ],
     "worstRatio": 6.16,
-    "meanRatio": 15.07,
+    "meanRatio": 15.05,
     "worstPixel": [
       94,
       92,
@@ -10068,10 +9782,10 @@
       246,
       244
     ],
-    "worstRatio": 7.78,
-    "meanRatio": 17.53,
+    "worstRatio": 8.08,
+    "meanRatio": 17.55,
     "worstPixel": [
-      89,
+      79,
       74,
       74
     ],
@@ -10090,27 +9804,27 @@
   {
     "label": "w1440 plate2 p50 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.56,
-    "meanRatio": 6.8,
+    "worstRatio": 7.57,
+    "meanRatio": 16.97,
     "worstPixel": [
-      73,
-      62,
-      62
+      87,
+      71,
+      72
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 60.796875,
-      "y": 791.21875,
+      "y": 783.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -10120,12 +9834,12 @@
       252,
       249
     ],
-    "worstRatio": 6.7,
+    "worstRatio": 6.78,
     "meanRatio": 15.97,
     "worstPixel": [
       91,
-      90,
-      90
+      89,
+      89
     ],
     "samples": 4964,
     "box": {
@@ -10146,12 +9860,12 @@
       252,
       249
     ],
-    "worstRatio": 8.22,
-    "meanRatio": 18.2,
+    "worstRatio": 8.39,
+    "meanRatio": 18.23,
     "worstPixel": [
-      88,
-      74,
-      73
+      79,
+      75,
+      75
     ],
     "samples": 4830,
     "box": {
@@ -10168,27 +9882,27 @@
   {
     "label": "w1440 plate2 p85 .plate:nth-of-type(2) .plate__meta \"Steel coils, covered store · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.65,
-    "meanRatio": 6.83,
+    "worstRatio": 8.81,
+    "meanRatio": 16.99,
     "worstPixel": [
       69,
-      61,
-      62
+      64,
+      64
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 60.796875,
-      "y": 791.21875,
+      "y": 783.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -10198,12 +9912,12 @@
       237,
       235
     ],
-    "worstRatio": 4.68,
-    "meanRatio": 12.67,
+    "worstRatio": 4.53,
+    "meanRatio": 12.66,
     "worstPixel": [
-      106,
-      105,
-      106
+      109,
+      107,
+      109
     ],
     "samples": 4650,
     "box": {
@@ -10251,7 +9965,7 @@
       244
     ],
     "worstRatio": 5.23,
-    "meanRatio": 14.31,
+    "meanRatio": 14.3,
     "worstPixel": [
       104,
       103,
@@ -10276,12 +9990,12 @@
       246,
       244
     ],
-    "worstRatio": 6.71,
+    "worstRatio": 6.92,
     "meanRatio": 14.99,
     "worstPixel": [
-      87,
-      87,
-      86
+      85,
+      85,
+      85
     ],
     "samples": 4305,
     "box": {
@@ -10298,28 +10012,28 @@
   {
     "label": "w1440 plate3 p50 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 1.5,
-    "meanRatio": 3.81,
+    "worstRatio": 3.81,
+    "meanRatio": 9.67,
     "worstPixel": [
-      122,
       121,
-      121
+      120,
+      120
     ],
-    "samples": 7038,
+    "samples": 7866,
     "box": {
       "x": 964.625,
-      "y": 768.828125,
+      "y": 760.828125,
       "width": 414.5625,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
     "pass": false,
-    "meanPass": false
+    "meanPass": true
   },
   {
     "label": "w1440 plate3 p85 #plate-crane .plate__pair \"Rig.\n          Lift.\n          Land.\"",
@@ -10328,12 +10042,12 @@
       252,
       249
     ],
-    "worstRatio": 5.93,
-    "meanRatio": 15.31,
+    "worstRatio": 6.11,
+    "meanRatio": 15.29,
     "worstPixel": [
-      99,
-      98,
-      97
+      97,
+      96,
+      96
     ],
     "samples": 4794,
     "box": {
@@ -10354,12 +10068,12 @@
       252,
       249
     ],
-    "worstRatio": 7.34,
-    "meanRatio": 15.79,
+    "worstRatio": 7.11,
+    "meanRatio": 15.8,
     "worstPixel": [
+      88,
       86,
-      84,
-      83
+      85
     ],
     "samples": 4305,
     "box": {
@@ -10376,28 +10090,28 @@
   {
     "label": "w1440 plate3 p85 #plate-crane .plate__meta \"Crawler crane, unit onto railcar · AI-ge\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 1.66,
-    "meanRatio": 3.64,
+    "worstRatio": 4.09,
+    "meanRatio": 9.3,
     "worstPixel": [
+      116,
       115,
-      114,
-      114
+      115
     ],
-    "samples": 7038,
+    "samples": 7866,
     "box": {
       "x": 964.625,
-      "y": 768.828125,
+      "y": 760.828125,
       "width": 414.5625,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
     "pass": false,
-    "meanPass": false
+    "meanPass": true
   },
   {
     "label": "w1440 plate4 p12 #plate-drums .plate__pair \"Block.\n          Brace.\n          Lash.\"",
@@ -10432,12 +10146,12 @@
       237,
       235
     ],
-    "worstRatio": 4.69,
-    "meanRatio": 10.97,
+    "worstRatio": 4.62,
+    "meanRatio": 10.96,
     "worstPixel": [
+      107,
       106,
-      105,
-      105
+      106
     ],
     "samples": 4305,
     "box": {
@@ -10458,12 +10172,12 @@
       246,
       244
     ],
-    "worstRatio": 6.16,
-    "meanRatio": 13.93,
+    "worstRatio": 6.19,
+    "meanRatio": 13.92,
     "worstPixel": [
-      94,
+      93,
       92,
-      92
+      91
     ],
     "samples": 4941,
     "box": {
@@ -10484,12 +10198,12 @@
       246,
       244
     ],
-    "worstRatio": 5.54,
-    "meanRatio": 12.47,
+    "worstRatio": 5.52,
+    "meanRatio": 12.44,
     "worstPixel": [
-      101,
+      102,
       99,
-      98
+      99
     ],
     "samples": 4305,
     "box": {
@@ -10506,23 +10220,23 @@
   {
     "label": "w1440 plate4 p50 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 1.38,
-    "meanRatio": 4.67,
+    "worstRatio": 3.5,
+    "meanRatio": 12.19,
     "worstPixel": [
-      128,
       127,
-      127
+      126,
+      126
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 60.796875,
-      "y": 791.21875,
+      "y": 783.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
@@ -10536,12 +10250,12 @@
       252,
       249
     ],
-    "worstRatio": 6.9,
-    "meanRatio": 14.82,
+    "worstRatio": 6.93,
+    "meanRatio": 14.84,
     "worstPixel": [
-      90,
+      89,
       88,
-      87
+      85
     ],
     "samples": 4941,
     "box": {
@@ -10562,12 +10276,12 @@
       252,
       249
     ],
-    "worstRatio": 6.14,
-    "meanRatio": 13.56,
+    "worstRatio": 6.18,
+    "meanRatio": 13.54,
     "worstPixel": [
-      96,
-      96,
-      94
+      97,
+      95,
+      95
     ],
     "samples": 4305,
     "box": {
@@ -10584,28 +10298,28 @@
   {
     "label": "w1440 plate4 p85 #plate-drums .plate__meta \"Units braced in a container · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 1.36,
-    "meanRatio": 2.37,
+    "worstRatio": 3.64,
+    "meanRatio": 6.17,
     "worstPixel": [
-      130,
-      128,
-      128
+      125,
+      123,
+      123
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 60.796875,
-      "y": 791.21875,
+      "y": 783.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
     "pass": false,
-    "meanPass": false
+    "meanPass": true
   },
   {
     "label": "w1440 plate5 p12 #plate-containers .plate__pair \"Wrap.\n          Secure.\n          Ship.\"",
@@ -10615,7 +10329,7 @@
       235
     ],
     "worstRatio": 5.96,
-    "meanRatio": 14.74,
+    "meanRatio": 14.76,
     "worstPixel": [
       90,
       89,
@@ -10666,12 +10380,12 @@
       246,
       244
     ],
-    "worstRatio": 5.64,
-    "meanRatio": 16.13,
+    "worstRatio": 5.98,
+    "meanRatio": 16.15,
     "worstPixel": [
-      99,
-      98,
-      98
+      96,
+      94,
+      94
     ],
     "samples": 4794,
     "box": {
@@ -10692,10 +10406,10 @@
       246,
       244
     ],
-    "worstRatio": 10.26,
+    "worstRatio": 10.3,
     "meanRatio": 14.07,
     "worstPixel": [
-      63,
+      62,
       59,
       58
     ],
@@ -10714,28 +10428,28 @@
   {
     "label": "w1440 plate5 p50 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.9,
-    "meanRatio": 4.03,
+    "worstRatio": 6.91,
+    "meanRatio": 9.92,
     "worstPixel": [
+      83,
       80,
-      77,
-      75
+      79
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 964.625,
-      "y": 791.21875,
+      "y": 783.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
-    "meanPass": false
+    "pass": true,
+    "meanPass": true
   },
   {
     "label": "w1440 plate5 p85 #plate-containers .plate__pair \"Wrap.\n          Secure.\n          Ship.\"",
@@ -10792,28 +10506,28 @@
   {
     "label": "w1440 plate5 p85 #plate-containers .plate__meta \"Tarped loads on flat racks · AI-generate\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.6,
-    "meanRatio": 4.16,
+    "worstRatio": 6.53,
+    "meanRatio": 10.34,
     "worstPixel": [
-      87,
+      86,
       84,
       81
     ],
-    "samples": 4554,
+    "samples": 5382,
     "box": {
       "x": 964.625,
-      "y": 791.21875,
+      "y": 783.21875,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 52.78125
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
-    "meanPass": false
+    "pass": true,
+    "meanPass": true
   },
   {
     "label": "w1440 plate6 p12 #plate-warehouse .plate__pair \"Pack.\n          Protect.\n          Prove\"",
@@ -10853,7 +10567,7 @@
     "worstPixel": [
       107,
       101,
-      97
+      98
     ],
     "samples": 4305,
     "box": {
@@ -10874,12 +10588,12 @@
       246,
       244
     ],
-    "worstRatio": 6.5,
+    "worstRatio": 6.52,
     "meanRatio": 15.82,
     "worstPixel": [
-      92,
-      88,
-      89
+      96,
+      87,
+      83
     ],
     "samples": 4355,
     "box": {
@@ -10900,12 +10614,12 @@
       246,
       244
     ],
-    "worstRatio": 5.92,
-    "meanRatio": 14.55,
+    "worstRatio": 5.93,
+    "meanRatio": 14.58,
     "worstPixel": [
-      101,
+      100,
       94,
-      87
+      88
     ],
     "samples": 4305,
     "box": {
@@ -10922,27 +10636,27 @@
   {
     "label": "w1440 plate6 p50 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.29,
-    "meanRatio": 5.52,
+    "worstRatio": 5.24,
+    "meanRatio": 13.29,
     "worstPixel": [
-      80,
-      67,
-      60
+      117,
+      95,
+      64
     ],
-    "samples": 4554,
+    "samples": 7866,
     "box": {
       "x": 60.796875,
-      "y": 791.21875,
+      "y": 760.828125,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -10952,12 +10666,12 @@
       252,
       249
     ],
-    "worstRatio": 7.4,
+    "worstRatio": 7.38,
     "meanRatio": 16.79,
     "worstPixel": [
-      85,
-      83,
-      89
+      92,
+      82,
+      78
     ],
     "samples": 4420,
     "box": {
@@ -10979,7 +10693,7 @@
       249
     ],
     "worstRatio": 6.69,
-    "meanRatio": 15.39,
+    "meanRatio": 15.43,
     "worstPixel": [
       96,
       89,
@@ -11000,27 +10714,27 @@
   {
     "label": "w1440 plate6 p85 #plate-warehouse .plate__meta \"Wrapped machine, open crate · AI-generat\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 3.62,
-    "meanRatio": 5.67,
+    "worstRatio": 5.33,
+    "meanRatio": 13.83,
     "worstPixel": [
-      78,
-      60,
-      43
+      114,
+      94,
+      70
     ],
-    "samples": 4554,
+    "samples": 7866,
     "box": {
       "x": 60.796875,
-      "y": 791.21875,
+      "y": 760.828125,
       "width": 414.5625,
-      "height": 44.78125
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -11031,7 +10745,7 @@
       235
     ],
     "worstRatio": 4.11,
-    "meanRatio": 13.25,
+    "meanRatio": 13.24,
     "worstPixel": [
       115,
       114,
@@ -11056,12 +10770,12 @@
       237,
       235
     ],
-    "worstRatio": 5.04,
-    "meanRatio": 16.59,
+    "worstRatio": 4.76,
+    "meanRatio": 16.61,
     "worstPixel": [
-      102,
-      100,
-      99
+      105,
+      104,
+      103
     ],
     "samples": 4305,
     "box": {
@@ -11083,11 +10797,11 @@
       244
     ],
     "worstRatio": 4.99,
-    "meanRatio": 14.47,
+    "meanRatio": 14.45,
     "worstPixel": [
       108,
       106,
-      106
+      105
     ],
     "samples": 4794,
     "box": {
@@ -11108,12 +10822,12 @@
       246,
       244
     ],
-    "worstRatio": 11.15,
-    "meanRatio": 18.09,
+    "worstRatio": 11.14,
+    "meanRatio": 18.07,
     "worstPixel": [
       56,
       54,
-      53
+      54
     ],
     "samples": 4305,
     "box": {
@@ -11130,27 +10844,27 @@
   {
     "label": "w1440 plate7 p50 #plate-yard .plate__meta \"Units on a roller dolly, warehouse · AI-\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 2.74,
-    "meanRatio": 5.86,
+    "worstRatio": 4.8,
+    "meanRatio": 14.41,
     "worstPixel": [
-      82,
-      81,
-      80
+      105,
+      104,
+      104
     ],
-    "samples": 7038,
+    "samples": 7866,
     "box": {
       "x": 964.625,
-      "y": 768.828125,
+      "y": 760.828125,
       "width": 414.5625,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -11160,10 +10874,10 @@
       252,
       249
     ],
-    "worstRatio": 5.63,
-    "meanRatio": 15.35,
+    "worstRatio": 5.64,
+    "meanRatio": 15.38,
     "worstPixel": [
-      104,
+      103,
       101,
       101
     ],
@@ -11186,12 +10900,12 @@
       252,
       249
     ],
-    "worstRatio": 7.45,
-    "meanRatio": 19.1,
+    "worstRatio": 12.2,
+    "meanRatio": 19.08,
     "worstPixel": [
-      85,
-      83,
-      83
+      54,
+      51,
+      51
     ],
     "samples": 4305,
     "box": {
@@ -11208,23 +10922,23 @@
   {
     "label": "w1440 plate7 p85 #plate-yard .plate__meta \"Units on a roller dolly, warehouse · AI-\"",
     "text": [
-      156,
-      151,
-      147
+      241,
+      238,
+      234
     ],
-    "worstRatio": 4.67,
-    "meanRatio": 6.03,
+    "worstRatio": 11.14,
+    "meanRatio": 15.02,
     "worstPixel": [
-      48,
-      46,
-      46
+      52,
+      49,
+      49
     ],
-    "samples": 7038,
+    "samples": 7866,
     "box": {
       "x": 964.625,
-      "y": 768.828125,
+      "y": 760.828125,
       "width": 414.5625,
-      "height": 67.171875
+      "height": 75.171875
     },
     "threshold": 4.5,
     "size": 14,
@@ -11446,12 +11160,12 @@
       195,
       192
     ],
-    "worstRatio": 1,
-    "meanRatio": 10.93,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      199,
-      195,
-      192
+      8,
+      5,
+      4
     ],
     "samples": 8554,
     "box": {
@@ -11462,7 +11176,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -11680,12 +11394,12 @@
       195,
       192
     ],
-    "worstRatio": 1,
-    "meanRatio": 11.24,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      199,
-      195,
-      192
+      8,
+      5,
+      4
     ],
     "samples": 5808,
     "box": {
@@ -11696,7 +11410,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -11914,12 +11628,12 @@
       195,
       192
     ],
-    "worstRatio": 1,
-    "meanRatio": 11.38,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      199,
-      195,
-      192
+      8,
+      5,
+      4
     ],
     "samples": 5472,
     "box": {
@@ -11930,7 +11644,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -11940,12 +11654,12 @@
       195,
       192
     ],
-    "worstRatio": 1,
-    "meanRatio": 11.48,
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
     "worstPixel": [
-      199,
-      195,
-      192
+      8,
+      5,
+      4
     ],
     "samples": 6030,
     "box": {
@@ -11956,7 +11670,7 @@
     },
     "threshold": 4.5,
     "size": 16,
-    "pass": false,
+    "pass": true,
     "meanPass": true
   },
   {
@@ -12132,7 +11846,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 77.375,
+      "y": 84.578125,
       "width": 640,
       "height": 22.390625
     },
@@ -12158,7 +11872,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 190.15625,
+      "y": 197.359375,
       "width": 640,
       "height": 22.390625
     },
@@ -12184,7 +11898,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 302.9375,
+      "y": 310.140625,
       "width": 640,
       "height": 22.390625
     },
@@ -12210,7 +11924,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 474.5,
+      "y": 481.703125,
       "width": 640,
       "height": 22.390625
     },
@@ -12236,7 +11950,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 587.28125,
+      "y": 594.484375,
       "width": 640,
       "height": 22.390625
     },
@@ -12262,7 +11976,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 700.0625,
+      "y": 707.265625,
       "width": 640,
       "height": 22.390625
     },
@@ -12288,7 +12002,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 812.84375,
+      "y": 820.046875,
       "width": 640,
       "height": 22.390625
     },
@@ -12298,7 +12012,163 @@
     "meanPass": true
   },
   {
-    "label": "w1440 #contact #contact label \"Port or facility\"",
+    "label": "w1440 #contact #contact p \"Prefer email? Write to Houtxsurvey@outlo\"",
+    "text": [
+      156,
+      151,
+      147
+    ],
+    "worstRatio": 7.02,
+    "meanRatio": 7.02,
+    "worstPixel": [
+      8,
+      5,
+      4
+    ],
+    "samples": 5126,
+    "box": {
+      "x": 869.859375,
+      "y": 446.140625,
+      "width": 466.75,
+      "height": 44.78125
+    },
+    "threshold": 4.5,
+    "size": 14,
+    "pass": true,
+    "meanPass": true
+  },
+  {
+    "label": "w1440 #contact #contact li \"What the cargo is and how it is packed o\"",
+    "text": [
+      199,
+      195,
+      192
+    ],
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
+    "worstPixel": [
+      8,
+      5,
+      4
+    ],
+    "samples": 11225,
+    "box": {
+      "x": 887.453125,
+      "y": 151.796875,
+      "width": 449.15625,
+      "height": 25.59375
+    },
+    "threshold": 4.5,
+    "size": 16,
+    "pass": true,
+    "meanPass": true
+  },
+  {
+    "label": "w1440 #contact #contact li \"Where it is now and where it is going: p\"",
+    "text": [
+      199,
+      195,
+      192
+    ],
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
+    "worstPixel": [
+      8,
+      5,
+      4
+    ],
+    "samples": 5850,
+    "box": {
+      "x": 887.453125,
+      "y": 189.390625,
+      "width": 449.15625,
+      "height": 51.1875
+    },
+    "threshold": 4.5,
+    "size": 16,
+    "pass": true,
+    "meanPass": true
+  },
+  {
+    "label": "w1440 #contact #contact li \"The date the survey has to happen, and a\"",
+    "text": [
+      199,
+      195,
+      192
+    ],
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
+    "worstPixel": [
+      8,
+      5,
+      4
+    ],
+    "samples": 5850,
+    "box": {
+      "x": 887.453125,
+      "y": 252.578125,
+      "width": 449.15625,
+      "height": 51.1875
+    },
+    "threshold": 4.5,
+    "size": 16,
+    "pass": true,
+    "meanPass": true
+  },
+  {
+    "label": "w1440 #contact #contact li \"Who needs the report and what it has to \"",
+    "text": [
+      199,
+      195,
+      192
+    ],
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
+    "worstPixel": [
+      8,
+      5,
+      4
+    ],
+    "samples": 5850,
+    "box": {
+      "x": 887.453125,
+      "y": 315.765625,
+      "width": 449.15625,
+      "height": 51.1875
+    },
+    "threshold": 4.5,
+    "size": 16,
+    "pass": true,
+    "meanPass": true
+  },
+  {
+    "label": "w1440 #contact #contact li \"Any photos, packing lists or prior repor\"",
+    "text": [
+      199,
+      195,
+      192
+    ],
+    "worstRatio": 11.6,
+    "meanRatio": 11.6,
+    "worstPixel": [
+      8,
+      5,
+      4
+    ],
+    "samples": 5850,
+    "box": {
+      "x": 887.453125,
+      "y": 378.953125,
+      "width": 449.15625,
+      "height": 51.1875
+    },
+    "threshold": 4.5,
+    "size": 16,
+    "pass": true,
+    "meanPass": true
+  },
+  {
+    "label": "w1440 #contact #contact label \"Where (port or facility)\"",
     "text": [
       241,
       238,
@@ -12314,7 +12184,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 115.765625,
+      "y": 122.96875,
       "width": 640,
       "height": 22.390625
     },
@@ -12324,7 +12194,7 @@
     "meanPass": true
   },
   {
-    "label": "w1440 #contact #contact label \"Timing\"",
+    "label": "w1440 #contact #contact label \"When you need him\"",
     "text": [
       241,
       238,
@@ -12340,7 +12210,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 228.546875,
+      "y": 235.75,
       "width": 640,
       "height": 22.390625
     },
@@ -12350,7 +12220,7 @@
     "meanPass": true
   },
   {
-    "label": "w1440 #contact #contact label \"Evidence you need\"",
+    "label": "w1440 #contact #contact label \"What you need in the report\"",
     "text": [
       241,
       238,
@@ -12366,7 +12236,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 341.328125,
+      "y": 348.53125,
       "width": 640,
       "height": 22.390625
     },
@@ -12392,7 +12262,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 512.890625,
+      "y": 520.09375,
       "width": 640,
       "height": 22.390625
     },
@@ -12402,7 +12272,7 @@
     "meanPass": true
   },
   {
-    "label": "w1440 #contact #contact label \"Organisation\"",
+    "label": "w1440 #contact #contact label \"Company\"",
     "text": [
       241,
       238,
@@ -12418,7 +12288,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 625.671875,
+      "y": 632.875,
       "width": 640,
       "height": 22.390625
     },
@@ -12428,7 +12298,7 @@
     "meanPass": true
   },
   {
-    "label": "w1440 #contact #contact label \"How to reach you\"",
+    "label": "w1440 #contact #contact label \"Email or phone\"",
     "text": [
       241,
       238,
@@ -12444,7 +12314,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 738.453125,
+      "y": 745.65625,
       "width": 640,
       "height": 22.390625
     },
@@ -12470,7 +12340,7 @@
     "samples": 14080,
     "box": {
       "x": 60.796875,
-      "y": 851.234375,
+      "y": 858.4375,
       "width": 640,
       "height": 22.390625
     },
@@ -12496,7 +12366,7 @@
     "samples": 4500,
     "box": {
       "x": 60.796875,
-      "y": 566.921875,
+      "y": 566.5625,
       "width": 750.015625,
       "height": 146.875
     },
@@ -12565,7 +12435,7 @@
       232
     ],
     "worstRatio": 4.84,
-    "meanRatio": 13.12,
+    "meanRatio": 13.11,
     "worstPixel": [
       102,
       101,
@@ -12590,12 +12460,12 @@
       234,
       232
     ],
-    "worstRatio": 5.42,
+    "worstRatio": 6.14,
     "meanRatio": 15.6,
     "worstPixel": [
-      93,
-      94,
-      94
+      88,
+      85,
+      86
     ],
     "samples": 4830,
     "box": {
