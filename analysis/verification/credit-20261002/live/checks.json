@@ -1,0 +1,66 @@
+{
+  "390": {
+    "accent": "oklch(0.684 0.185 45)",
+    "rest": {
+      "text": "designed by pixel",
+      "href": "https://pixelrainbow.studio",
+      "target": "_blank",
+      "rel": "noopener",
+      "color": "oklch(0.68 0.008 60)",
+      "deco": "none",
+      "fontSize": "12.8px",
+      "mediaInCredit": 0,
+      "creditLeft": 39.796875,
+      "creditBottomGap": 40,
+      "lines": 3
+    },
+    "hover": {
+      "text": "designed by pixel",
+      "href": "https://pixelrainbow.studio",
+      "target": "_blank",
+      "rel": "noopener",
+      "color": "oklch(0.684 0.185 45)",
+      "deco": "none",
+      "fontSize": "12.8px",
+      "mediaInCredit": 0,
+      "creditLeft": 39.796875,
+      "creditBottomGap": 40,
+      "lines": 3
+    },
+    "focusOutline": "solid",
+    "hoverIsAccent": true,
+    "restIsAccent": false
+  },
+  "1440": {
+    "accent": "oklch(0.684 0.185 45)",
+    "rest": {
+      "text": "designed by pixel",
+      "href": "https://pixelrainbow.studio",
+      "target": "_blank",
+      "rel": "noopener",
+      "color": "oklch(0.68 0.008 60)",
+      "deco": "none",
+      "fontSize": "12.8px",
+      "mediaInCredit": 0,
+      "creditLeft": 60.796875,
+      "creditBottomGap": 40,
+      "lines": 3
+    },
+    "hover": {
+      "text": "designed by pixel",
+      "href": "https://pixelrainbow.studio",
+      "target": "_blank",
+      "rel": "noopener",
+      "color": "oklch(0.684 0.185 45)",
+      "deco": "none",
+      "fontSize": "12.8px",
+      "mediaInCredit": 0,
+      "creditLeft": 60.796875,
+      "creditBottomGap": 40,
+      "lines": 3
+    },
+    "focusOutline": "solid",
+    "hoverIsAccent": true,
+    "restIsAccent": false
+  }
+}
