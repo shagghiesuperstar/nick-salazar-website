@@ -4,15 +4,15 @@
 
 | item | value |
 |---|---|
-| Site commit (deployed) | `e37a521` "Operator edits + premium polish pass" (on top of baseline `4571de0` = the previously-live working copy) |
+| Site commits (deployed) | `e37a521` "Operator edits + premium polish pass" + `aa76875` WebKit creds-separator fix (on top of baseline `4571de0` = the previously-live working copy) |
 | Local `main` | fast-forwarded to the site commit, then this RESULT commit on top |
 | `origin/main` (`git ls-remote origin main`) | `1aee917148f3d6f7651fdf4fd4706218321d2168`, **unchanged** (push blocked) |
-| Cloudflare deployment | https://52495ea7.nicksalazar.pages.dev (project `nicksalazar`, branch `main`, from repo root, Functions bundle uploaded) |
+| Cloudflare deployment (current) | https://6e58112a.nicksalazar.pages.dev (project `nicksalazar`, branch `main`, from repo root, Functions bundle uploaded). First deploy of `e37a521`: https://52495ea7.nicksalazar.pages.dev |
 | Rollback | redeploy `~/.hermes/backups/nick-salazar-live-20261002/site`, or `git checkout 4571de0 -- site` and deploy |
 
 ## Blocked: GitHub push identity
 `gh auth switch --user shagghiesuperstar` → "no accounts matched that criteria". `gh` holds only LAMBODOG (both `GH_TOKEN` env and keyring). Git's https credential helper for github.com is `gh auth git-credential`, so a push would go out as LAMBODOG. The SSH key is rejected by GitHub (`Permission denied (publickey)`). The order says this repo pushes as shagghiesuperstar, not LAMBODOG, so nothing was pushed.
-To finish: `gh auth login` as shagghiesuperstar (or unset GH_TOKEN and log in), then `git push origin main` (fast-forward from `1aee917`; no force needed).
+To finish (GH_TOKEN env overrides any keyring login, so it must be unset for these commands): `env -u GH_TOKEN gh auth login` (as shagghiesuperstar), `env -u GH_TOKEN gh auth switch --user shagghiesuperstar`, then `env -u GH_TOKEN git push origin main`. This fast-forwards from `1aee917`; no force needed. Afterwards `gh auth switch --user LAMBODOG`.
 
 ## DONE-means evidence
 1. **Banned terms.** `grep -rniE "EIMC|AI-generated|\bAI\b.*(generat|render|illustrat)|illustration" site/` returns **0** (also 0 with `-I` and with `grok` added). Live `https://nicksalazar.net/` HTML returns **0**; live `/llms.txt` returns **0**. The rendered DOM check (visible text, every `alt`, every `meta content`, JSON-LD) against `/EIMC|AI-generated|\bAI\b|generated|illustration|rendering/i` found 0 hits locally and live. robots.txt line-1 comment "AI/AEO crawlers" was reworded; user-agent names are untouched.
@@ -24,7 +24,7 @@ To finish: `gh auth login` as shagghiesuperstar (or unset GH_TOKEN and log in), 
 
 | URL | HTTP | live bytes | committed | cmp |
 |---|---|---|---|---|
-| / | 200 | 33708 | 33708 | identical |
+| / | 200 | 33713 | 33713 | identical (re-checked after the aa76875 redeploy) |
 | /styles.css | 200 | 40694 | 40694 | identical |
 | /app.js | 200 | 14653 | 14653 | identical |
 | /tokens.css | 200 | 10433 | 10433 | identical |
@@ -65,10 +65,12 @@ Tokens are on one easing curve (`--ease-out`) and one duration scale. `--dur-slo
   - CLS of 0 / 0.0002 locally and 0 / 0.018 live
   - Tab reaches a visible skip link with a solid focus ring
   - reduced motion: video static and paused, poster at opacity 1, no progress bar, no plate animation or transform, no reveal travel (opacity 150ms only), `scroll-behavior: auto`, gallery transitions at 0s
-- Screenshots reviewed by eye: 390px and 1440px for the hero, coils plate, credentials, services, work, why, contact and footer, plus full-page and reduced-motion shots. No layout breaks, every plate caption is descriptive only, and controls are squared.
+- Screenshots opened and reviewed by eye. Chrome 1440: hero, credentials, work, why, footer, and the reduced-motion hero (local); live hero. Chrome 390: hero, coils plate, services, work, contact, footer (local). WebKit 390 live: hero and why. Not individually opened: desktop services/contact/coils, mobile credentials/why, the two full-page JPEGs, and the rest of `shots-live/`. Those were checked programmatically only (overflow, reveals, CLS). Findings: no layout breaks, plate captions descriptive only, squared controls. WebKit 390 showed the credentials separator "·" starting line 2. Fixed with `&nbsp;` before the separator (`index.html:88`) in `aa76875`, redeployed (6e58112a) and re-shot: `shots-live/webkit-390-01-hero.png` now reads "UNLIMITED ·" / "1600-TON MASTER". WebKit: 0 page/console errors.
 
 ## Found
 - `site/` had publicly served internal docs that stated the plates were AI-generated (README, MANIFEST) and agent metadata (DISPATCH-PROOF.json, .hallmark). These were moved; see item 1.
 - styles.css, app.js and tokens.css were served `immutable` with no version, so any CSS change would have reached returning visitors only after up to 7 days, mixed with new HTML. Now versioned. **Bump `?v=` on every future change to these files.**
 - The hard edge at the top of the hero (veil start) was a pre-existing visual defect on the old live site. Fixed.
 - The "Send to Nick" button posts to the mail worker (`nicksalazar-mail.shagghie2.workers.dev`), not `/api/contact`. `/api/contact` remains deployed but unused by the page. Both were untouched.
+
+- Bitwarden `bws secret get` failed intermittently (rc=1) on back-to-back calls and succeeded on retry; looks like rate limiting. The scratch deploy script now retries 4× with backoff. The token was never printed.
