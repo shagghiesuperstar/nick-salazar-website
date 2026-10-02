@@ -1,0 +1,214 @@
+{
+  "base": "http://127.0.0.1:8131/",
+  "at": "2026-10-02T05:13:58.347Z",
+  "results": [
+    {
+      "name": "mobile-390: hero video plays and poster crossfades out",
+      "status": "PASS",
+      "detail": {
+        "playing": true,
+        "paused": false,
+        "t": 2.691203,
+        "posterOpacity": "0",
+        "static": false
+      }
+    },
+    {
+      "name": "mobile-390: nav condenses after scroll",
+      "status": "PASS",
+      "detail": {
+        "navTop": "nav",
+        "navScrolled": {
+          "cls": "nav is-scrolled",
+          "shadow": "oklch(0.05 0.01 40 / 0.25) 0px 1px 1px 0",
+          "radius": "8px"
+        }
+      }
+    },
+    {
+      "name": "mobile-390: scroll-progress hairline present",
+      "status": "PASS",
+      "detail": {
+        "content": "\"\"",
+        "height": "2px",
+        "anim": "read-progress",
+        "timeline": "scroll(root)",
+        "bg": "oklch(0.684 0.185 45)"
+      }
+    },
+    {
+      "name": "mobile-390: progress hairline full at page end",
+      "status": "PASS",
+      "detail": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "name": "mobile-390: all reveals fired; title rules drawn",
+      "status": "PASS",
+      "detail": {
+        "total": 34,
+        "inCount": 34,
+        "ruleTransforms": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ]
+      }
+    },
+    {
+      "name": "mobile-390: no horizontal overflow",
+      "status": "PASS",
+      "detail": {
+        "sw": 390,
+        "cw": 390
+      }
+    },
+    {
+      "name": "mobile-390: cumulative layout shift",
+      "status": "PASS",
+      "detail": {
+        "cls": 0
+      }
+    },
+    {
+      "name": "mobile-390: Tab → visible skip link with focus ring",
+      "status": "PASS",
+      "detail": {
+        "active": "skip",
+        "top": 16,
+        "outline": "solid"
+      }
+    },
+    {
+      "name": "desktop-1440: hero video plays and poster crossfades out",
+      "status": "PASS",
+      "detail": {
+        "playing": true,
+        "paused": false,
+        "t": 2.692682,
+        "posterOpacity": "0",
+        "static": false
+      }
+    },
+    {
+      "name": "desktop-1440: nav condenses after scroll",
+      "status": "PASS",
+      "detail": {
+        "navTop": "nav",
+        "navScrolled": {
+          "cls": "nav is-scrolled",
+          "shadow": "oklch(0.05 0.01 40 / 0.25) 0px 1px 1px 0",
+          "radius": "8px"
+        }
+      }
+    },
+    {
+      "name": "desktop-1440: scroll-progress hairline present",
+      "status": "PASS",
+      "detail": {
+        "content": "\"\"",
+        "height": "2px",
+        "anim": "read-progress",
+        "timeline": "scroll(root)",
+        "bg": "oklch(0.684 0.185 45)"
+      }
+    },
+    {
+      "name": "desktop-1440: progress hairline full at page end",
+      "status": "PASS",
+      "detail": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "name": "desktop-1440: all reveals fired; title rules drawn",
+      "status": "PASS",
+      "detail": {
+        "total": 34,
+        "inCount": 34,
+        "ruleTransforms": [
+          "none",
+          "none",
+          "none",
+          "none",
+          "none"
+        ]
+      }
+    },
+    {
+      "name": "desktop-1440: no horizontal overflow",
+      "status": "PASS",
+      "detail": {
+        "sw": 1440,
+        "cw": 1440
+      }
+    },
+    {
+      "name": "desktop-1440: cumulative layout shift",
+      "status": "PASS",
+      "detail": {
+        "cls": 0.00015249485596707818
+      }
+    },
+    {
+      "name": "desktop-1440: Tab → visible skip link with focus ring",
+      "status": "PASS",
+      "detail": {
+        "active": "skip",
+        "top": 16,
+        "outline": "solid"
+      }
+    },
+    {
+      "name": "reduced-motion: video static, poster shown, no progress bar, no plate animation, no reveal travel, auto scroll",
+      "status": "PASS",
+      "detail": {
+        "videoPaused": true,
+        "videoStatic": true,
+        "srcAttached": 1,
+        "posterOpacity": "1",
+        "progressAnim": "none",
+        "progressContent": "none",
+        "pairAnim": "none",
+        "pairTransform": "none",
+        "revealTransform": "none",
+        "revealTransition": "opacity 0.15s linear",
+        "scrollBehavior": "auto",
+        "workImgTransition": "0s"
+      }
+    },
+    {
+      "name": "content: no banned terms in visible text / alt / meta / JSON-LD",
+      "status": "PASS",
+      "detail": {
+        "textBanned": [],
+        "alts": [],
+        "metas": [],
+        "ldBanned": false,
+        "whyText": "Nick is a non-biased, independent surveyor: engaged by one party, answerable only to the facts. That independence is what makes a survey report worth relying on by everyone who has to read it.",
+        "decade": "A decade surveying cargo.",
+        "captions": [
+          "Heavy unit on a spreader beam, ship’s crane",
+          "Steel coils, covered store",
+          "Crawler crane, unit onto railcar",
+          "Units braced in a container",
+          "Tarped loads on flat racks",
+          "Wrapped machine, open crate",
+          "Units on a roller dolly, warehouse"
+        ]
+      }
+    },
+    {
+      "name": "content: non-biased inside No side to take; decade line without EIMC",
+      "status": "PASS",
+      "detail": {
+        "why": "Nick is a non-biased, independent surveyor: engaged by one party, answerable only to the facts. That independence is what makes a survey report worth relying on by everyone who has to read it.",
+        "decade": "A decade surveying cargo."
+      }
+    },
+    {
+      "name": "console: no errors/warnings/failed requests (all contexts)",
+      "status": "PASS",
+      "detail": []
+    }
+  ]
+}

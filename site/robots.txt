@@ -1,4 +1,4 @@
-# Nick Salazar — open for search + AI/AEO crawlers
+# Nick Salazar — open to search and answer-engine crawlers
 User-agent: *
 Allow: /
 

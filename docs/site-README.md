@@ -21,18 +21,18 @@ Verified during the build on the lead's loopback server at **http://127.0.0.1:81
 |---|---|
 | `index.html` | the whole page: floating pill nav → hero (name + credentials over video) → 6 further video plates with word pairs and story blocks → credentials → services (complete supplied list) → gallery of Nick's photos → why-independent → request a survey (email link, request form with Send / Copy / Download, what-to-include aside) → footer |
 | `styles.css`, `tokens.css` | Hallmark studied-DNA build (stamp on line 1 of styles.css); every colour/font is a token in `tokens.css` |
-| `app.js` | video play/pause in view, lazy source attach, scroll-progress fallback for browsers without CSS scroll-driven animations, reveal stagger, hero pointer light (off for reduced-motion / touch), nav current-section + retract on scroll-down, survey-request message assembly with copy/download (local) and **Send to Nick** (the page's only network call: a POST to the Cloudflare Email Worker in `../src/mail-worker.js`, which mails `Houtxsurvey@outlook.com`). |
+| `app.js` | video play/pause in view, lazy source attach, scroll-progress fallback for browsers without CSS scroll-driven animations, reveal stagger, nav current-section + retract on scroll-down, survey-request message assembly with copy/download (local) and **Send to Nick** (the page's only network call: a POST to the Cloudflare Email Worker in `../src/mail-worker.js`, which mails `Houtxsurvey@outlook.com`). |
 | `fonts/` | self-hosted Big Shoulders Display + Geist (SIL OFL 1.1, see `fonts/LICENSES.md`); no runtime requests leave the origin (the favicon is an inline `data:` URI) |
-| `assets/videos/`, `assets/photos/` | 7 AI-generated (Grok) clips + posters; 7 client-supplied photos (resized from HEIC originals). Provenance: `assets/MANIFEST.md` and `../analysis/verification/media/reconciliation.md` |
+| `assets/videos/`, `assets/photos/` | 7 AI-generated (Grok) clips + posters; 7 client-supplied photos (resized from HEIC originals). Provenance: `docs/media-MANIFEST.md` (moved out of `site/` 2026-10-02 so it is not publicly served) and `../analysis/verification/media/reconciliation.md` |
 
-Also present: `.hallmark/log.json` (Hallmark project memory) and `DISPATCH-PROOF.json` (left from the earlier stopped run; not part of the page). Everything is relative-path; the `site/` folder can be dropped onto any static host as-is once the pre-publication items below are done.
+Moved to `docs/` on 2026-10-02 (not publicly served): this README, `media-MANIFEST.md`, `.hallmark/log.json` (Hallmark project memory) and `DISPATCH-PROOF.json`. Everything is relative-path; the `site/` folder can be dropped onto any static host as-is once the pre-publication items below are done.
 
 ## Before publishing (dependencies recorded, not resolved here)
 
 1. **Contact.** The Request-a-survey section and footer link to `Houtxsurvey@outlook.com`; **Send to Nick** posts the assembled message to the Email Worker (`../mail-worker.toml`, deployed separately with `npx wrangler deploy -c mail-worker.toml`). Copy and Download stay on the visitor's device. Confirm the mailbox with Nick; a `@nicksalazar.net` address would read stronger to B2B buyers.
 2. **Remove `<meta name="robots" content="noindex">`** in `index.html` when the site goes live.
 3. **Credentials are client-supplied and unverified** (the page says so). Confirm with Nick before removing the note.
-4. **Video plates are AI-generated illustrative footage** and are captioned as such; gallery photographs are from Nick's files. Do not re-caption plates as documentary.
+4. **Video plates are AI-generated illustrative footage** (provenance: `media-MANIFEST.md`); gallery photographs are from Nick's files. **Superseded 2026-10-02 by operator order:** the on-page "AI-generated" plate labels and footer sentence were removed; plate captions are now descriptive only (e.g. "Steel coils, covered store"). Do not reinstate the labels without a new operator order, and never caption a plate as "From Nick's files" (that phrase is reserved for the gallery photographs, which are real).
 5. Independent external review (the redcell phase, criterion Q) has not run on this build.
 
 ## Deploying (Cloudflare)

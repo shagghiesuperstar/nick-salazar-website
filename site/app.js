@@ -2,12 +2,12 @@
  * Dependency-free. Everything here is progressive enhancement:
  *  1. html.no-js → html.js (reveal-once and nav highlighting opt in)
  *  2. Video plates: lazy src attach, play when ≥25% visible, pause offscreen,
- *     honour prefers-reduced-motion, saveData and autoplay rejection (poster stays)
+ *     honour prefers-reduced-motion, saveData and autoplay rejection (poster stays);
+ *     first real frame marks the plate .is-playing so the poster still crossfades out
  *  3. --progress fallback for browsers without CSS scroll-driven animations
  *  4. Reveal-once stagger via IntersectionObserver
- *  5. Nav current-section highlighting + <details> menu close on choose
- *  6. Hero pointer light (fine pointer + hover + motion allowed only)
- *  7. Survey request: live message assembly, copy (clipboard → execCommand fallback),
+ *  5. Nav current-section highlighting, retract/condense on scroll, <details> menu close on choose
+ *  6. Survey request: live message assembly, copy (clipboard → execCommand fallback),
  *     download as .txt (Blob + object URL), and Send to Nick (POST to the Cloudflare
  *     Email Worker in src/mail-worker.js — the only network call on the page).
  */
@@ -54,6 +54,9 @@
   }
   var videos = [].slice.call(doc.querySelectorAll("video[data-video]"));
   videos.forEach(function (v) {
+    v.addEventListener("playing", function () {
+      if (v.parentElement) v.parentElement.classList.add("is-playing");
+    }, { once: true });
     v.muted = true;
     v.defaultMuted = true;
     v.loop = true;
@@ -174,8 +177,10 @@
       var open = navMenu && navMenu.hasAttribute("open");
       if (!open && y > 160 && y > lastY + 4) navEl.classList.add("is-hidden");
       else if (y < lastY - 4 || y <= 160) navEl.classList.remove("is-hidden");
+      navEl.classList.toggle("is-scrolled", y > 24);
       lastY = y;
     }
+    navUpdate();
     window.addEventListener("scroll", function () { if (!navTick) { navTick = true; window.requestAnimationFrame(navUpdate); } }, { passive: true });
     navEl.addEventListener("focusin", function () { navEl.classList.remove("is-hidden"); });
   }
@@ -196,27 +201,7 @@
     });
   }
 
-  /* ---------- 6 · Hero pointer light ---------- */
-  var hero = doc.querySelector("[data-hero]");
-  var fine = window.matchMedia("(hover: hover) and (pointer: fine)");
-  if (hero && fine.matches && !reduceMotion.matches) {
-    var lightTick = false, lx = 0, ly = 0;
-    function paintLight() {
-      lightTick = false;
-      hero.style.setProperty("--mx", lx + "px");
-      hero.style.setProperty("--my", ly + "px");
-    }
-    hero.addEventListener("pointermove", function (e) {
-      var r = hero.getBoundingClientRect();
-      lx = e.clientX - r.left;
-      ly = e.clientY - r.top;
-      if (!hero.classList.contains("is-lit")) hero.classList.add("is-lit");
-      if (!lightTick) { lightTick = true; window.requestAnimationFrame(paintLight); }
-    }, { passive: true });
-    hero.addEventListener("pointerleave", function () { hero.classList.remove("is-lit"); }, { passive: true });
-  }
-
-  /* ---------- 7 · Survey request (copy/download local; Send posts to the mail worker) ---------- */
+  /* ---------- 6 · Survey request (copy/download local; Send posts to the mail worker) ---------- */
   var form = doc.getElementById("brief-form");
   if (form) {
     var out = doc.getElementById("brief-output");
